@@ -1,0 +1,64 @@
+<?php
+
+$_TABS = array();
+
+$_TABS['AdminDashboard'] = 'Panel nástrojov';
+$_TABS['AdminCatalog'] = 'Katalóg';
+$_TABS['AdminParentOrders'] = 'Objednávky';
+$_TABS['AdminParentCustomer'] = 'Zákazníci';
+$_TABS['AdminParentModules'] = 'Moduly';
+$_TABS['AdminParentShipping'] = 'Poštovné';
+$_TABS['AdminParentLocalization'] = 'Lokalizácia';
+$_TABS['AdminAdmin'] = 'Administrácia';
+$_TABS['AdminParentStats'] = 'Štatistiky';
+$_TABS['AdminStock'] = 'Sklad';
+$_TABS['AdminPerformance'] = 'Výkon';
+$_TABS['AdminEmails'] = 'e-mail';
+$_TABS['AdminQuickAccesses'] = 'Rýchly prístup';
+$_TABS['AdminEmployees'] = 'Zamestnanci';
+$_TABS['AdminAccess'] = 'Povolenia';
+$_TABS['AdminTabs'] = 'Záložky';
+$_TABS['AdminGamification'] = 'Skúsenosti obchodníkov';
+$_TABS['AdminPreferences'] = 'Všeobecné';
+$_TABS['AdminOrderPreferences'] = 'Objednávky';
+$_TABS['AdminPPreferences'] = 'Produkty';
+$_TABS['AdminCustomerPreferences'] = 'Zákazníci';
+$_TABS['AdminImages'] = 'Obrázky';
+$_TABS['AdminSearchConf'] = 'Hľadať';
+$_TABS['AdminMaintenance'] = 'Údržba';
+$_TABS['AdminOrders'] = 'Objednávky';
+$_TABS['AdminModules'] = 'Moduly';
+$_TABS['AdminModulesPositions'] = 'Pozície';
+$_TABS['AdminPayment'] = 'Platba';
+$_TABS['AdminStats'] = 'Štatistiky';
+$_TABS['AdminReferrers'] = 'Odkiaľ prišiel';
+$_TABS['AdminCustomers'] = 'Zákazníci';
+$_TABS['AdminAddresses'] = 'Adresy';
+$_TABS['AdminGroups'] = 'Skupiny';
+$_TABS['AdminContacts'] = 'Kontakty';
+$_TABS['AdminGenders'] = 'Oslovenia';
+$_TABS['AdminProducts'] = 'Produkty';
+$_TABS['AdminCategories'] = 'Kategórie';
+$_TABS['AdminManufacturers'] = 'Výrobcovia';
+$_TABS['AdminSuppliers'] = 'Dodávatelia';
+$_TABS['AdminTags'] = 'Štítky';
+$_TABS['AdminAttachments'] = 'Prílohy';
+$_TABS['AdminSearch'] = 'Hľadať';
+$_TABS['AdminLogin'] = 'Prihlásenie';
+$_TABS['AdminShop'] = 'Obchody';
+$_TABS['AdminWarehouses'] = 'Sklady';
+$_TABS['AdminStockConfiguration'] = 'Konfigurácia';
+$_TABS['AdminLocalization'] = 'Lokalizácia';
+$_TABS['AdminLanguages'] = 'Jazyky';
+$_TABS['AdminZones'] = 'Zóny';
+$_TABS['AdminCountries'] = 'Štáty';
+$_TABS['AdminStates'] = 'Štáty';
+$_TABS['AdminCurrencies'] = 'Meny';
+$_TABS['AdminTaxes'] = 'Dane';
+$_TABS['AdminTaxRulesGroup'] = 'Daňové pravidlá';
+$_TABS['AdminCartRules'] = 'Pravidlá košíka';
+$_TABS['AdminCarriers'] = 'Spôsoby doručenia';
+$_TABS['AdminCarrierWizard'] = 'Prepravca';
+
+
+return $_TABS;
