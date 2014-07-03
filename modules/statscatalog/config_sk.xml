@@ -2,7 +2,11 @@
 <module>
 	<name>statscatalog</name>
 	<displayName><![CDATA[&Scaron;tatistiky katal&oacute;gu]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[1.2.2]]></version>
+=======
 	<version><![CDATA[1.1]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Adds a tab containing general statistics about your catalog to the Stats dashboard.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

@@ -38,7 +38,7 @@ class Gamification extends Module
 	{
 		$this->name = 'gamification';
 		$this->tab = 'administration';
-		$this->version = '1.9.0';
+		$this->version = '1.9.2';
 		$this->author = 'PrestaShop';
 
 		parent::__construct();
@@ -147,7 +147,7 @@ class Gamification extends Module
 	public function hookDisplayBackOfficeHeader()
 	{
 		//check if currently updatingcheck if module is currently processing update
-		if ($this->isUpdating())
+		if ($this->isUpdating() || !Module::isEnabled($this->name))
 			return false;
 		
 		if (method_exists($this->context->controller, 'addJquery'))
@@ -248,11 +248,10 @@ class Gamification extends Module
 				if (isset($data->conditions))
 					$this->processImportConditions($data->conditions, $id_lang);
 
-				if (isset($data->badges) && isset($data->badges_lang))
+				if ((isset($data->badges) && isset($data->badges_lang)) && (!isset($data->badges_only_visible) && !isset($data->badges_only_visible_lang)))
 					$this->processImportBadges($data->badges, $data->badges_lang, $id_lang);
-
-				if (isset($data->badges_only_visible) && isset($data->badges_only_visible_lang))
-					$this->processImportBadges($data->badges_only_visible, $data->badges_only_visible_lang, $id_lang);
+				else
+					$this->processImportBadges(array_merge($data->badges_only_visible, $data->badges), array_merge($data->badges_only_visible_lang, $data->badges_lang), $id_lang);
 					
 				if (isset($data->advices) && isset($data->advices_lang))
 					$this->processImportAdvices($data->advices, $data->advices_lang, $id_lang);
@@ -274,7 +273,6 @@ class Gamification extends Module
 			$iso_lang = $this->context->language->iso_code;
 		$iso_country = $this->context->country->iso_code;
 		$iso_currency = $this->context->currency->iso_code;
-		
 		$file_name = 'data_'.strtoupper($iso_lang).'_'.strtoupper($iso_currency).'_'.strtoupper($iso_country).'.json';
 		$data = Tools::file_get_contents($this->url_data.$file_name);
 		
@@ -304,6 +302,7 @@ class Gamification extends Module
 	{
 		$current_conditions = array();
 		$result = Db::getInstance()->ExecuteS('SELECT `id_ps_condition` FROM '._DB_PREFIX_.'condition');
+
 		foreach ($result as $row)
 			$current_conditions[] = (int)$row['id_ps_condition'];
 		
@@ -359,6 +358,7 @@ class Gamification extends Module
 			$current_badges[] = (int)$row['id_ps_badge'];
 
 		$cond_ids = $this->getFormatedConditionsIds();
+
 		foreach ($badges as $badge)
 		{
 			try 
@@ -417,7 +417,7 @@ class Gamification extends Module
 				if (isset($current_advices[$advice->id_ps_advice]))
 				{
 					$adv = new Advice($current_advices[$advice->id_ps_advice]);
-					$bdg->html[$id_lang] = $formated_advices_lang[$advice->id_ps_advice]['html'][$id_lang];
+					$adv->html[$id_lang] = $formated_advices_lang[$advice->id_ps_advice]['html'][$id_lang];
 					$adv->update();
 					$this->processAdviceAsso($adv->id, $advice->display_conditions, $advice->hide_conditions, $advice->tabs, $cond_ids);
 					unset($current_advices[$advice->id_ps_advice]);

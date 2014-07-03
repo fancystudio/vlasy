@@ -2,7 +2,11 @@
 <module>
 	<name>blockpaymentlogo</name>
 	<displayName><![CDATA[Payment logos block.]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[0.3.1]]></version>
+=======
 	<version><![CDATA[0.3]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Adds a block which displays all of your payment logos.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

@@ -2,7 +2,11 @@
 <module>
 	<name>bankwire</name>
 	<displayName><![CDATA[platba prevodom]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[0.7.2]]></version>
+=======
 	<version><![CDATA[0.7]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Accept payments for your products via bank wire transfer.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[payments_gateways]]></tab>

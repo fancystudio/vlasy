@@ -2,7 +2,11 @@
 <module>
 	<name>blockbestsellers</name>
 	<displayName><![CDATA[Top-sellers block]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[1.5.4]]></version>
+=======
 	<version><![CDATA[1.5.2]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Adds a block displaying your store&#039;s top-selling products.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

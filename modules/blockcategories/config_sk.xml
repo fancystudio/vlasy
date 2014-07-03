@@ -2,7 +2,11 @@
 <module>
 	<name>blockcategories</name>
 	<displayName><![CDATA[Blok Kateg&oacute;rie]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[2.8.1]]></version>
+=======
 	<version><![CDATA[2.8]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Prid&aacute; blok, ktor&yacute; obsahuje menu s kateg&oacute;riami produktov.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

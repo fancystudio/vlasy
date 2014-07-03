@@ -2,7 +2,11 @@
 <module>
 	<name>blocksocial</name>
 	<displayName><![CDATA[Blok: Soci&aacute;lne siete]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[1.1.1]]></version>
+=======
 	<version><![CDATA[1.1]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Allows you to add information about your brand&#039;s social networking accounts.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

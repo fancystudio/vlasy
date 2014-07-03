@@ -2,7 +2,11 @@
 <module>
 	<name>gamification</name>
 	<displayName><![CDATA[Sk&uacute;senosti obchodn&iacute;kov]]></displayName>
+<<<<<<< HEAD
+	<version><![CDATA[1.9.2]]></version>
+=======
 	<version><![CDATA[1.9.0]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Become an e-commerce expert within the blink of an eye!]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[administration]]></tab>
