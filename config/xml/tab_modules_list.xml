@@ -216,6 +216,8 @@
 <module name="lacaixa" position="27"/>
 <module name="qiwi" position="28"/>
 <module name="dotpay" position="29"/>
+<module name="bluepay" position="30"/>
+<module name="desjardins" position="31"/>
 </tab>
 <tab class_name="AdminOrderPreferences" display_type="slider_list">
 <module name="mailalerts" position="1"/>
