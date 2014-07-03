@@ -2,7 +2,11 @@
 <module>
 	<name>gridhtml</name>
 	<displayName><![CDATA[Jednoduch&aacute; HTML tabuľka]]></displayName>
+<<<<<<< HEAD
 	<version><![CDATA[1.2.1]]></version>
+=======
+	<version><![CDATA[1.1]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Allows the statistics system to display data in a grid.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[administration]]></tab>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>statssearch</name>
+	<displayName><![CDATA[Co z&aacute;kazn&iacute;ci vyhled&aacute;vaj&iacute;]]></displayName>
+	<version><![CDATA[1.3]]></version>
+	<description><![CDATA[Přid&aacute; z&aacute;ložku zobrazuj&iacute;c&iacute;, kter&aacute; kl&iacute;čov&aacute; slova jsou použ&iacute;van&aacute; ve vyhled&aacute;vač&iacute;ch va&scaron;imi n&aacute;v&scaron;těvn&iacute;ky.]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[analytics_stats]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

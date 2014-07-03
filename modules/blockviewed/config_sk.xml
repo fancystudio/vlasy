@@ -2,7 +2,11 @@
 <module>
 	<name>blockviewed</name>
 	<displayName><![CDATA[Blok Zobrazen&eacute; produkty]]></displayName>
+<<<<<<< HEAD
 	<version><![CDATA[1.2]]></version>
+=======
+	<version><![CDATA[1.1]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Prid&aacute; blok zobrazuj&uacute;ci naposledy zobrazen&eacute; produkty.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

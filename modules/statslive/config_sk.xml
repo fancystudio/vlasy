@@ -2,7 +2,11 @@
 <module>
 	<name>statslive</name>
 	<displayName><![CDATA[Pr&iacute;tomn&iacute; n&aacute;v&scaron;tevn&iacute;ci]]></displayName>
+<<<<<<< HEAD
 	<version><![CDATA[1.2.1]]></version>
+=======
+	<version><![CDATA[1.2]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Adds a list of customers and visitors who are currently online to the Stats dashboard.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>

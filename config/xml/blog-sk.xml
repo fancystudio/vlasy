@@ -13,12 +13,90 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.prestashop.com/blog/en</link>
 	<description></description>
+<<<<<<< HEAD
 	<lastBuildDate>Wed, 25 Jun 2014 16:01:18 +0000</lastBuildDate>
+=======
+	<lastBuildDate>Wed, 02 Jul 2014 20:47:03 +0000</lastBuildDate>
+>>>>>>> FETCH_HEAD
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.4</generator>
 		<item>
+<<<<<<< HEAD
+=======
+		<title>Introducing the User Club: Building PrestaShop together!</title>
+		<link>http://www.prestashop.com/blog/en/introducing-the-user-club-building-prestashop-together/</link>
+		<comments>http://www.prestashop.com/blog/en/introducing-the-user-club-building-prestashop-together/#comments</comments>
+		<pubDate>Wed, 02 Jul 2014 09:18:13 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17609</guid>
+		<description><![CDATA[Open source is our philosophy and there are many ways you can contribute to PrestaShop: Forums, Forge, GitHub, Crowdin&#8230; Now, you can get more deeply involved: Introducing the User Club. The User Club is designed so that you give direct &#8230; <a href="http://www.prestashop.com/blog/en/introducing-the-user-club-building-prestashop-together/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>Open source is our philosophy and there are many ways you can contribute to PrestaShop: <a href="http://www.prestashop.com/forums/" target="_blank">Forums</a>, <a href="http://forge.prestashop.com/secure/Dashboard.jspa" target="_blank">Forge</a>, <a href="https://github.com/PrestaShop" target="_blank">GitHub</a>, <a href="https://crowdin.net/project/prestashop-official" target="_blank">Crowdin</a>&#8230;</p>
+<p>Now, <strong>you can get more deeply involved</strong>: Introducing the User Club.</p>
+<p>The User Club is designed so that you give direct feedback on what we’re working on, what you need and what you’d like to see. <strong>From user experience to important features to merchant habits&#8230; we want to hear your point of view</strong>!</p>
+<p>By joining the Club, each month you’ll be asked for your opinion on the upcoming releases.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-16534" src="http://www.prestashop.com/blog/fr/files/2014/07/userclub.png" alt="" width="552" height="361" /></p>
+<p> <span id="more-17609"></span>It is a way for us to improve, develop and design the future versions of PrestaShop you&#8217;ll be using every day. It’s how we ensure that the software evolves based on r<strong>eal experiences from real people</strong>.</p>
+<p>Here are some examples of what we could ask you:</p>
+<p>- Your opinion about several mockups for a page redesign.<br />
+- A selection among features you would like to see included in the next release<br />
+- Explain how you use a feature and how you would improve it<br />
+- and more!</p>
+<p><strong>The User Club is open to everyone&#8230; Merchants, Developers and Agencies from all over the world, join us</strong>!</p>
+<p>&gt; <a href="http://www.prestashop.com/club/" target="_blank">Get involved</a> &lt;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/introducing-the-user-club-building-prestashop-together/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>7 Pieces of Advice from Successful Internet CEOs for Ecommerce Entrepreneurs</title>
+		<link>http://www.prestashop.com/blog/en/7-pieces-of-advice-from-successful-internet-ceos-for-ecommerce-entrepreneurs/</link>
+		<comments>http://www.prestashop.com/blog/en/7-pieces-of-advice-from-successful-internet-ceos-for-ecommerce-entrepreneurs/#comments</comments>
+		<pubDate>Tue, 01 Jul 2014 14:10:15 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+		<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17583</guid>
+		<description><![CDATA[CEOs are the driving force of a company, natural leaders dedicated to their company’s success. They determine their team’s direction and continuously grow the company. We&#8217;ve reached out to CEOs in the PrestaShop community and asked them to share some &#8230; <a href="http://www.prestashop.com/blog/en/7-pieces-of-advice-from-successful-internet-ceos-for-ecommerce-entrepreneurs/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>CEOs are the driving force of a company, natural leaders dedicated to their company’s success. They determine their team’s direction and continuously grow the company. We&#8217;ve reached out to CEOs in the PrestaShop community and asked them to share some wisdom for ecommerce entrepreneurs. Although they come from different countries, professional backgrounds and lead different companies, they all gave great advice. We&#8217;ve compiled the best and today we’re sharing 7 pieces of advice from successful Internet CEOs for ecommerce entrepreneurs.</p>
+<p><img class="aligncenter size-full wp-image-17584" src="http://www.prestashop.com/blog/en/files/2014/06/BP.img-Internet-CEO.jpg" alt="" width="580" height="225" /></p>
+<p><span id="more-17583"></span><span style="color: #000000"><strong>Oleg Cherevatyy</strong> CEO of</span> <a href="http://www.prestashop.com/en/industry-partners/management/cart2cart" target="_blank">Cart2Cart</a></p>
+<blockquote>
+<p style="text-align: center">“Multichannel is the way eCommerce should work in the 21st century. Get yourself on every possible platform starting from a web store and eBay up to Google Shopping and Facebook. But don’t even think about doing this manually &#8211; automate all the things.”</p>
+</blockquote>
+<p><span style="color: #000000"><strong>Scott McFarlane</strong> CEO of</span> <a href="http://www.prestashop.com/en/industry-partners/management/avalara" target="_blank">Avalara</a></p>
+<blockquote><p>“Your overall strategy is important, but so is compliance. Automating your sales and tax can help you stay focused on your primary expertise.”</p></blockquote>
+<p><span style="color: #000000"><strong>Bryan Muthig</strong> CEO of</span> <a href="http://www.a2hosting.com/prestashop-hosting-options" target="_blank">A2Hosting</a></p>
+<blockquote>
+<p style="text-align: center">&#8220;Your speed is your success &#8211; first and foremost pick a fast, reliable host. The speed at which your site loads has a significant impact on your conversion rate, slower sites lead to fewer conversions. Also be sure you are utilizing all of the optimization options built into PrestaShop &#8211; they make a big difference.&#8221;</p>
+</blockquote>
+<p><span style="color: #000000"><strong>Serge Savchyshyn</strong> CEO &amp; Founder of</span> <a href="http://www.prestashop.com/en/industry-partners/management/emagicone" target="_blank">eMagicOne</a></p>
+<blockquote>
+<p style="text-align: center">&#8220;If you need to do the task once, simply do it. If you need to do it twice, deal with it. If you have to do it three times, automate it!&#8221;</p>
+</blockquote>
+<p><span style="color: #000000"><strong>Tomer Tagrin</strong> CEO of</span> <a href="http://www.prestashop.com/en/industry-partners/marketing-visibility/yotpo-social-reviews" target="_blank">Yotpo</a></p>
+<blockquote>
+<p style="text-align: center">“Compared to new visitors, return shoppers cost less to get back into your store and will spend more money. […] Turn these shoppers into your evangelists&#8211;it will significantly increase your bottom line.”</p>
+</blockquote>
+<p><span style="color: #000000"><strong>Erwin van Kralingen</strong> CEO and Founder of</span> <a href="http://www.prestashop.com/en/industry-partners/marketing-visibility/giveit" target="_blank">Give.it</a></p>
+<blockquote>
+<p style="text-align: center">&#8220;Listen to your customers. And talk back.”</p>
+</blockquote>
+<p><span style="color: #000000"><strong>Ralph Dangelmaier</strong> CEO of</span> <a href="http://go.bluesnap.com/partner-referral/prestashop/" target="_blank">BlueSnap </a></p>
+<blockquote>
+<p style="text-align: center">&#8220;E-commerce is currently only 6% of total commerce and only a quarter of e-commerce merchants are set up to sell internationally. The opportunity to sell globally is huge for retailers.&#8221;</p>
+</blockquote>
+<p>What lessons will you take away from these Internet CEOs? Now that you’re feeling inspired, <a href="http://www.prestashop.com/en/download" target="_blank">build your online store</a> with the PrestaShop ecommerce software. Not quite sure? Check out our <a href="http://www.prestashop.com/en/demo" target="_blank">live Demo</a> to test it out.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/7-pieces-of-advice-from-successful-internet-ceos-for-ecommerce-entrepreneurs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+>>>>>>> FETCH_HEAD
 		<title>PrestaShop 1.6.0.7 is Now Available to Update</title>
 		<link>http://www.prestashop.com/blog/en/prestashop-1-6-0-7-is-now-available-to-update/</link>
 		<comments>http://www.prestashop.com/blog/en/prestashop-1-6-0-7-is-now-available-to-update/#comments</comments>
@@ -347,7 +425,11 @@ Within the EU, the ‘VAT of the Member State of destination’ is applied and m
 <p>Now that you’re wiser, get ready to open your very own online store. Learn more about PrestaShop by testing our <a href="http://www.prestashop.com/en/demo" target="_blank">demo </a>or <a href="http://www.prestashop.com/en/download" target="_blank">download </a>the software to get started today!</p>
 ]]></content:encoded>
 			<wfw:commentRss>http://www.prestashop.com/blog/en/10-things-i-wish-i-knew-before-opening-an-ecommerce-site/feed/</wfw:commentRss>
+<<<<<<< HEAD
 		<slash:comments>1</slash:comments>
+=======
+		<slash:comments>2</slash:comments>
+>>>>>>> FETCH_HEAD
 		</item>
 		<item>
 		<title>7 Strategies to Implement When Your Website Traffic Drops</title>
@@ -434,6 +516,7 @@ Good luck. I know how difficult it is to find presents.”</p>
 <p>Not an online merchant yet? <a href="http://www.prestashop.com/en/demo" target="_blank">Demo PrestaShop</a>, the best ecommerce software, to get a feel for our software or <a href="http://www.prestashop.com/en/download" target="_blank">download </a>PrestaShop and start selling online today!</p>
 ]]></content:encoded>
 			<wfw:commentRss>http://www.prestashop.com/blog/en/7-strategies-to-implement-when-your-website-traffic-drops/feed/</wfw:commentRss>
+<<<<<<< HEAD
 		<slash:comments>5</slash:comments>
 		</item>
 		<item>
@@ -548,6 +631,9 @@ HiPay constantly works and negotiates with banks, to be able to offer all the pa
 ]]></content:encoded>
 			<wfw:commentRss>http://www.prestashop.com/blog/en/ecommerce-design-how-to-find-the-right-logo-for-your-online-store/feed/</wfw:commentRss>
 		<slash:comments>2</slash:comments>
+=======
+		<slash:comments>6</slash:comments>
+>>>>>>> FETCH_HEAD
 		</item>
 	</channel>
 </rss>
@@ -556,6 +642,12 @@ HiPay constantly works and negotiates with banks, to be able to offer all the pa
 
 Minified using disk: basic
 Page Caching using disk: enhanced
+<<<<<<< HEAD
 Object Caching 829/968 objects using disk: basic
 
 Served from: www.prestashop.com @ 2014-06-29 16:56:02 -->
+=======
+Object Caching 830/977 objects using disk: basic
+
+Served from: www.prestashop.com @ 2014-07-03 16:56:02 -->
+>>>>>>> FETCH_HEAD

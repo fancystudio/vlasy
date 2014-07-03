@@ -2,7 +2,11 @@
 <module>
 	<name>productcomments</name>
 	<displayName><![CDATA[Product Comments]]></displayName>
+<<<<<<< HEAD
 	<version><![CDATA[3.3.6]]></version>
+=======
+	<version><![CDATA[3.3.5]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[Allows users to post reviews and rate products on specific criteria.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

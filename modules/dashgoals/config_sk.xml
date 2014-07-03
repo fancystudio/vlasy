@@ -2,7 +2,11 @@
 <module>
 	<name>dashgoals</name>
 	<displayName><![CDATA[Dashboard Goals]]></displayName>
+<<<<<<< HEAD
 	<version><![CDATA[0.5]]></version>
+=======
+	<version><![CDATA[0.4]]></version>
+>>>>>>> FETCH_HEAD
 	<description><![CDATA[]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[dashboard]]></tab>

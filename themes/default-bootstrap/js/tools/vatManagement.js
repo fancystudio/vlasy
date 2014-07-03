@@ -34,9 +34,9 @@ $(document).ready(function(){
 function vat_number()
 {
 	if (($('#company').length) && ($('#company').val() != ''))
-		$('#vat_number, #vat_number_block').show();
+		$('#vat_number, #vat_number_block, .dni_block').show();
 	else
-		$('#vat_number, #vat_number_block').hide();
+		$('#vat_number, #vat_number_block, .dni_block').hide();
 
 	if (($('#company_invoice').length) && ($('#company_invoice').val() != ''))
 		$('#vat_number_block_invoice').show();

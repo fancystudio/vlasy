@@ -2,8 +2,13 @@
 <module>
 	<name>statssales</name>
 	<displayName><![CDATA[Predaj a objedn&aacute;vky]]></displayName>
+<<<<<<< HEAD
 	<version><![CDATA[1.2.1]]></version>
 	<description><![CDATA[Adds graphics presenting the evolution of sales and orders to the Stats dashboard.]]></description>
+=======
+	<version><![CDATA[1.2]]></version>
+	<description><![CDATA[Adds sales evolution and orders by status.]]></description>
+>>>>>>> FETCH_HEAD
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>
 	<is_configurable>0</is_configurable>
