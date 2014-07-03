@@ -40,6 +40,12 @@ class MainSlider extends Module
 	}
 	public function hookDisplayTopColumn()
 	{
-	  return $this->display(__FILE__, 'mainslider.tpl');
+		if($this->context->controller->php_self == "index"){
+			//$this->context->controller->addCSS($this->_path.'homeslider.css');
+			//$this->context->controller->addJS($this->_path.'js/homeslider.js');
+			return $this->display(__FILE__, 'mainslider.tpl');
+		}
+		return;
+	  	
 	}  
 }
