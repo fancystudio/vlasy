@@ -1,0 +1,3 @@
+*ERROR* 	2014/06/25 - 21:22:37: Duplicate entry '3-1-245' for key 'PRIMARY'<br /><br /><pre>
+                INSERT INTO `ps_module_country` (id_module, id_country)
+                SELECT distinct(id_module), 245 FROM `ps_module_country`</pre> at line 635 in file classes/db/Db.php

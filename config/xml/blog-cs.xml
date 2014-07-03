@@ -13,11 +13,59 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Thu, 12 Jun 2014 13:03:06 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Jun 2014 16:01:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>PrestaShop 1.6.0.7 is Now Available to Update</title>
+		<link>http://www.prestashop.com/blog/en/prestashop-1-6-0-7-is-now-available-to-update/</link>
+		<comments>http://www.prestashop.com/blog/en/prestashop-1-6-0-7-is-now-available-to-update/#comments</comments>
+		<pubDate>Tue, 17 Jun 2014 17:29:50 +0000</pubDate>
+		<dc:creator>Benjamin Utterback</dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17560</guid>
+		<description><![CDATA[Hello PrestaShop Community! The latest update to 1.6 is here! 1.6.0.7 is now released with more awesomeness. We didn’t forget to squash some bugs and clean up. Here are the main improvements in this update. &#160; Improved cart summary and &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-1-6-0-7-is-now-available-to-update/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/en/files/2014/02/prestashop_1-6.png" alt="" />Hello PrestaShop Community!</p>
+<p><a href="http://www.prestashop.com/en/download"><strong>The latest update to 1.6 is here!</strong></a> 1.6.0.7 is now released with more awesomeness. We didn’t forget to squash some bugs and clean up.</p>
+<p>Here are the main improvements in this update.</p>
+<p><span id="more-17560"></span></p>
+<p>&nbsp;</p>
+<ul>
+<li>Improved cart summary and management with several pages + responsiveness</li>
+<li>One Page Checkout fixes issue with customer messages</li>
+<li>You can now add more than 8 images for a product!</li>
+<li>For added security, a warning highlights the installation of a module that is not certified by Addons</li>
+<li>Better Cache management throughout the Back and Front Office</li>
+<li>We optimized the Dashboard for even stronger accuracy for visitors and orders</li>
+<li>Now, all variations are imported when a new theme is added</li>
+<li>Better CMS management with bullet points.</li>
+<li>Shipping and Carrier fixes for overlapping ranges</li>
+<li>Better Product OnBoarding – Theme, Shipping, and Payment pages</li>
+<li>Fix of the reduction display for a pre-tax group</li>
+<li>Drag &amp; Drop fix for attributes’ order</li>
+<li>Fix of new supplier creation form</li>
+<li>All the contact details entered in the BO are now correctly displayed in the FO, under Contact details and stores</li>
+</ul>
+<p>You can <a href="http://www.prestashop.com/en/developers-versions/changelog/1.6.0.7">view the entire Changelog here</a>.</p>
+<p>You know we love your feedback. If you have an issue, we want to know about it.</p>
+<ul>
+<li>Found a bug or issues?  <a href="http://www.prestashop.com/forums/">– Search it on the Forum</a> and <a href="forge.prestashop.com">Report it to the Forge</a></li>
+<li>You know how to fix an issue? - <a href="https://github.com/PrestaShop/">Submit the fix to GitHub</a></li>
+<li>Found a wrong translation? - <a href="https://crowdin.net/project/prestashop-official">Fix it on Crowdin</a></li>
+</ul>
+<p>We would like to thank everybody who helped us with this update. The PrestaShop community is simply great, the best! Nearly 200 bugs and issues were fixed with your help, making this version the strongest PrestaShop yet! Be sure to always <a href="http://www.prestashop.com/blog/en/set-up-a-test-server-for-your-online-store/">backup and test your upgrades</a> before upgrading your live store.</p>
+<p>That’s it for now, <a href="http://www.prestashop.com/en/download">download PrestaShop 1.6 today</a>! Stay tuned for some more exciting news coming soon!</p>
+<p>UPDATE: PrestaShop 1.6.0.8 was released on 6/20/2014 with various template and image fixes.</p>
+<p>Happy Selling!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-1-6-0-7-is-now-available-to-update/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
 		<item>
 		<title>Ecommerce Success Story – An up close look at WishTrend’s tripling growth</title>
 		<link>http://www.prestashop.com/blog/en/ecommerce-success-story-an-up-close-look-at-wishtrends-tripling-growth/</link>
@@ -51,7 +99,7 @@
 <p>Interested in running your own online store? <a href="http://www.prestashop.com/en/download" target="_blank">Download</a> PrestaShop today or try our <a href="http://www.prestashop.com/en/demo" target="_blank">demo</a> to experience the PrestaShop software. Take the first step to becoming the next PrestaShop ecommerce success story!</p>
 ]]></content:encoded>
 			<wfw:commentRss>http://www.prestashop.com/blog/en/ecommerce-success-story-an-up-close-look-at-wishtrends-tripling-growth/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+		<slash:comments>1</slash:comments>
 		</item>
 		<item>
 		<title>Selling on Marketplaces: how to centralize your ecommerce inventory</title>
@@ -501,59 +549,6 @@ HiPay constantly works and negotiates with banks, to be able to offer all the pa
 			<wfw:commentRss>http://www.prestashop.com/blog/en/ecommerce-design-how-to-find-the-right-logo-for-your-online-store/feed/</wfw:commentRss>
 		<slash:comments>2</slash:comments>
 		</item>
-		<item>
-		<title>How to Install PrestaShop : The Complete Guide</title>
-		<link>http://www.prestashop.com/blog/en/how-to-install-prestashop/</link>
-		<comments>http://www.prestashop.com/blog/en/how-to-install-prestashop/#comments</comments>
-		<pubDate>Wed, 14 May 2014 17:14:19 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17189</guid>
-		<description><![CDATA[If you are searching how to install PrestaShop, you came to the right place. With nearly 4 million downloads and over 185,000 active stores, installation tutorials are always a popular request. Thankfully, there are tons of resources online to help &#8230; <a href="http://www.prestashop.com/blog/en/how-to-install-prestashop/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>If you are searching how to install PrestaShop, you came to the right place. With nearly 4 million downloads and over 185,000 active stores, installation tutorials are always a popular request. Thankfully, there are tons of resources online to help you install PrestaShop any way you like. You can install via a one-click installation script provided by your hosting provider. You can install it manually via MySQL and FTP. Lastly, you can install a localhost version of PrestaShop on your personal device for testing or development purposes. I’ll provide simple instructions for each of these scenarios. Enough with the introduction, let’s start installing!</p>
-<p><a href="http://www.prestashop.com/blog/en/files/2014/05/prestashop-1.6-604x272-1.png"><img class="aligncenter size-full wp-image-17286" title="prestashop-1.6-604x272-1" src="http://www.prestashop.com/blog/en/files/2014/05/prestashop-1.6-604x272-1.png" alt="" width="604" height="272" /></a><span id="more-17189"></span></p>
-<p>Before we get started you should get familiar with the <a href="http://doc.prestashop.com/display/PS16/Installing+PrestaShop">Official Installation Documentation</a>. This should serve as the point of reference for the various methods we will describe.</p>
-<h3><span style="font-size: 14px;"> </span><strong><span style="color: #552d36;">1. One Click Install:</span> </strong></h3>
-<p><strong> </strong>If you guessed that this the easiest method to install PrestaShop, you would be right. The first step would be to have a web-hosting provider who has a one-click installation script for PrestaShop. Ask your hosting provider if they include a one-click install. There are three popular script libraries to install PrestaShop with one click.</p>
-<ol>
-<li><a href="http://www.simplescripts.com/script_details/install:PrestaShop"><span style="text-decoration: underline;">SimpleScripts</span></a></li>
-<li><a href="http://installatron.com/prestashop"><span style="text-decoration: underline;">Installatron</span></a></li>
-<li><span style="text-decoration: underline;"><a href="http://www.softaculous.com/apps/ecommerce/PrestaShop">Softaculous</a></span></li>
-</ol>
-<p>All you need is the FTP information that your webhost provided you. Contact your host if you do not have your FTP credentials. Some hosts have their own installation scripts.</p>
-<p>PrestaShop  has teamed up with the best hosting companies that provide you with the easiest method to get your online store up and running. <a href="http://www.prestashop.com/en/ecommerce-hosting">Check out our Hosting page for more details.</a>  These are the hosts that know PrestaShop, with servers that are optimized for ecommerce performance.</p>
-<h3><span style="color: #552d36;"><strong>2. How to Install PrestaShop Manually:</strong></span></h3>
-<p><strong> </strong>If you already have knowledge about MySQL databases and FTP, then this would be for you. We have provided an instructional video below.</p>
-<p><iframe src="//www.youtube.com/embed/psz4aIPZZuk" frameborder="0" width="560" height="315"></iframe></p>
-<p>Here is a list of quick steps to install for the experienced users. For <a href="http://doc.prestashop.com/display/PS16/Installing+PrestaShop#InstallingPrestaShop-Detailedinstructions">more detailed instructions, see here</a>.</p>
-<ul>
-<li>Download and unzip the PrestaShop package onto your computer.</li>
-<li>Create a database for PrestaShop shop on your web server if it is possible. In case there is no MySQL user who has all privileges for accessing and modifying this database, create it as well.</li>
-<li>Upload the PrestaShop files and folders to the chosen location on your web server. Do not upload the root /prestashop folder directly: only the files and folders that it contains.</li>
-<li>Run the PrestaShop installation script by accessing the public URL for the chosen location in a web browser. This should be the URL where you uploaded the PrestaShop files.</li>
-<li>Follow the instructions on each screen of the installer.</li>
-<li>Once the installation is done, delete the /install folder and write down the new of the /admin folder, which has been generated in order to be unique to you, for security reasons.</li>
-</ul>
-<h3><span style="color: #552d36;"><strong>3. How to Install PrestaShop Locally</strong>:</span></h3>
-<p>A local installation means that PrestaShop is not live on the internet for the world to see, but it is live on your local computer or server. Only you can access to the local install. Having a local installation of PrestaShop is a great idea. You can test changes, upgrades and modules on a local installation on your computer without touching your live store.<br />
-There are various tools you can use to install PrestaShop locally.  <a href="http://doc.prestashop.com/display/PS16/Installing+PrestaShop+on+your+computer">Refer to this page</a> in the documentation for Local installations.</p>
-<ol>
-<li><a href="http://www.wampserver.com/en/">WAMP</a> (Windows)</li>
-<li><a href="http://www.apachefriends.org/en/xampp.html">XAMPP</a> (Windows, Mac OSX, Linux, Solaris)</li>
-<li><a href="http://www.easyphp.org/">MAMP</a> (Mac OS X)</li>
-</ol>
-<p>Probably more useful are the are two local installation packages that include an out-of-the-box installation of PrestaShop. These make it easier for people who are less technical to have a local installation.</p>
-<ol>
-<li><a href="http://www.easyphp.org/prestashop.php">EasyPHP</a> (Windows) -</li>
-<li><a href="https://bitnami.com/stack/prestashop">BitNami</a> (Windows, Mac OSX, Linux) &#8211; <a href="https://bitnami.com/stack/prestashop/README.txt">Installation Read Me</a></li>
-</ol>
-<h3><span style="color: #552d36;">Final Thoughts</span></h3>
-<p>There you have it, now you know how to install PrestaShop virtually anywhere. If you have questions, the place to go would be our <a href="http://www.prestashop.com/forums/forum/7-installing-prestashop/">dedicated Forum for PrestaShop installation</a>. Your community managers and moderators are active and ready to help out. Most of the issues you will encounter with installation are Server-side issues, usually permissions. That’s why it’s best to go with a Hosting partner with PrestaShop. Installing PrestaShop is just the first step to turn your idea into a money making success online. Thanks for reading and be sure leave your comments below.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/how-to-install-prestashop/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
@@ -561,6 +556,6 @@ There are various tools you can use to install PrestaShop locally.  <a href="ht
 
 Minified using disk: basic
 Page Caching using disk: enhanced
-Object Caching 830/968 objects using disk: basic
+Object Caching 829/968 objects using disk: basic
 
-Served from: www.prestashop.com @ 2014-06-14 12:56:02 -->
+Served from: www.prestashop.com @ 2014-06-28 16:56:02 -->
