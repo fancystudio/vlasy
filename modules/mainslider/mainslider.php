@@ -30,6 +30,7 @@ class MainSlider extends Module
     	Shop::setContext(Shop::CONTEXT_ALL);
     	return parent::install() &&
 		    $this->registerHook('top') &&
+		    $this->registerHook('header') &&
 		    Configuration::updateValue('MYMODULE_NAME', 'my friend');
 	}
 	public function uninstall()
@@ -39,6 +40,16 @@ class MainSlider extends Module
 	  return true;
 	}
 	public function hookDisplayTop()
+	{
+		if($this->context->controller->php_self == "index"){
+			$this->context->controller->addCSS($this->_path.'css/royalslider.css', 'all');
+			$this->context->controller->addJS($this->_path.'js/jquery.royalslider.min.js');
+			return $this->display(__FILE__, 'mainslider.tpl');
+		}
+		return;
+	  	
+	}  
+		public function hookDisplayHeader()
 	{
 		if($this->context->controller->php_self == "index"){
 			$this->context->controller->addCSS($this->_path.'css/royalslider.css', 'all');
