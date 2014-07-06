@@ -2,15 +2,7 @@
 <module>
 	<name>themeconfigurator</name>
 	<displayName><![CDATA[Theme configurator]]></displayName>
-<<<<<<< HEAD
 	<version><![CDATA[1.1.0]]></version>
-=======
-<<<<<<< HEAD
-	<version><![CDATA[1.1.0]]></version>
-=======
-	<version><![CDATA[0.8]]></version>
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
 	<description><![CDATA[Configure the main elements of your theme.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
