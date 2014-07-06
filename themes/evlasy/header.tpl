@@ -92,6 +92,7 @@
 						</div>
 					</div>
 				</header>
+				{hook h="displayRevSlider"}
 			</div>
 			<div class="columns-container">
 				<div id="columns" class="container">
