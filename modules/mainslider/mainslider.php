@@ -29,7 +29,7 @@ class MainSlider extends Module
 	  if (Shop::isFeatureActive())
     	Shop::setContext(Shop::CONTEXT_ALL);
     	return parent::install() &&
-		    $this->registerHook('displayRevSlider') &&
+		    $this->registerHook('revSlider') &&
 		    Configuration::updateValue('MYMODULE_NAME', 'my friend');
 	}
 	public function uninstall()
