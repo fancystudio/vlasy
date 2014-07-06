@@ -343,7 +343,6 @@ class Blocktopmenu extends Module
 
 			preg_match($this->pattern, $item, $value);
 			$id = (int)substr($item, strlen($value[1]), strlen($item));
-
 			switch (substr($item, 0, strlen($value[1])))
 			{
 				case 'CAT':
@@ -479,6 +478,7 @@ class Blocktopmenu extends Module
 
 			$html .= '<li'.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
+			//$html .= '<a href="'.$link.'" title="'.$category['name'].'">'.$category['name'].'</a>';
 			$html .= '<a href="'.$link.'" title="'.$category['name'].'">'.$category['name'].'</a>';
 
 			if (isset($category['children']) && !empty($category['children']))
@@ -590,6 +590,7 @@ class Blocktopmenu extends Module
 		{
 			if (Tools::isEmpty($this->_menu))
 				$this->makeMenu();
+			
 			$this->smarty->assign('MENU_SEARCH', Configuration::get('MOD_BLOCKTOPMENU_SEARCH'));
 			$this->smarty->assign('MENU', $this->_menu);
 			$this->smarty->assign('this_path', $this->_path);
