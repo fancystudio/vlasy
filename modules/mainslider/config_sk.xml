@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>mainslider</name>
-	<displayName><![CDATA[Hlavny Slider]]></displayName>
+	<displayName><![CDATA[Royal slider]]></displayName>
 	<version><![CDATA[1.0]]></version>
-	<description><![CDATA[Description Hlavny Slider.]]></description>
+	<description><![CDATA[Hlavny Royal slider]]></description>
 	<author><![CDATA[Fancystudio]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
 	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>

@@ -22,8 +22,12 @@ jQuery(document).ready(function($) {
 </script>
 <style>
 #slider-with-blocks-1 {
+margin-top: -250px;
+	z-index: -1;
   width: 100%;
 }
+
+
 
 .rsContent {
   color: #FFF;

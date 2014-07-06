@@ -12,12 +12,12 @@ class MainSlider extends Module
     $this->author = 'Fancystudio';
     $this->need_instance = 0;
     $this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.6');
-    $this->bootstrap = true;
+    //$this->bootstrap = true;
  
     parent::__construct();
  
-    $this->displayName = $this->l('Hlavny Slider');
-    $this->description = $this->l('Description Hlavny Slider.');
+    $this->displayName = $this->l('Royal slider');
+    $this->description = $this->l('Hlavny Royal slider');
  
     $this->confirmUninstall = $this->l('Are you sure you want to uninstall?');
  
