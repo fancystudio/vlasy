@@ -2,11 +2,7 @@
 <module>
 	<name>blocktags</name>
 	<displayName><![CDATA[Blok Tagy (&scaron;t&iacute;tky)]]></displayName>
-<<<<<<< HEAD
 	<version><![CDATA[1.2.1]]></version>
-=======
-	<version><![CDATA[1.2]]></version>
->>>>>>> FETCH_HEAD
 	<description><![CDATA[Adds a block containing your product tags.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

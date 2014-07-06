@@ -2,11 +2,7 @@
 <module>
 	<name>statsbestproducts</name>
 	<displayName><![CDATA[Najlep&scaron;ie produkty]]></displayName>
-<<<<<<< HEAD
 	<version><![CDATA[1.3]]></version>
-=======
-	<version><![CDATA[1.2]]></version>
->>>>>>> FETCH_HEAD
 	<description><![CDATA[Adds a list of the best-selling products to the Stats dashboard.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>
