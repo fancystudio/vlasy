@@ -2,11 +2,9 @@
 <module>
 	<name>blockcurrencies</name>
 	<displayName><![CDATA[Blok: Meny]]></displayName>
-<<<<<<< HEAD
+
 	<version><![CDATA[0.3.1]]></version>
-=======
-	<version><![CDATA[0.3]]></version>
->>>>>>> FETCH_HEAD
+
 	<description><![CDATA[Prid&aacute; blok na v&yacute;ber meny]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

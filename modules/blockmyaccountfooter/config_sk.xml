@@ -2,11 +2,9 @@
 <module>
 	<name>blockmyaccountfooter</name>
 	<displayName><![CDATA[Blokovanie &uacute;čtu v p&auml;te]]></displayName>
-<<<<<<< HEAD
+
 	<version><![CDATA[1.5.1]]></version>
-=======
-	<version><![CDATA[1.4]]></version>
->>>>>>> FETCH_HEAD
+
 	<description><![CDATA[Zobrazuje blok s odkazmi vo vzťahu k už&iacute;vateľsk&eacute;mu &uacute;čtu.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

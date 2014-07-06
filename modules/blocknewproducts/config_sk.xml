@@ -2,11 +2,10 @@
 <module>
 	<name>blocknewproducts</name>
 	<displayName><![CDATA[Blok Nov&eacute; produkty]]></displayName>
-<<<<<<< HEAD
+
 	<version><![CDATA[1.9.1]]></version>
-=======
-	<version><![CDATA[1.8]]></version>
->>>>>>> FETCH_HEAD
+
+
 	<description><![CDATA[Zobrazuje blok s obsahom novo pridan&yacute;ch produktov.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

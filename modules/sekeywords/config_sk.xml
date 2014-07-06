@@ -2,11 +2,9 @@
 <module>
 	<name>sekeywords</name>
 	<displayName><![CDATA[Kľ&uacute;čov&eacute; slov&aacute; pre vyhľad&aacute;vače]]></displayName>
-<<<<<<< HEAD
 	<version><![CDATA[1.2.2]]></version>
-=======
-	<version><![CDATA[1.1]]></version>
->>>>>>> FETCH_HEAD
+
+
 	<description><![CDATA[Displays which keywords have led visitors to your website.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[analytics_stats]]></tab>
