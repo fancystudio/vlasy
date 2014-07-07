@@ -1,7 +1,45 @@
+@font-face {
+    font-family: 'main-condensed';
+    src: url('../font/main-condensed-webfont.eot');
+    src: url('../font/main-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/main-condensed-webfont.woff') format('woff'),
+         url('../font/main-condensed-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header .nav{
 	background: transparent;
 }
 
+header#header{
+	font-family: main-condensed;
+}
+
+.header_user_info {
+border-left: none;
+border-right: none;
+}
+
+.header_user_info a:hover, .header_user_info a.active {
+background: transparent;
+color: #e5e5e3;
+}
+
+.sf-menu {
+position: relative;
+padding: 0;
+width: 100%;
+border-bottom: none;
+background: transparent;
+font-family: main-condensed;
+color: white
+}
+
+.sf-menu > li {
+border-right: none;
+
+}
 
 .sf-menu > li > ul > li {
 width: 50%;
@@ -9,6 +47,16 @@ width: 50%;
 
 .sf-menu > li > a {
 padding: 10px 20px;
+font-family: main-condensed;
+color: white;
+font-size: 1.25em;
+border-bottom: none;
+}
+
+.sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.sfHoverForce > a {
+background: transparent;
+color: white;
+border-bottom: 3px solid white;
 }
 
 .sf-menu li ul {
@@ -17,17 +65,66 @@ top: 46px;
 }
 
 #block_top_menu {
-padding-top: 0px;
+padding-top: 45px;
 }
 
 #search_block_top {
-padding-top: 0px
+padding-top: 45px;
+width: 260px;
+}
+
+#search_block_top #search_query_top {
+display: inline;
+padding: 0 13px;
+height: 45px;
+line-height: 45px;
+background: transparent;
+margin-right: 1px;
+border: 2px solid white;
+color: white;
+}
+
+#search_block_top .btn.button-search {
+background: transparent;
 }
 
 #header .shopping_cart {
-padding-top: 0px;
+	padding-top: 45px;
+	width: 210px;
 }
 
-.sf-menu > li > a {
-padding: 10px 20px;
+.shopping_cart > a:first-child:before {
+color: #1b1c20;
 }
+
+.shopping_cart > a:first-child b {
+	font-family: main-condensed;
+	color: #1b1c20;
+	text-transform: uppercase;
+}
+
+.ajax_cart_quantity, .ajax_cart_product_txt{
+	font-family: main-condensed;
+	color: #7b7d84;
+	
+}
+
+#header .shopping_cart > a:first-child:after {
+	color: #1b1c20;
+}
+
+.shopping_cart > a:first-child {
+	padding: 11px 10px 10px 16px;
+	background: white;
+	text-shadow: none;
+	
+}
+
+#header .cart_block {
+	top: 95px;
+}
+
+
+
+
+

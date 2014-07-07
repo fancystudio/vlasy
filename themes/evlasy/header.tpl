@@ -85,7 +85,7 @@
 					<div>
 						<div class="container">
 							<div class="row">
-								<div id="header_logo">
+								<div id="header_logo" class="col-lg-2">
 									<a href="{$base_dir}" title="{$shop_name|escape:'html':'UTF-8'}">
 										<img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if $logo_image_width} width="{$logo_image_width}"{/if}{if $logo_image_height} height="{$logo_image_height}"{/if}/>
 									</a>

@@ -22,9 +22,10 @@ jQuery(document).ready(function($) {
 </script>
 <style>
 #slider-with-blocks-1 {
-margin-top: -250px;
+margin-top: -178px;
 	z-index: -1;
   width: 100%;
+  height: 600px;
 }
 
 
@@ -58,7 +59,7 @@ margin-top: -250px;
 }
 
 .slide1 {
-  background: #f06b50;
+  background: #363842;
 }
 .slide1 .bContainer {
   top: 36%;
