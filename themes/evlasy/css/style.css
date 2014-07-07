@@ -1,3 +1,33 @@
 header .nav{
 	background: transparent;
 }
+
+
+.sf-menu > li > ul > li {
+width: 50%;
+}
+
+.sf-menu > li > a {
+padding: 10px 20px;
+}
+
+.sf-menu li ul {
+display: none;
+top: 46px;
+}
+
+#block_top_menu {
+padding-top: 0px;
+}
+
+#search_block_top {
+padding-top: 0px
+}
+
+#header .shopping_cart {
+padding-top: 0px;
+}
+
+.sf-menu > li > a {
+padding: 10px 20px;
+}

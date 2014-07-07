@@ -1,8 +1,8 @@
 /*** ESSENTIAL STYLES ***/
 .sf-contener {
-  clear: both;
+  /*clear: both;*/
   float: left;
-  width: 100%; }
+  /*width: 100%;*/}
 
 .sf-menu,
 .sf-menu * {
@@ -18,7 +18,14 @@
   background: #f6f6f6; }
   @media (max-width: 767px) {
     .sf-menu {
-      display: none; } }
+      display: none; } 
+      
+      
+      .sf-contener {
+  clear: both;
+  width: 100%;}
+      
+      }
 
 .sf-menu ul {
   position: absolute;
