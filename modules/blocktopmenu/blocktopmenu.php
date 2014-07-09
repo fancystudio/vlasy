@@ -477,7 +477,7 @@ class Blocktopmenu extends Module
 				$link = $this->context->link->getPageLink('index');
 
 			if($category['level_depth'] == 3){
-				$html .= '<div class="row">';
+				$html .= '<div class="row '.$cat->link_rewrite[2].'">';
 			}
 			$html .= '<li'.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
@@ -494,7 +494,11 @@ class Blocktopmenu extends Module
 					foreach($products as $product){
 						$html .= '<li class="col-md-3">';
 						$html .= '<a href="'.$product['link'].'">';
-						$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok"/>';
+						if($cat->link_rewrite[2] != "clip-in-podla-seba"){
+							$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok"/>';
+						}else{
+							$html .= '<div class="podlaSeba"></div>';
+						}
 						$html .= '</a>';
 						$html .= '</li>';
 					}
