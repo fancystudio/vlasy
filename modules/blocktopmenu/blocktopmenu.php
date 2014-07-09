@@ -489,15 +489,17 @@ class Blocktopmenu extends Module
 			if($category['level_depth'] == 3){
 				$products = $cat->getProducts((int)$this->context->language->id,0,100,null,null,false);
 				if(count($products) > 0){
+					$html .= '<div class="col-md-12">';
 					$html .= '<ul>';
 					foreach($products as $product){
-						$html .= '<li>';
+						$html .= '<li class="col-md-3">';
 						$html .= '<a href="'.$product['link'].'">';
 						$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok"/>';
 						$html .= '</a>';
 						$html .= '</li>';
 					}
 					$html .= '</ul>';
+					$html .= '</div>';
 					$html .= '</div>';
 				}
 			}

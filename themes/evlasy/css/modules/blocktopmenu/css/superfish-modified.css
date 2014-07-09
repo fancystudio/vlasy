@@ -36,7 +36,7 @@
       position: relative; } }
 
 .sf-menu ul li {
-  width: 100%; }
+  /*width: 100%;*/ }
 
 .sf-menu li:hover {
   visibility: inherit;
