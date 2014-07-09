@@ -25,6 +25,7 @@
 		<module name="blocknewsletter"/>
 		<module name="blockpaymentlogo"/>
 		<module name="blockpermanentlinks"/>
+		<module name="blockreinsurance"/>
 		<module name="blockrss"/>
 		<module name="blocksearch"/>
 		<module name="blocksharefb"/>
@@ -48,8 +49,8 @@
 		<module name="dateofdelivery"/>
 		<module name="editorial"/>
 		<module name="favoriteproducts"/>
-		<module name="fedexcarrier"/>
 		<module name="feeder"/>
+		<module name="fedexcarrier"/>
 		<module name="followup"/>
 		<module name="gamification"/>
 		<module name="ganalytics"/>

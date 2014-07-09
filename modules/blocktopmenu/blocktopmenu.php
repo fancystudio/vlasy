@@ -476,13 +476,37 @@ class Blocktopmenu extends Module
 			else
 				$link = $this->context->link->getPageLink('index');
 
+			if($category['level_depth'] == 3){
+				$html .= '<div class="row">';
+			}
 			$html .= '<li'.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
-			//$html .= '<a href="'.$link.'" title="'.$category['name'].'">'.$category['name'].'</a>';
-			$html .= '<a href="'.$link.'" title="'.$category['name'].'">'.$category['name'].'</a>';
 
+			$html .= '<a href="'.$link.'" title="'.$category['name'].'">';
+			$html .= $category['name'];
+			$html .= '</a>';
+
+			if($category['level_depth'] == 3){
+				$products = $cat->getProducts((int)$this->context->language->id,0,100,null,null,false);
+				if(count($products) > 0){
+					$html .= '<ul>';
+					foreach($products as $product){
+						$html .= '<li>';
+						$html .= '<a href="'.$product['link'].'">';
+						$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok"/>';
+						$html .= '</a>';
+						$html .= '</li>';
+					}
+					$html .= '</ul>';
+					$html .= '</div>';
+				}
+			}
+			
 			if (isset($category['children']) && !empty($category['children']))
 			{
+				//if($category['level_depth'] == 1){
+				//$html .= '<div class="row">';
+				//}
 				$html .= '<ul>';
 				$html .= $this->generateCategoriesMenu($category['children']);
 
@@ -505,6 +529,9 @@ class Blocktopmenu extends Module
 				}
 
 				$html .= '</ul>';
+				//if($category['level_depth'] == 1){
+				//$html .= '</div>';
+				//}
 			}
 
 			$html .= '</li>';
