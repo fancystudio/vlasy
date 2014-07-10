@@ -127,6 +127,13 @@ color: #1b1c20;
 	top: 95px;
 }
 
+.submenu-container .row li a {
+float: left;
+height: 292px;
+background: black;
+color: white;
+}
+
 
 /*======================================== SLIDER ================================================*/
 

@@ -85,13 +85,13 @@
   line-height: 16px;
   font-weight: bold;
   padding-bottom: 10px; }
-  .sf-menu li li li a:before {
+  /*.sf-menu li li li a:before {
     content: "\f105";
     display: inline-block;
     font-family: "FontAwesome";
     padding-right: 10px; }
   .sf-menu li li li a:hover {
-    color: #333333; }
+    color: #333333; }*/
 
 .sf-menu li ul {
   display: none;
