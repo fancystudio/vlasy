@@ -482,22 +482,24 @@ class Blocktopmenu extends Module
 			$html .= '<li'.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
 
-			$html .= '<a href="'.$link.'" title="'.$category['name'].'">';
+			$html .= '<a href="'.$link.'" title="'.$category['name'].'" class="'.'category-heading'.'">';
+			$html .= '<span>';
 			$html .= $category['name'];
+			$html .= '</span>';
 			$html .= '</a>';
 
 			if($category['level_depth'] == 3){
 				$products = $cat->getProducts((int)$this->context->language->id,0,100,null,null,false);
 				if(count($products) > 0){
-					$html .= '<div class="col-md-12">';
+					$html .= '<div class="col-md-12 clearfix">';
 					$html .= '<ul>';
 					foreach($products as $product){
-						$html .= '<li class="col-md-3">';
+						$html .= '<li class="menu-item">';
 						$html .= '<a href="'.$product['link'].'">';
 						if($cat->link_rewrite[2] != "clip-in-podla-seba"){
-							$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok"/>';
+							$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok" class="img-responsive"/>';
 						}else{
-							$html .= '<div class="podlaSeba"></div>';
+							$html .= '<div class="custom-set"><span></span></div>';
 						}
 						$html .= '</a>';
 						$html .= '</li>';

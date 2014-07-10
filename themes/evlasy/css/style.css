@@ -8,6 +8,13 @@
     font-style: normal;
 }
 
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext);
+
+header{
+	background: #41444e;
+	height: 586px;
+}
+
 header .nav{
 	background: transparent;
 }
@@ -127,11 +134,99 @@ color: #1b1c20;
 	top: 95px;
 }
 
-.submenu-container .row li a {
+.submenu-container .category-heading {
 float: left;
-height: 292px;
-background: black;
+height: 177px;
+background: #2e2f38;
 color: white;
+margin-top: 12px;
+}
+
+a.category-heading {
+display: table;
+}
+
+.submenu-container .category-heading span {
+-webkit-transform: rotate(-90deg); 
+-moz-transform: rotate(-90deg);	
+transform: rotate(-90deg);	
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-1);
+display: block;
+font-style: bold;
+display: table-cell;
+vertical-align: middle;
+}
+
+li.menu-item {
+width: 161px;
+float: left;
+border: 1px solid #e2e2e0;
+margin-left: 15px;
+}
+
+/*.podla-seba li a {
+width: 28px;
+height: 54px;
+}*/
+
+.clip-in-podla-seba li.menu-item a{
+	display: inline-block;
+	float: left;
+	width: 864px;
+	height: 62px;
+}
+
+.clip-in-podla-seba a.category-heading {
+width: 28px;
+height: 54px;
+text-indent: -99999px;
+position: relative;
+}
+
+.clip-in-podla-seba a.category-heading span {
+width: 28px;
+height: 54px;
+text-indent: -99999px;
+background: url(../img/evlasy/custom.png);
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+background-repeat: no-repeat;
+background-position: 2px 13px;
+}
+
+.clip-in-podla-seba li.menu-item {
+background: url(../img/evlasy/custom-baner.jpg);
+background-repeat: no-repeat;
+width: 865px;
+height: 54px;
+}
+
+#homepage-slider h2{
+	text-align: center;
+font-weight: 100;
+font-size: 40px;
+margin-bottom: 70px;
+font-family: 'PT Sans', sans-serif;
+color: #1b1c20;
+}
+
+#homepage-slider h2 span{
+font-size: 30px;	
+}
+
+span.line{
+	clear: both;
+border-bottom: 2px solid #1b1c20;
+display: block;
+width: 50px;
+margin: 20px auto;
+}
+
+.footer-container {
+background: url(../img/footer-bg.png) repeat-x #333333;
+background-color: #1b1c20;
 }
 
 
@@ -178,7 +273,9 @@ margin-top: -178px;
 .slide1 {
   background: url(../img/evlasy/top-baner.jpg);
   background-size: cover;
+  background-position: bottom center;
 }
+
 .slide1 .bContainer {
   top: 36%;
 }
@@ -305,4 +402,167 @@ margin-top: -178px;
 /*======================================== SLIDER ================================================*/
 
 /*======================================== ====== ================================================*/
+
+
+
+
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.sf-menu > li > ul {
+width: 786px;
+}
+
+#slider-with-blocks-1 {
+margin-top: -217px !important;
+}
+
+.wrapper-slider {
+height: 400px;
+}
+
+header {
+height: 616px;
+}
+
+.shopping_cart b {
+	display: none
+}
+
+#header .shopping_cart {
+width: 165px;
+}
+
+li.menu-item {
+width: 124px;
+}
+
+.submenu-container .category-heading {
+height: 139px;
+}
+
+.clip-in-podla-seba li.menu-item {
+background: url(../img/evlasy/custom-baner-m.jpg);
+width: 681px;
+height: 54px;
+}
+
+.clip-in-podla-seba li.menu-item a {
+width: 681px;
+}
+
+
+header {
+height: 547px;
+}
+
+
+}
+
+
+
+
+
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+header .row #header_logo{
+	padding-top: 0px
+}
+
+#header_logo{
+	width: 100%;
+	padding-top: 0px;
+	margin-top: -37px;
+}
+
+#header_logo img{
+	margin: 0 auto;
+	width: 100px;
+margin-top: 15px;
+height: auto;
+}
+
+#search_block_top {
+width: 230px;
+}
+
+#header .shopping_cart {
+width: 130px;
+}
+
+.shopping_cart b, .ajax_cart_no_product {
+	display: none
+}
+
+#slider-with-blocks-1 {
+margin-top: -207px !important;
+}
+
+.dlhsie-vlasy, .plne-objemu, .ako-nikdy{
+	transform: scale(0.7)
+}
+
+.container.icons-baner img {
+width: 150px;
+}
+
+.container.icons-baner {
+top: -70px;
+}
+
+.slide1 .bContainer {
+top: 47% ;
+}
+
+.slide1 .bContainer span img {
+transform: scale(0.8)
+}
+
+.plne-objemu {
+padding: 1px 0 0 340px;
+}
+
+.ako-nikdy {
+padding: 0px 0 0 540px;
+}
+
+.wrapper-slider {
+height: 393px;
+}
+
+.sf-menu > li > ul {
+width: 720px;
+}
+
+li.menu-item {
+width: 116px;
+margin-left: 10px;
+}
+
+.submenu-container .category-heading {
+height: 131px;
+}
+
+.clip-in-podla-seba li.menu-item {
+background: url(../img/evlasy/custom-baner-s.jpg);
+width: 620px;
+}
+
+.clip-in-podla-seba li.menu-item a {
+width: 620px;
+height: 62px;
+}
+
+
+}
+
+
+
+
 
