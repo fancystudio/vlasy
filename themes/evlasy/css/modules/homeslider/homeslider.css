@@ -10,7 +10,8 @@
   overflow: hidden;
   position: relative;
   z-index: 1;
-  float: left; }
+  float: left;
+  margin-bottom: 100px; }
   @media (max-width: 767px) {
     #homepage-slider {
       width: 100%;

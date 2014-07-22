@@ -66,7 +66,7 @@
 	<!-- /Block CMS module -->
 {else}
 	<!-- MODULE Block footer -->
-	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
+	<section class="footer-block col-sm-3 col-md-3 col-sms-6 col-smb-12" id="block_various_links_footer">
 		<h4>{l s='Information' mod='blockcms'}</h4>
 		<ul class="toggle-footer">
 			{if $show_price_drop && !$PS_CATALOG_MODE}
@@ -126,8 +126,7 @@
 	{if $display_poweredby}
 	<section class="bottom-footer col-xs-12">
 		<div>
-			&copy; 2014 {l s='[1]Ecommerce software by %s[/1]' mod='blockcms' sprintf=['PrestaShop™'] tags=['<a class="_blank" href="http://www.prestashop.com">']}
-		</div>
+			 Copyright evlasy.sk &copy; 2014 All rights reserved. Designed & powered by:<a href="http://www.fancystudio.sk" onclick="window.open(this.href, 'OffSite').focus(); return false;"><img src="{$base_dir}/themes/evlasy/img/fancy-logo.png" alt="fancy|studio"/></a>		</div>
 	</section>
 	{/if}
 	<!-- /MODULE Block footer -->

@@ -11,8 +11,11 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext);
 
 header{
-	background: #41444e;
-	height: 586px;
+	/*background: #41444e;*/
+	background: url(../img/evlasy/top-baner-2.jpg) center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*height: 586px;*/
 }
 
 header .nav{
@@ -21,6 +24,7 @@ header .nav{
 
 header#header{
 	font-family: main-condensed;
+	margin-bottom: 55px;
 }
 
 .header_user_info {
@@ -97,6 +101,9 @@ color: white;
 #search_block_top .btn.button-search {
 background: transparent;
 }
+#header_logo{
+	margin-bottom: 20px
+}
 
 #header .shopping_cart {
 	padding-top: 45px;
@@ -132,6 +139,7 @@ color: #1b1c20;
 
 #header .cart_block {
 	top: 95px;
+	box-shadow: 0px 1px 10px #40434d;
 }
 
 .submenu-container .category-heading {
@@ -216,6 +224,26 @@ color: #1b1c20;
 font-size: 30px;	
 }
 
+.fa {
+display: inline-block;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.fa-shopping-cart:before {
+content: "\f07a";
+}
+
+ul.product_list.grid > li .product-container .product-image-container .content_price span {
+font-family: PT sans !important;
+font-weight: normal;
+}
+
+
 span.line{
 	clear: both;
 border-bottom: 2px solid #1b1c20;
@@ -229,6 +257,29 @@ background: url(../img/footer-bg.png) repeat-x #333333;
 background-color: #1b1c20;
 }
 
+.footer-container #footer .bottom-footer {
+color: white;
+text-align: center;
+padding:45px 0 0 0;
+}
+
+.bottom-footer img{
+	margin-left: 10px
+}
+
+.footer-container #footer .bottom-footer div {
+padding: 30px 0 0 0;
+}
+
+
+.footer-container #footer .bottom-footer {
+bottom: -70px;
+}
+
+li.htmlcontent-item-1{
+	width: 100%
+}
+
 
 /*======================================== SLIDER ================================================*/
 
@@ -240,6 +291,7 @@ margin-top: -178px;
   width: 100%;
   height: 600px;
   position: absolute;
+  top: -5px;
 }
 
 .rsContent {
@@ -344,7 +396,8 @@ margin-top: -178px;
 
 .container.icons-baner{
 	position: relative;
-	top: -105px;
+	top: -10px;
+	margin-top: -105px
 }
 
 .container.icons-baner img{
@@ -456,7 +509,7 @@ width: 681px;
 
 
 header {
-height: 547px;
+height: auto;
 }
 
 
@@ -471,8 +524,13 @@ height: 547px;
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
+header{
+	background: #212329;
+}
+
 header .row #header_logo{
-	padding-top: 0px
+	padding-top: 0px;
+	margin-bottom: -10px;
 }
 
 #header_logo{
@@ -496,8 +554,24 @@ width: 230px;
 width: 130px;
 }
 
+.ajax_cart_quantity, .ajax_cart_product_txt {
+color: white;
+position: relative;
+background: #ed1b24;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius:10px;
+padding: 3px 7px;
+top: -3px;
+left: -12px;
+}
+
 .shopping_cart b, .ajax_cart_no_product {
 	display: none
+}
+
+.wrapper-slider{
+	top: -15px;
 }
 
 #slider-with-blocks-1 {
@@ -513,11 +587,11 @@ width: 150px;
 }
 
 .container.icons-baner {
-top: -70px;
+top: 10px;
 }
 
 .slide1 .bContainer {
-top: 47% ;
+top: 50% ;
 }
 
 .slide1 .bContainer span img {
@@ -560,8 +634,98 @@ height: 62px;
 }
 
 
+.button.ajax_add_to_cart_button, .button.lnk_view {
+
+width: 150px;
+ }
+
+
+
+
+
+
 }
 
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+header{
+	background: #212329;
+}
+
+.icons-baner {
+display: none
+}
+
+#search_block_top #search_query_top {
+height: 59px;
+}
+
+#search_block_top .btn.button-search {
+padding: 18px 0 11px 0;
+}
+
+#header .shopping_cart {
+width: 100%;
+}
+
+
+
+
+.wrapper-slider{
+	display: none
+}
+
+.container.icons-baner img {
+width: 33.3%;
+margin-left: 0px
+}
+
+#search_block_top {
+padding-top: 16px;
+width: 100%;
+margin: 0px 0px 0px 0px;
+clear: both;
+}
+
+#header .shopping_cart {
+padding-top: 15px;
+}
+
+.shopping_cart > a:first-child {
+padding: 18px 10px 17px 16px;
+}
+
+header .row #header_logo {
+margin-bottom: 0px;
+}
+
+.cat-title {
+border: 2px solid white;
+padding: 16px 20px;
+}
+
+.cat-title:hover {
+background: transparent;
+border: solid 2px white;
+color: white;
+}
+
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+.footer-container #footer .bottom-footer div{
+	padding: 10px 15px 0px;
+}
+
+
+
+
+}
 
 
 

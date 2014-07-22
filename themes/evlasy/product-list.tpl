@@ -122,7 +122,8 @@
 							{if ($product.allow_oosp || $product.quantity > 0)}
 								{if isset($static_token)}
 									<a class="button ajax_add_to_cart_button btn btn-default" href="{$link->getPageLink('cart',false, NULL, "add=1&amp;id_product={$product.id_product|intval}&amp;token={$static_token}", false)|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Add to cart'}" data-id-product="{$product.id_product|intval}">
-										<span>{l s='Add to cart'}</span>
+										
+										<span><i class="fa fa-shopping-cart"></i>{*{l s='Add to cart'}*}</span>
 									</a>
 								{else}
 									<a class="button ajax_add_to_cart_button btn btn-default" href="{$link->getPageLink('cart',false, NULL, 'add=1&amp;id_product={$product.id_product|intval}', false)|escape:'html':'UTF-8'}" rel="nofollow" title="{l s='Add to cart'}" data-id-product="{$product.id_product|intval}">

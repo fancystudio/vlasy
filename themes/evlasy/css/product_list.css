@@ -28,8 +28,8 @@ ul.product_list .product-image-container {
   ul.product_list .product-image-container img {
     margin: 0 auto; }
   ul.product_list .product-image-container .quick-view {
-    font: 700 13px/16px Arial, Helvetica, sans-serif;
-    color: #777676;
+    font: 200 13px/16px Arial, Helvetica, sans-serif;
+    color: #1b1c20;
     position: absolute;
     left: 50%;
     top: 50%;
