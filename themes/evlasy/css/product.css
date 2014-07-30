@@ -227,12 +227,13 @@ span.view_scroll_spacer {
       border: none;
       padding: 0; }
     #usefull_link_block li a {
-      color: #777676;
-      font-weight: 700;
-      position: relative;
-      padding-left: 30px;
-      line-height: 22px;
-      display: inline-block; }
+      color: #050404;
+font-weight: 700;
+position: relative;
+padding-left: 30px;
+line-height: 22px;
+display: inline-block;
+font-weight: 300; }
       #usefull_link_block li a:before {
         font-family: "FontAwesome";
         color: #333333;
@@ -290,8 +291,9 @@ span.view_scroll_spacer {
   /* form */ }
   .pb-center-column h1 {
     padding-bottom: 16px;
-    font-size: 20px;
-    color: #3a3939; }
+font-size: 22px;
+color: #3a3939;
+font-family: 'PT Sans', sans-serif; }
   .pb-center-column p {
     margin-bottom: 10px; }
   .pb-center-column #product_reference {
@@ -389,13 +391,15 @@ span.view_scroll_spacer {
 
 .product_attributes,
 .box-cart-bottom {
-  -webkit-box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.05);
-  padding: 19px 19px 17px; }
+  /* -webkit-box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.05); */
+-moz-box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.05);
+/* box-shadow: inset 0 6px 6px rgba(0, 0, 0, 0.05); */
+padding: 19px 19px 17px;
+border-top: 1px solid #dbdbdb; }
 
 .box-cart-bottom {
-  padding: 0; }
+  padding: 0;
+  padding-bottom: 7px; }
 
 #short_description_content a,
 .page-product-box a {
@@ -406,51 +410,34 @@ span.view_scroll_spacer {
   text-decoration: none; }
 
 .box-info-product {
-  background: #f6f6f6;
-  border: 1px solid #d2d0d0;
-  border-top: 1px solid #b0afaf;
-  border-bottom: 1px solid #b0afaf; }
+background: white;
+border: 1px solid #050404;
+ }
+ 
+ 
   .box-info-product p {
     margin-bottom: 7px; }
   .box-info-product .exclusive {
     padding: 0;
-    border-top: 1px solid #0079b6;
-    border-right: 1px solid #006fa8;
-    border-left: 1px solid #006fa8;
-    border-bottom: 1px solid #012740;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    position: relative;
-    display: block;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009ad0), color-stop(100%, #007ab7));
-    background-image: -webkit-linear-gradient(#009ad0, #007ab7);
-    background-image: -moz-linear-gradient(#009ad0, #007ab7);
-    background-image: -o-linear-gradient(#009ad0, #007ab7);
-    background-image: linear-gradient(#009ad0, #007ab7);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#009ad0', endColorstr='#007ab7',GradientType=0 ); }
+border: none;
+position: relative;
+display: block;
+background: #e11c1c;
+ }
     .box-info-product .exclusive:before {
       font-family: "FontAwesome";
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      color: white;
-      font-size: 25px;
-      line-height: 47px;
-      text-shadow: 0 1px #015883;
-      content: "\f07a";
-      z-index: 2;
-      width: 51px;
-      text-align: center;
-      border: 1px solid #06b2e6;
-      -webkit-border-radius: 5px 0 0 5px;
-      -moz-border-radius: 5px 0 0 5px;
-      -ms-border-radius: 5px 0 0 5px;
-      -o-border-radius: 5px 0 0 5px;
-      border-radius: 5px 0 0 5px; }
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		color: white;
+		font-size: 25px;
+		line-height: 47px;
+		content: "\f07a";
+		z-index: 2;
+		width: 51px;
+		text-align: center;
+ }
       @media (max-width: 991px) {
         .box-info-product .exclusive:before {
           display: none; } }
@@ -463,23 +450,18 @@ span.view_scroll_spacer {
       -moz-animation: 2s linear 0s normal none infinite spin;
       border: none; }
     .box-info-product .exclusive:after {
-      background: url(../img/border-1.gif) repeat-y 0 0;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 51px;
-      content: "";
-      width: 1px;
-      z-index: 2; }
+      background: white;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 51px;
+content: "";
+width: 1px;
+z-index: 2; }
       @media (max-width: 991px) {
         .box-info-product .exclusive:after {
           display: none; } }
     .box-info-product .exclusive span {
-     -webkit-border-radius: 0px;
--moz-border-radius: 0px;
--ms-border-radius: 0px;
--o-border-radius: 0px;
-border-radius: 0px;
 font-weight: 200;
 font-size: 18px;
 line-height: 22px;
@@ -487,14 +469,15 @@ border-top: none;
 border-right: none;
 border-left: none;
 border-bottom: none;
-text-shadow: 0 1px #015883;
-padding: 12px 36px 14px 60px;
+padding: 14px 36px 14px 66px;
 color: white;
 display: block !important;
 -webkit-transition: all 0.3s ease;
 -moz-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
-transition: all 0.3s ease;/* background: red; */ }
+transition: all 0.3s ease;
+
+ }
       @media (max-width: 1199px) {
         .box-info-product .exclusive span {
           padding: 12px 22px 14px 55px;
@@ -504,13 +487,7 @@ transition: all 0.3s ease;/* background: red; */ }
           padding: 8px 12px 10px;
           text-align: left; } }
     .box-info-product .exclusive:hover {
-      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #007ab7), color-stop(100%, #009ad0));
-      background-image: -webkit-linear-gradient(#007ab7, #009ad0);
-      background-image: -moz-linear-gradient(#007ab7, #009ad0);
-      background-image: -o-linear-gradient(#007ab7, #009ad0);
-      background-image: linear-gradient(#007ab7, #009ad0);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007ab7', endColorstr='#009ad0',GradientType=0 );
-      background-position: 0 0; }
+      background: #a0282d }
 
 #center_column.col-sm-9 .col-md-3 .box-info-product {
   background: #f6f6f6;
@@ -682,7 +659,7 @@ table.table-product-discounts {
   height: 27px;
   padding: 0 6px;
   float: left;
-  border: 1px solid #d6d4d4;
+  border: 1px solid #050404 !important;
   line-height: 27px; }
 #quantity_wanted_p .btn {
   float: left;

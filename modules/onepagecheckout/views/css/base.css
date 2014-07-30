@@ -2,6 +2,19 @@ input.readonly {
   color: gray;
 }
 
+table#cart_summary{
+	border: none
+}
+
+.cart_product, .cart_voucher, .summary-line,table#cart_summary tr{
+	border-left: 1px solid #e9e9e9;}
+	
+#cart_summary tfoot td#total_price_container	{
+	border-right: 1px solid #e9e9e9
+}
+	
+	
+
 .tooltip {
         color: #000;/*position: absolute;top:0;left:0;width:100%;*/height:30px;box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
         -webkit-box-shadow:0 3px 5px 0 rgba(0,0,0,0.4);
@@ -98,12 +111,12 @@ span.validity {
 
 input.error_field, select.error_field, textarea.error_field,
 #wrapper1 input.error_field {
-    border: 1px solid red !important;
+    border: 1px solid #e11c1c;
 }
 
 input.ok_field, select.ok_field, textarea.ok_field,
 #wrapper1 input.ok_field {
-    border: 1px solid green !important;
+    border: 1px solid #77b270 !important;
 }
 
 #opc_checkout #opc_new_account span.sample_text, #opc_checkout #opc_new_account span.sample_text span, #offer_password span.sample_text, #offer_password span.sample_text span {
@@ -196,9 +209,9 @@ div.confirm_button_div {
 
 input.confirm_button, #free_order_confirm {
     display: block;
-    background-color: #00AA00;
+    background-color: #77b270;
     background-image: none;
-    border: 1px solid black;
+    border: none;
     color: white;
     font-weight: bold;
 /*    height: 40px; */
@@ -211,7 +224,7 @@ input.confirm_button, #free_order_confirm {
 }
 
 input.confirm_button:hover, #free_order_confirm:hover {
-    background-color: #00CC00;
+    background-color: #2e7a3a;
     cursor: pointer;
     padding: 14px 0px;
 }
@@ -423,17 +436,18 @@ p.cart_navigation_extra, p.cart_navigation {
 
 form.std h3,
 #new_account_form.std h3, #order-opc h2, #payments_section h3 {
-    background: #989898;
-    color: #FFFFFF;
-    font-size: 14px;
-    margin: -3px -3px 15px;
-    padding: 8px;
-    text-transform: uppercase;
+    background: #1b1c20;
+color: #FFFFFF;
+font-size: 13px;
+margin: 0px 0px 20px;
+padding: 8px;
+text-transform: uppercase;
+font-family: PT sans !important;
 }
 
 div#opc_delivery_methods, 
 div#opc_payment_methods {
-    padding: 0px 25px;
+   /* padding: 0px 25px;*/
 }
 
 form#offer_password fieldset {
@@ -567,12 +581,15 @@ table#cart_summary .cart_delete {
     padding: 3px 5px;
 }
 
+tbody, tfooter{
+	border-left: 1px solid #e9e9e9;
+}
 
 .cart_quantity .cart_quantity_input {
     padding: 3px 5px;
     margin: 0 0 0 2px !important;
-    width: 25px;
-    border: 1px solid #ccc;
+    width: 36px;
+    
     height: auto;
     text-align: center;
     float: none;
@@ -668,6 +685,7 @@ div#tos_moved {
 /* reset */
 #cart_summary tfoot td#total_price_container {
     background: transparent;
+    border-bottom: 1px solid #e9e9e9;
 }
 
 form.std fieldset {
@@ -828,11 +846,14 @@ div.below-carrier-content {
 
 div.address-type-header {
     padding: 3px 5px;
+font-weight: bold;
+/* box-shadow: rgb(190, 190, 190) 0px 0px 1px 1px; */
+background: none;
+border: 1px solid #cccccc;
+}
 
-    font-weight: bold;
-    box-shadow: rgb(190, 190, 190) 0px 0px 1px 1px;
-    background: #fafafa;
-
+#invoice_address_checkbox {
+padding-left: 195px;
 }
 
 div.address-type-header.delivery {

@@ -32,7 +32,7 @@ jQuery(document).ready(function($) {
       
     </div>
   </div>
-  <div class="rsContent slide2">
+  <!--<div class="rsContent slide2">
     <div class="bContainer">
       <strong class="rsABlock txtCent blockSubHeadline" data-move-effect="none">Transition Types</strong>
       <span class="rsABlock txtCent" data-move-effect="top">from top  ↓</span>
@@ -59,11 +59,11 @@ jQuery(document).ready(function($) {
     </div>
     <img class="rsABlock palmImg" data-fade-effect="none" data-move-effect="bottom" data-opposite="true" data-move-offset="450" data-delay="350" data-speed="300" data-easing="easeOutBack" src="../img/palms.png" data-rsw="707" data-rsh="471">
     <div class="photoCopy">Photo by <a href="http://photo.aphecetche.fr/">Laurent Aphecetche</a></div>
-  </div>-->
-  
+  </div>  -->
 
   
 </div>
+
 
 </div><!-- wrapper slider -->
 <div class="container icons-baner">

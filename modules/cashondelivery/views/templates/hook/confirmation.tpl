@@ -1,5 +1,4 @@
-<?php
-/*
+{*
 * 2007-2014 PrestaShop
 *
 * NOTICE OF LICENSE
@@ -22,20 +21,11 @@
 *  @copyright  2007-2014 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
-*/
+*}
 
-/**
- * @deprecated 1.5.0 This file is deprecated, use moduleFrontController instead
- */
-
-/* SSL Management */
-$useSSL = true;
-
-require('../../config/config.inc.php');
-Tools::displayFileAsDeprecated();
-
-// init front controller in order to use Tools::redirect
-$controller = new FrontController();
-$controller->init();
-
-Tools::redirect(Context::getContext()->link->getModuleLink('cheque', 'payment'));
+<p>{l s='Your order on %s is complete.' sprintf=$shop_name mod='cashondelivery'}
+	<br /><br />
+	{l s='You have chosen the cash on delivery method.' mod='cashondelivery'}
+	<br /><br /><span class="bold">{l s='Your order will be sent very soon.' mod='cashondelivery'}</span>
+	<br /><br />{l s='For any questions or for further information, please contact our' mod='cashondelivery'} <a href="{$link->getPageLink('contact-form', true)|escape:'html'}">{l s='customer support' mod='cashondelivery'}</a>.
+</p>

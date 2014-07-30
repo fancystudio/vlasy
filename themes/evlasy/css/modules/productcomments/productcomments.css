@@ -37,18 +37,19 @@
         line-height: 20px; } }
   .comments_advices a {
     text-decoration: none;
-    color: #777777;
-    position: relative;
-    margin-right: 8px;
-    line-height: 30px;
-    padding: 0;
-    display: inline-block; }
+color: #050404;
+position: relative;
+margin-right: 8px;
+line-height: 30px;
+padding: 0;
+display: inline-block;
+font-weight: 300; }
     @media (min-width: 768px) and (max-width: 1199px) {
       .comments_advices a {
         float: none;
         line-height: 20px; } }
     .comments_advices a:before {
-      background: #929292;
+      background: #050404;
       -webkit-border-radius: 50px;
       -moz-border-radius: 50px;
       -ms-border-radius: 50px;

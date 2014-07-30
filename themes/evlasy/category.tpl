@@ -74,8 +74,8 @@
 		{if isset($subcategories)}
 		<!-- Subcategories -->
 		<div id="subcategories">
-			<p class="subcategory-heading">{l s='Subcategories'}</p>
-			<ul class="clearfix">
+			<!--<p class="subcategory-heading">{l s='Subcategories'}</p>-->
+			<!--<ul class="clearfix">
 			{foreach from=$subcategories item=subcategory}
 				<li>
                 	<div class="subcategory-image">
@@ -93,7 +93,7 @@
 					{/if}
 				</li>
 			{/foreach}
-			</ul>
+			</ul>-->
 		</div>
 		{/if}
 		{if $products}
