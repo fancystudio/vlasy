@@ -13,11 +13,105 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Wed, 30 Jul 2014 16:36:53 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 01 Aug 2014 13:49:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>PrestaShop World Tour: Meet Sweet Isabelle, a Canadian Online Store Turned Bakery</title>
+		<link>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/</link>
+		<comments>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/#comments</comments>
+		<pubDate>Fri, 01 Aug 2014 13:49:28 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17961</guid>
+		<description><![CDATA[Canada is a fascinating and complex country for ecommerce. With two official languages (English and French), e-merchants have to work harder just to accommodate customers in their country. This however, is also a huge opportunity for merchants to quickly expand &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p style="text-align: left;">Canada is a fascinating and complex country for ecommerce. With two official languages (English and French), e-merchants have to work harder just to accommodate customers in their country. This however, is also a huge opportunity for merchants to quickly expand beyond their borders. After all, American and French customers are merely a few clicks away.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17974" src="http://www.prestashop.com/blog/en/files/2014/07/MONTREAL.jpg" alt="" width="540" height="284" /></p>
+<p><span id="more-17961"></span></p>
+<p>Ecommerce in Canada is rapidly growing, having reached $22 billion Canadian dollars in 2013. This shows that Canadians are eager to shop online, making average of 13 separate purchases a year.</p>
+<p>On this stop of the World Tour, we’re in Montreal with Isabelle and Michel. Isabelle’s passion for having fun while decorating sweets and Michel’s knowledge of coding led them to create and run<a href="http://www.sweetisabelle.com/en/" target="_blank"> Sweet Isabelle</a>. In 4 years, they turned baking for family and friends into an online store with 3 physical locations. What is their secret recipe for successfully running an online store?</p>
+<p>Let’s find out!</p>
+<p><iframe src="//player.vimeo.com/video/102019698" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/102019698">PrestaShop World Tour: Montreal with Sweet Isabelle.</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>This stop wraps up our 5-month journey around the world exploring ecommerce cultures. Which country was your favorite in our world tour? Share in the comments below or Tweet at us with using <strong>#PSWorldTour</strong> on <a href="https://twitter.com/search?f=realtime&amp;q=%23PSworldtour&amp;src=typd" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop#" target="_blank">Instagram </a>and <a href="https://www.facebook.com/prestashop" target="_blank">Facebook</a>.</p>
+<p>Next stop: <strong>HOME </strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>6 Time-tested Ways to Reduce Abandoned Shopping Carts</title>
+		<link>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/</link>
+		<comments>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/#comments</comments>
+		<pubDate>Thu, 31 Jul 2014 13:32:29 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17930</guid>
+		<description><![CDATA[Did you know that for every 1 shopping cart converted, 2-3 of them are abandoned? According to BI Intelligence, the global average rate for abandoned shopping carts is 71.2%. Want another staggering statistic? The estimated value of these shopping carts &#8230; <a href="http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>Did you know that for every 1 shopping cart converted, 2-3 of them are abandoned? According to <a href="http://www.businessinsider.com/heres-how-retailers-can-reduce-shopping-cart-abandonment-and-recoup-billions-of-dollars-in-lost-sales-2014-4" target="_blank">BI Intelligence</a>, the global average rate for abandoned shopping carts is 71.2%. Want another staggering statistic? The estimated value of these shopping carts is worth approximately $4 trillion.</p>
+<p><img class="alignleft  wp-image-18030" src="http://www.prestashop.com/blog/en/files/2014/07/6abandoned-carts.png" alt="" width="605" height="318" /></p>
+<p>Today, we’re helping you cash in with 6 time-tested ways to reduce abandoned shopping carts. What are you waiting for? Let’s get started converting tentative shoppers into paying customers!<br />
+<span id="more-17930"></span></p>
+<h2>1. Improve UX with Instant Field Validation</h2>
+<p>Improve the user experience (UX) of your site, specifically the checkout page with instant field validation. It’s a standard feature in PrestaShop v1.6 that validates each field as customers enter their information on the page. Customers are notified immediately when they make typo errors like adding letters in phone numbers or excluding “@” from their email addresses. Instant field validation helps customers correct errors immediately rather than waiting until after they&#8217;ve filled out the page.</p>
+<p>In addition to instant field validation, improve the UX by regularly testing your checkout process. Add it to you weekly to-do list. If you don’t have one already, check out our <a href="http://www.prestashop.com/blog/en/the-smartest-checklists-to-manage-your-online-store/" target="_blank">smartest checklists</a> for managing your online store.</p>
+<h2>2. Enable Guest Checkout</h2>
+<p>Need a reason to enable guest checkout? Look no further than its nickname – the <a href="http://www.uie.com/articles/three_hund_million_button" target="_blank">$300 Million Button</a>. By allowing customers to check out as a guest, one online retailer saw a 45% increase in orders. Guest checkout allows customers to provide only the information needed to complete their order. Customers also don’t have to remember a username and password. Here’s what instant checkout / guest checkout looks like on <a href="http://www.evavarro.com/" target="_blank">Eva varro,</a> a PrestaShop store.</p>
+<p><img class="aligncenter size-full wp-image-17936" src="http://www.prestashop.com/blog/en/files/2014/07/evavarro-guest-checkout.png" alt="" width="560" height="295" /></p>
+<h2>3. Avoid Unexpected Fees</h2>
+<p>Of the people surveyed by <a href="http://www.statista.com/statistics/232285/reasons-for-online-shopping-cart-abandonment/" target="_blank">Statista</a>, 56% of them abandoned their carts because they were “presented with unexpected costs”. Combat this by clearly displaying the fees you charge, from shipping to taxes and everything in between. You can also use this as a marketing opportunity to promote your shipping specials. PrestaShop store, <a href="http://www.huntandstyle.com.au/" target="_blank">Hunt and Style</a> uses a threshold free shipping strategy and clearly details it on their homepage banner.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17932" src="http://www.prestashop.com/blog/en/files/2014/07/huntandstyle-homepage-shipping-fee.png" alt="" width="572" height="361" /></p>
+<p>Remember: Customers do not abandon carts because of the fees, it’s finding out about them at checkout that drives them away.</p>
+<h2>4. Reassure Customers of your Trustworthiness</h2>
+<p>Customers want to shop on sites they feel they can trust. Reassure customers by displaying elements of trust like badges from the <a href="http://www.bbb.org/council/for-businesses/about-bbb-accreditation/" target="_blank">Better Business Bureau</a> or <a href="http://www.google.com/trustedstores/for-businesses/" target="_blank">Google Trusted Sites</a>. Next, clearly display your contact information such as phone number, email address and physical address. Don’t forget to leverage social media to boost your company’s social credibility. Each fan and follower also helps you build customer trust.</p>
+<p>Finally, include logos of reputable companies you work with. From payment processing to shipping or even well-known suppliers, they can all help build trust in your site. Johnson’s Popcorn, a PrestaShop store, uses a combination of their contact information and reputable company logos to build trust.</p>
+<p><img class="aligncenter size-full wp-image-17933" src="http://www.prestashop.com/blog/en/files/2014/07/johnsonspopcorn.png" alt="" width="560" height="173" /></p>
+<h2>5. Provide Your Customer’s Preferred Payment Methods</h2>
+<p style="text-align: left;"><a href="http://www.marketingprofs.com/chirp/2014/25578/consumer-psychology-and-the-e-commerce-checkout-infographic" target="_blank">Vouchercloud quotes</a>, 59% of customers will abandon a transaction if their preferred payment is not available. The forms of payment methods you offer should be determined by your customers. PrestaShop merchant, <a href="http://www.headict.co.uk/content/5-secure-payment" target="_blank">Headict</a>, displays a secured payment block in their footer to show customers which payment methods they accept.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17931" src="http://www.prestashop.com/blog/en/files/2014/07/headict.png" alt="" width="610" height="210" /></p>
+<p>Offering customers their preferred payment method extends beyond the payment processor. Don’t forget about your customers’ shopping habits. For example, American customers are accustomed to paying for their order in full. In contrast, customers in many South American countries expect the option to pay in installments. Learn more about international ecommerce trends by checking out the <a href="http://www.prestashop.com/blog/en/category/prestashop-world-tour/" target="_blank">PrestaShop World Tour</a>.</p>
+<h2>6. Remind Customers about Their Carts</h2>
+<p>Sometimes customers just abandon carts. Whether they are not ready to make the purchase or were simply distracted, shopping carts get left behind. However, a cart is not technically considered abandoned if customers come back to complete their purchase. See how <a href="http://www.ralphlauren.com" target="_blank">Ralph Lauren</a> encourages customers to come back and shop with this reminder email.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17935" src="http://www.prestashop.com/blog/en/files/2014/07/ralphlauren-abandon.png" alt="" width="571" height="427" /></p>
+<p>Convert abandoned shopping carts with automated reminder emails from the <a href="http://addons.prestashop.com/en/checkout-modules/16535-abandoned-cart-pro.html" target="_blank">Abandoned Cart Reminder Pro Module</a>. Beyond a reminder, this module personalizes each email to include the products your customers left in their carts.</p>
+<h2>Conclusion</h2>
+<p>Reducing abandoned shopping carts is all about addressing customer concerns. Whether it is peace of mind or a just friendly reminder, each of these time-tested ways work because they make the customer more comfortable with shopping on your website. Try one, all or a combination of these methods to find what works for your particular website. Then, let us know which worked best in the comments below.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-17934" src="http://www.prestashop.com/blog/en/files/2014/07/order-kpi.png" alt="" width="522" height="131" /></p>
+<p>If you are a PrestaShop merchant running 1.6, track your success with by reviewing the intelligent KPIs on your orders tab. Now an online merchant yet? <a href="http://www.prestashop.com/en/download" target="_blank">Download </a>PrestaShop’s ecommerce software to get started today.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop v1.6.0.9 is available for download!</title>
+		<link>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/</link>
+		<comments>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/#comments</comments>
+		<pubDate>Thu, 31 Jul 2014 08:44:02 +0000</pubDate>
+		<dc:creator>Benjamin Utterback</dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18029</guid>
+		<description><![CDATA[Today we released the latest version of PrestaShop, v1.6.0.9. In this new version, our development team responded to the feedback coming from 69 users in our amazing community! Thanks to their great contributions, you will find lots of enhancements plus &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter  wp-image-16832" title="-PrestaShop-1.6" src="http://www.prestashop.com/blog/fr/files/2014/07/PrestaShop-1.6.png" alt="" width="576" height="302" /></p>
+<p><strong>Today we released the latest version of PrestaShop, <a href="http://www.prestashop.com/en/download" target="_blank">v1.6.0.9</a>.</strong></p>
+<p>In this new version, our development team responded to the feedback coming from 69 users in our <strong>amazing community</strong>! Thanks to their great contributions, you will find lots of enhancements plus some fixes to reported issues. <span id="more-18029"></span><strong>The most important improvements include:</strong></p>
+<p>- Smarty update to 3.1.19<br />
+- Improvements for the Block Layered Navigation<br />
+- Optimization of the database loading time for large catalogs and categories<br />
+- Better implementation of HTML Purifier<br />
+- Mobile detection has been updated for improved stability</p>
+<p>Additional details can be found in the <a href="http://forge.prestashop.com/secure/Dashboard.jspa" target="_blank">Forge</a> and <a href="https://github.com/prestashop" target="_blank">GitHub</a>. You can view the full list of improvements in the <a href="http://www.prestashop.com/en/developers-versions/changelog/1.6.0.9" target="_blank">Changelog</a>.</p>
+<p>We would like to take this opportunity to remind you that PrestaShop users can directly <strong>participate in our development activities by joining the PrestaShop User Club</strong>. This group of users receives early access to new versions and provides direct input to our development team. If you’re interesting in joining this group, you can learn more <a href="http://www.prestashop.com/blog/en/introducing-the-user-club-building-prestashop-together/" target="_blank">here</a> or register directly <a href="http://www.prestashop.com/club/" target="_blank">here</a>.</p>
+<p>&gt; <strong><a href="http://www.prestashop.com/en/download" target="_blank">Download PrestaShop 1.6.0.9</a></strong><br />
+&gt; <strong><a href="http://doc.prestashop.com/display/PS16/Updating+PrestaShop" target="_blank">Consult our updating guide</a></strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>DIY Ecommerce Guide to Gorgeous Product Photography</title>
 		<link>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/</link>
@@ -459,152 +553,7 @@ However, it’s possible that e-commerce sites could take advantage of local cit
 Start growing your ecommerce business today without spending a dime. Not using an ecommerce software that lets you do all of the above? Try the <a href="http://www.prestashop.com/en/demo" target="_blank">PrestaShop demo</a> or <a href="http://www.prestashop.com/en/download" target="_blank">download PrestaShop</a> for FREE today and start running a profitable online store with innovative built-in marketing features.</p>
 ]]></content:encoded>
 			<wfw:commentRss>http://www.prestashop.com/blog/en/12-free-ways-to-grow-your-ecommerce-business/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-		<item>
-		<title>Top 5 tips for Price Comparison Sites</title>
-		<link>http://www.prestashop.com/blog/en/top-5-tips-for-price-comparison-sites/</link>
-		<comments>http://www.prestashop.com/blog/en/top-5-tips-for-price-comparison-sites/#comments</comments>
-		<pubDate>Tue, 15 Jul 2014 13:54:11 +0000</pubDate>
-		<dc:creator>Deborah Penna</dc:creator>
-				<category><![CDATA[PrestaShop Partners]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17793</guid>
-		<description><![CDATA[Price comparison sites are becoming increasingly popular among consumers and are an excellent way to advertise your online store and, at the same time, reach a higher percentage of qualified buyers. The savvy internet shopper is more inclined to use &#8230; <a href="http://www.prestashop.com/blog/en/top-5-tips-for-price-comparison-sites/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>Price comparison sites are becoming increasingly popular among consumers and are an excellent way to advertise your online store and, at the same time, reach a higher percentage of qualified buyers.</p>
-<p>The savvy internet shopper is more inclined to use price comparison sites, when trying to find the best deal, as these sites allow buyers to easily compare products and prices. Let’s review how price comparison sites can help your business.</p>
-<p><img class="alignnone size-full wp-image-17799" src="http://www.prestashop.com/blog/en/files/2014/07/Price_tag.EN_.jpg" alt="" width="480" height="238" /></p>
-<p><span id="more-17793"></span></p>
-<p><strong>1.Maximize your advertising budget</strong><br />
-Shopping comparison sites offer a clear advantage: they provide access to a highly qualified audience. As stated by<a href="http://www.allbusiness.com/marketing/advertising-internet-advertising/3913-1.html" target="_blank"> Allbusiness.com</a>, <strong>‘62% of comparison-site shoppers are very likely to make a purchase and spend 25% more than other online consumers.’</strong></p>
-<p>Therefore, if you wish to use your <strong>cost-per-click (CPC)</strong> or <strong>pay-per-click (PPC)</strong> budget more effectively, start targeting price comparison sites. They generally offer a lower CPC rate and help you increase conversion rates &#8211; as potential buyers who click on your link are already familiar with your product offering.</p>
-<p><strong>2.Improve your ranking on search engines</strong><br />
-Listing your products on popular price comparison sites can improve your SEO efforts and, therefore, help your business rank higher in search results.</p>
-<p><strong>3.Know your competition</strong><br />
-Price comparison engines not only facilitate shopping and product comparison for consumers. They can also help you gain some useful insight on what your competition is doing: which products or services they offer, their pricing level, promotions and much more.</p>
-<p><strong>4.Customers reviews</strong><br />
-Customer reviews are an excellent way to find out which products and services are highly rated, how your competition is performing, how you compare and how you can improve your services. Most price comparison sites display users’ reviews and feedback.</p>
-<p>If you wish to know more about this topic, please read <a href="http://www.marketingdonut.co.uk/marketing/marketing-strategy/pricing/what-can-businesses-learn-from-price-comparison-sites-" target="_blank">‘What can businesses learn from price comparison sites?’</a></p>
-<p><strong>5.Price comparison websites</strong><br />
-To give you a head start, here’s a list of the major price comparison engines:</p>
-<p>- <a href="http://www.kelkoo.co.uk/" target="_blank">Kelkoo</a><br />
-- <a href="http://www.shopzilla.co.uk/" target="_blank">ShopZillla</a><br />
-- <a href="https://www.google.com/shopping" target="_blank">Google Shopping</a><br />
-- <a href="https://www.google.com/shopping" target="_blank">PriceGrabber</a><br />
-- <a href="http://fr.shopping.com/?sb=1&amp;ncrd=1&amp;rpu=1" target="_blank">Shopping.com</a></p>
-<p><img class="size-full wp-image-17796 aligncenter" src="http://www.prestashop.com/blog/en/files/2014/07/ShoppingFeed2222.png" alt="" width="516" height="489" /></p>
-<p>The graph below, created by <a href="http://cpcstrategy.com/comparison-shopping/q1-2014/" target="_blank">CPC Strategy</a>, shows the best shopping comparison websites, in terms of conversation rates.</p>
-<p><img class="size-full wp-image-17795 aligncenter" src="http://www.prestashop.com/blog/en/files/2014/07/CPC-GRAPH.png" alt="" width="452" height="452" /></p>
-<h2>Shopping Feed &#8211; your centralised feed management system</h2>
-<p>Distribute your products easily on all major price comparison engines and centrally manage all your listings thanks to Shopping Feed.</p>
-<p><img class="size-full wp-image-17794 aligncenter" src="http://www.prestashop.com/blog/en/files/2014/07/Shopping-Feed-Logo-1.png" alt="" width="497" height="110" /></p>
-<p>Shopping Feed’s solution will allow you to:</p>
-<p>- List your products on shopping comparison sites and e-marketplaces<br />
-- Distribute your products via Facebook<br />
-- Create PPC campaigns for every product you sell<br />
-- And various innovative services such as Buylined, which lets you track the user flow, both on your website and externally.</p>
-<p>The <a href="http://addons.prestashop.com/en/comparison-shopping-prestashop/4184-shopping-feed.html" target="_blank">Shopping Feed module</a> is available native in the software or it can be downloaded for free, on PrestaShop’s Official Marketplace. And it is compatible with PrestaShop v1.4 &#8211; v1.6.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/top-5-tips-for-price-comparison-sites/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>4 Types of Reviews that will Make or Break your Business: Are you handling them right?</title>
-		<link>http://www.prestashop.com/blog/en/4-types-of-reviews-that-will-make-or-break-your-business-are-you-handling-them-right/</link>
-		<comments>http://www.prestashop.com/blog/en/4-types-of-reviews-that-will-make-or-break-your-business-are-you-handling-them-right/#comments</comments>
-		<pubDate>Mon, 14 Jul 2014 14:24:47 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17748</guid>
-		<description><![CDATA[  Guest Article by Talia Shani, Author at Yotpo   &#8220;Delete, delete delete!&#8221; That&#8217;s how most of us respond to negative reviews on our stores. But is there a better way? We’ve all been there: One day you open an &#8230; <a href="http://www.prestashop.com/blog/en/4-types-of-reviews-that-will-make-or-break-your-business-are-you-handling-them-right/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<address dir="ltr"> </address>
-<address dir="ltr">Guest Article by <a href="http://blog.yotpo.com/author/talia-shani/" target="_blank">Talia Shani</a>, Author at <a href="http://www.prestashop.com/en/industry-partners/marketing-visibility/yotpo-social-reviews" target="_blank">Yotpo</a></address>
-<address dir="ltr"> </address>
-<h5 dir="ltr">&#8220;Delete, delete delete!&#8221; That&#8217;s how most of us respond to negative reviews on our stores. But is there a better way?</h5>
-<p><a style="font-style: normal; line-height: 24.375px; text-decoration: underline;" href="http://www.prestashop.com/blog/en/files/2014/07/Top-Image.png"><img class="alignleft  wp-image-17751" style="border-color: #bbbbbb; margin-top: 0.4em; background: #eeeeee;" title="Top Image" src="http://www.prestashop.com/blog/en/files/2014/07/Top-Image.png" alt="" width="640" height="240" /></a></p>
-<p dir="ltr">We’ve all been there: One day you open an inbox to find an email from your reviews solution saying “You have a new review!” You’re excited to see what another one of your happy shoppers has to say, only to open the email and see this particular shopper was&#8230;less-than-happy. You panic, thinking, “Oh no! What do I do?!” And start logging into your reviews moderation page, your mouse hovering over the “Delete” button&#8211;but is that really the best way to handle it? Read on to find out Yotpo’s best practices for handling all different types of reviews.<span id="more-17748"></span></p>
-<h2 dir="ltr">Glowing</h2>
-<p><img class="alignleft size-full wp-image-17766" style="margin: auto; display: block; margin-left: 15px;" title="Yotpo Review" src="http://www.prestashop.com/blog/en/files/2014/07/Image-2.png" alt="" width="300" height="300" align="right" /></p>
-<p dir="ltr">People who leave truly glowing reviews have helped you out by letting the world know how much they love your store and products, but don’t let it stop there. When you spot a potential evangelist, take the opportunity to develop a relationship with them. A customer who is enthusiastic and vocal can be one of the strongest marketing tools in your arsenal; Even if you have the best marketing copy in the world, <a href="https://econsultancy.com/blog/9366-ecommerce-consumer-reviews-why-you-need-them-and-how-to-use-them" target="_blank">shoppers are 12 times more likely to trust a review over your description of a product</a>.</p>
-<p dir="ltr">Pro Tip: When you get a glowing review, approach the reviewer privately and ask if you can use their review elsewhere on your site and in your marketing materials. For example, include snippets from glowing reviews on your check-out page or in an e-mail campaign.</p>
-<h3 dir="ltr">Good</h3>
-<p><img class="alignleft size-full wp-image-17757" style="margin: auto; display: block; margin-left: 15px;" title="Image 1" src="http://www.prestashop.com/blog/en/files/2014/07/Image-1.png" alt="" width="300" height="300" align="right" /></p>
-<p dir="ltr">When you get a positive review, it’s best to respond to it publicly. Try to respond to as many positive reviews as you can, it shows your current and past shoppers that you really value and appreciate their feedback, making them more likely to leave it. A quick thanks will do, but a personal response is even better.</p>
-<p dir="ltr">Pro Tip: If you’re responding to a lot of reviews, you may be tempted to use a boilerplate answer&#8211;don’t do it! Try to vary your responses and make them as personal as possible; include the reviewers name and try to respond to a specific aspect of the review. For example, don’t say “Thanks for the awesome review!” say “Thanks for the awesome review, Carol! We’re so happy to hear you like the fit of your new shirt&#8211;enjoy!”</p>
-<h3 dir="ltr">Inaccurate</h3>
-<p><img class="alignleft size-full wp-image-17771" style="margin: auto; display: block; margin-left: 15px;" title="Image 4" src="http://www.prestashop.com/blog/en/files/2014/07/Image-4.png" alt="" width="300" height="300" align="right" /></p>
-<p dir="ltr">Although “the customer is always right,” sometimes they just get it wrong. We’ve all seen this type of review; whether positive or negative, it’s filled information that just isn’t true.  If the review is blatantly wrong and could be considered misleading to new shoppers.</p>
-<p dir="ltr">Pro Tip: Reach out to these reviewers privately to try and suss out why they included inaccurate info in their review. At best, they’ll see they were wrong and post a new review. At worst, you’ll simply have to hear from an angry customer.</p>
-<h3 dir="ltr">Negative</h3>
-<p><img class="alignleft size-full wp-image-17769" style="margin: auto; display: block; margin-left: 15px;" title="Image 3" src="http://www.prestashop.com/blog/en/files/2014/07/Image-3.png" alt="" width="300" height="300" align="right" /></p>
-<p dir="ltr">Negative reviews scare a lot of store owners, but they are actually a blessing in disguise. Assuming something actually went wrong, an error on your end should be seen as an opportunity to amaze your shoppers with excellent customer service. <a href="https://www.helpscout.net/blog/customer-complaints/" target="_blank">Studies show that 90% of customers will give you a second chance if you resolve their issue in a timely manner.</a> At Yotpo, we always recommend you go ahead and post negative reviews because it lends credibility to the rest of the good reviews and also helps customers get a real feel for the product.</p>
-<p dir="ltr">Pro Tip: Don’t just resolve a customer’s problem, go above and beyond and you’ll have a customer for life. There’s lots of ways to wow them with great customer service&#8211;simply taking the time to get on the phone with them to apologize for a mistake can go a long way. If it’s possible, you might consider giving them a small gift from your store</p>
-<p dir="ltr">Now that you know the best way to handle all of these types of reviews, have you been doing it right?</p>
-<p dir="ltr">Any other tips for best practices when handling happy or angry shoppers? Let us know below!</p>
-<div></div>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/4-types-of-reviews-that-will-make-or-break-your-business-are-you-handling-them-right/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>SEO Expert Series &#124; Rand Fishkin of Moz</title>
-		<link>http://www.prestashop.com/blog/en/seo-expert-series-rand-fishkin-of-moz/</link>
-		<comments>http://www.prestashop.com/blog/en/seo-expert-series-rand-fishkin-of-moz/#comments</comments>
-		<pubDate>Thu, 10 Jul 2014 14:29:53 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17656</guid>
-		<description><![CDATA[Enter Rand Fishkin, world renowned SEO expert and co-author/co-founder of the Art of SEO, Inbound.org, and Moz. Rand’s an addict of all things content, search, &#38; social on the web. He teamed up with PrestaShop Moderator, Lesley Paone of dh42 to give you expert &#8230; <a href="http://www.prestashop.com/blog/en/seo-expert-series-rand-fishkin-of-moz/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>Enter Rand Fishkin, world renowned SEO expert and co-author/co-founder of the <a href="http://www.artofseobook.com/" target="_blank">Art of SEO</a>, <a href="http://inbound.org/">Inbound.org</a>, and <a href="http://www.moz.com" target="_blank">Moz</a>. Rand’s an addict of all things content, search, &amp; social on the web. He teamed up with PrestaShop Moderator, <a href="http://www.prestashop.com/forums/user/435599-dh42/">Lesley Paone</a> of <a href="http://dh42.com/">dh42</a> to give you expert insights into how SEO, PrestaShop and ecommerce work together.<br />
-<a href="http://moz.com/about/team/randfish"></p>
-<p><img class="alignleft size-medium wp-image-17667" style="margin: auto; display: block; margin-left: 15px;" title="Rand Fishkin" src="http://www.prestashop.com/blog/en/files/2014/07/Rand-300x300.jpg" alt="Rand Fishkin SEO PrestaShop" width="300" height="300" align="right" /></a></p>
-<ol>
-<li>
-<h4>What would be your first steps in starting SEO for a newly launched e-commerce site?</h4>
-<p>I would first want to think about my overall marketing and unique value proposition. The days when SEO could be achieved by a business or website without something unique that made them truly stand out to the web are over. Today, if you want to perform well in search rankings over the long haul, you need to be remarkable in a way that makes those who see your shop want to share, write about you, and recommend you to others. Establishing that true uniqueness is incredibly challenging, but with billions of people performing billions of searches and only a few top ranking positions for any given set of keywords, competition is naturally going to be intense.</li>
-<p><span id="more-17656"></span></p>
-<li>
-<h4>Do you think every e-commerce site needs a blog?</h4>
-<p>No, certainly not. Unless your passion is writing and you can create a remarkable blog that people will want to read and share, I&#8217;d do something else. Find that area of contribution to your site (and your business) where your skills can shine and you can be better than 99% of your competitors and do that. It could be photography or design or video or interactive elements. Perhaps it&#8217;s in-depth guides or how-tos. Maybe you can produce animations or illustrations that perfectly capture your products&#8217; value. Blogs are a popular way to share content, but not every piece of content that you might be uniquely good at is best suited to a blog.</li>
-<li>
-<h4>What do you think are the most important factors in getting product pages to rank high in search engines.</h4>
-<p>&#8212; A powerful domain that many people are linking to and using<br />
-&#8212;Individual pages that have lots of editorially-given links and usage data associated with them<br />
-&#8212;Keyword targeting that matches what the searcher has typed in<br />
-&#8212; A page experience that not only fulfills the searcher&#8217;s needs, but goes beyond utility to provide enjoyment, surprise, and delight as well (this is what the few stores that are able to outrank giants like Amazon have been able to do)<br />
-&#8212;A bot-friendly internal link/crawl structure and URL system &#8211; every unique item/category/piece of content has only a single, static, readable, canonical URL<br />
-&#8212;Schema markup is a good way to stand out in the SERPs &#8211; there are a <a href="http://searchengineland.com/e-commerce-seo-using-schema-org-just-got-a-lot-more-granular-139236" target="_blank">ton of options listed here</a>.</li>
-<li>
-<h4>Do you have any suggestions for drop shippers that use a product feed with no unique descriptions?</h4>
-<p>If you offer no unique value beyond the availability of the same product many others are offering, you don&#8217;t deserve to rank well. Historically, you could be in an undeserving position and still leverage SEO to rank, but those days are over. My suggestion would be not to expect to rank well for pages where you&#8217;re not providing an experience dramatically better than everyone else in the top 20 results &#8211; that includes unique descriptions (although that&#8217;s the most basic of the required elements).</li>
-<li>
-<h4>How would you go about link building for an e-commerce site?</h4>
-<p>I&#8217;ve seen a lot of success from e-commerce stores that are very press-worthy and get the attention of media and blogs. My focus would be on designing an experience, a collection of products, and a style that&#8217;s unique and media-worthy. Some good places to get inspiration are the sites showing off unique ecommerce designs. Check out, for example: <a href="http://www.awwwards.com/20-of-the-very-best-e-commerce-web-sites.html" target="_blank">Awwwards</a>, <a href="http://www.smashingmagazine.com/2010/01/22/35-beautiful-and-effective-ecommerce-websites/" target="_blank">Smashing Magazine</a> and <a href="http://engage.synecoretech.com/marketing-technology-for-growth/bid/177023/10-Awesome-Examples-of-Ecommerce-Sites-Using-Responsive-Web-Design" target="_blank">Synecore</a>.</p>
-<p>Once you have that media-worthiness in your design and focus, I&#8217;d seek to produce content that helps show off what makes the site unique. Betabrand, for example, focuses on sharing <a href="http://www.theverge.com/2014/2/20/5430460/move-fast-and-sew-things-how-betabrand-turns-crazy-ideas-into-real-stuff">how their dress yoga pants can provide comfort</a> in professional settings</li>
-<li>
-<h4>What are &#8220;local citations&#8221;? Do you think they are important for e-commerce sites that sell to a whole country, several countries, or even worldwide?</h4>
-<p>Local citations are generally more geared toward the local listings (those that show up in Google&#8217;s &#8220;maps&#8221; style results). If you&#8217;re marketing nationally or globally and don&#8217;t have physical storefronts, these are less important (though anyone mentioning or talking about you online is a good thing).</li>
-<li>
-<h4>When an e-commerce website has product pages for products that will never be in stock again, how would you handle them for SEO? Remove the page? Leave the pages up with an Out of Stock message? Redirect the page to other products or something else?</h4>
-<p>I like to do one of two things &#8211; either redirect the page using a 301 to the most similar item or the category/subcategory level page above it. Or, I&#8217;d leave the page up with a message that it&#8217;s no longer in stock, but here&#8217;s several items that are good substitutes. In the second case, it really becomes a landing page to drive search traffic that may still exist for the item to places where you can help satisfy those searchers.</p>
-<h4></h4>
-</li>
-<li>
-<h4>Do you have any suggestions on how category pages should be handled in relation to duplicate content and thin content?</h4>
-<p>Google doesn&#8217;t worry too much about duplicate content on category pages &#8211; they expect that many of the words and photos are going to be similar to what&#8217;s found on product pages. The issue is when you have lots of versions of a single category page with little unique value to searchers. For example, having a category page for women&#8217;s pants is a good idea. Having 28 separate category pages for women&#8217;s pants where the only variations are size and color is probably not a great idea. In faceted navigation scenarios like that, I&#8217;d make the color and size filtered pages use a rel=canonical back to the non-faceted women&#8217;s pants page.</li>
-<li>
-<h4>What are some tips you can give online merchants looking to hire an SEO firm to handle their e-commerce website?</h4>
-<p>I really like this short quiz Ian Lurie of Portent Interactive put together on <a href="http://www.portent.com/blog/seo/how-to-hire-an-seo-company-2012-edition.htm" target="_blank">How to Hire an SEO Company</a>. If you follow those guidelines, you&#8217;ll be in good shape. Just don&#8217;t be afraid to ask dumb questions and to follow up by asking &#8220;why&#8221; and &#8220;how do you know that&#8221; &#8211; SEOs aren&#8217;t following any mystical forms of knowledge and should be able to clearly explain why search engines work the way they do.</li>
-<li>
-<h4>Can you explain how Moz would help PrestaShop merchants?</h4>
-<p>Moz has a ton of free resources to help learn about SEO and web marketing. I&#8217;d suggest checking out our <a href="http://moz.com/beginners-guide-to-seo" target="_blank">Beginner&#8217;s Guide to SEO</a>, our <a href="http://moz.com/learn/seo" target="_blank">Learn</a> page, and <a href="http://moz.com/blog/category/whiteboard-friday" target="_blank">Whiteboard Friday</a>.</p>
-<p>As far as our software goes, it&#8217;s great for professional web marketers, so if you&#8217;re deep into the worlds of SEO, social media, and content marketing, definitely check it out. But if you&#8217;re planning to hire a marketer or a consultant, they&#8217;re probably the right folks to determine whether a <a href="http://moz.com/products/pro" target="_blank">Moz subscription</a> is right for you.</li>
-</ol>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/seo-expert-series-rand-fishkin-of-moz/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
+		<slash:comments>3</slash:comments>
 		</item>
 	</channel>
 </rss>
@@ -613,6 +562,6 @@ To give you a head start, here’s a list of the major price comparison engines:
 
 Minified using disk: basic
 Page Caching using disk: enhanced
-Object Caching 829/984 objects using disk: basic
+Object Caching 831/978 objects using disk: basic
 
-Served from: www.prestashop.com @ 2014-07-30 17:56:02 -->
+Served from: www.prestashop.com @ 2014-08-02 10:56:03 -->

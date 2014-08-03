@@ -383,8 +383,8 @@ font-family: 'PT Sans', sans-serif; }
       clear: none; }
       #attributes .attribute_list #color_to_pick_list li a.color_pick {
         display: block;
-        height: 22px;
-        width: 22px;
+        height: 100%;
+        width: 100%;
         cursor: pointer; }
       #attributes .attribute_list #color_to_pick_list li.selected {
         border: 1px solid #4d4d4d; }
@@ -864,6 +864,17 @@ ul#text_fields {
 .accessories_block div ul li.s_title_block a,
 .accessories_block div ul li.s_title_block span {
   font-weight: 700; }
+  
+  
+  label.farba-l {
+text-align: center;
+padding-top: 5px;
+font-weight: bold;
+text-transform: uppercase;
+font-family: 'PT Sans', sans-serif;
+font-size: 10px;
+max-width: 88px;
+}
 
 /******************************************************************
 Quick View Styles
