@@ -1,5 +1,14 @@
 {if $MENU != ''}
 	<!-- Menu -->
+	<script type="text/javascript">
+	$(document).ready(function(){
+//		$("#showIfResolution").css("display","block");
+//		$(".showIfResolutionRow").css("display","none")
+//		$( window ).resize(function() {
+//			console.log($( window ).width());
+//		});
+	});
+	</script>
 	<div id="block_top_menu" class="sf-contener hlavne-menu clearfix col-lg-5">
 		<div class="cat-title">{l s="Categories" mod="blocktopmenu"}</div>
 		<ul class="sf-menu clearfix menu-content">

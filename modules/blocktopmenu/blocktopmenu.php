@@ -475,9 +475,19 @@ class Blocktopmenu extends Module
 			}
 			else
 				$link = $this->context->link->getPageLink('index');
-
+				
+//			if($category['level_depth'] == 3){
+//				$html .= '<li id="showIfResolution" style="display:none"'.(($this->page_name == 'category'
+//				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
+//
+//				$html .= '<a href="'.$link.'" title="'.$category['name'].'" class="'.'category-heading'.'">';
+//				$html .= '<span>';
+//				$html .= $category['name'];
+//				$html .= '</span>';
+//				$html .= '</a></li>';
+//			}
 			if($category['level_depth'] == 3){
-				$html .= '<div class="row '.$cat->link_rewrite[2].'">';
+				$html .= '<div class="row '.$cat->link_rewrite[2].' showIfResolutionRow">';
 			}
 			$html .= '<li'.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
@@ -505,7 +515,6 @@ class Blocktopmenu extends Module
 						$html .= '</li>';
 					}
 					$html .= '</ul>';
-					$html .= '</div>';
 					$html .= '</div>';
 				}
 			}
@@ -543,6 +552,9 @@ class Blocktopmenu extends Module
 			}
 
 			$html .= '</li>';
+			if($category['level_depth'] == 3){
+				$html .= '</div>';
+			}
 		}
 
 		return $html;
