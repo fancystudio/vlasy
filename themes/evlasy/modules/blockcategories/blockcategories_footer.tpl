@@ -22,7 +22,6 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-
 <!-- Block categories module -->
 <section class="blockcategories_footer footer-block col-sm-3 col-md-3 col-sms-6 col-smb-12">
 	<h4>{l s='Categories' mod='blockcategories'}</h4>

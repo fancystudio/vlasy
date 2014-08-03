@@ -44,10 +44,10 @@
 					</a>
 				</li>
 			{/if}
-			<li>
-				<a href="{$link->getPageLink('order-slip', true)|escape:'html':'UTF-8'}" title="{l s='My credit slips' mod='blockmyaccount'}">	{l s='My credit slips' mod='blockmyaccount'}
-				</a>
-			</li>
+<!--			<li>-->
+<!--				<a href="{$link->getPageLink('order-slip', true)|escape:'html':'UTF-8'}" title="{l s='My credit slips' mod='blockmyaccount'}">	{l s='My credit slips' mod='blockmyaccount'}-->
+<!--				</a>-->
+<!--			</li>-->
 			<li>
 				<a href="{$link->getPageLink('addresses', true)|escape:'html':'UTF-8'}" title="{l s='My addresses' mod='blockmyaccount'}">
 					{l s='My addresses' mod='blockmyaccount'}
