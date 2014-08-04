@@ -504,8 +504,9 @@ class Blocktopmenu extends Module
 					$html .= '<div class="col-md-12 clearfix">';
 					$html .= '<ul>';
 					foreach($products as $product){
+						//print_r($product['features'][0]["value"]);
 						$html .= '<li class="menu-item">';
-						$html .= '<a href="'.$product['link'].'">';
+						$html .= '<a href="'.$product['link'].'">'.(isset($product['features'][0]["value"]) ? '<label class="vahaProd">'.$product['features'][0]["value"].'</label>' : '');
 						if($cat->link_rewrite[2] != "clip-in-podla-seba"){
 							$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok" class="img-responsive"/>';
 						}else{
