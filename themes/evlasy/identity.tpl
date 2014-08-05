@@ -55,17 +55,17 @@
         </p>
         <form action="{$link->getPageLink('identity', true)|escape:'html':'UTF-8'}" method="post" class="std">
             <fieldset>
-                <div class="clearfix">
-                    <label>{l s='Title'}</label>
-                    <br />
-                    {foreach from=$genders key=k item=gender}
-                        <div class="radio-inline">
-                            <label for="id_gender{$gender->id}" class="top">
-                            <input type="radio" name="id_gender" id="id_gender{$gender->id}" value="{$gender->id|intval}" {if isset($smarty.post.id_gender) && $smarty.post.id_gender == $gender->id}checked="checked"{/if} />
-                            {$gender->name}</label>
-                        </div>
-                    {/foreach}
-                </div>
+<!--                <div class="clearfix">-->
+<!--                    <label>{l s='Title'}</label>-->
+<!--                    <br />-->
+<!--                    {foreach from=$genders key=k item=gender}-->
+<!--                        <div class="radio-inline">-->
+<!--                            <label for="id_gender{$gender->id}" class="top">-->
+<!--                            <input type="radio" name="id_gender" id="id_gender{$gender->id}" value="{$gender->id|intval}" {if isset($smarty.post.id_gender) && $smarty.post.id_gender == $gender->id}checked="checked"{/if} />-->
+<!--                            {$gender->name}</label>-->
+<!--                        </div>-->
+<!--                    {/foreach}-->
+<!--                </div>-->
                 <div class="required form-group">
                     <label for="firstname" class="required">
                         {l s='First name'} 
@@ -84,38 +84,38 @@
                     </label>
                     <input class="is_required validate form-control" data-validate="isEmail" type="email" name="email" id="email" value="{$smarty.post.email}" />
                 </div>
-                <div class="form-group">
-                    <label>
-                        {l s='Date of Birth'}
-                    </label>
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <select name="days" id="days" class="form-control">
-                                <option value="">-</option>
-                                {foreach from=$days item=v}
-                                    <option value="{$v}" {if ($sl_day == $v)}selected="selected"{/if}>{$v}&nbsp;&nbsp;</option>
-                                {/foreach}
-                            </select>
-
-                        </div>
-                        <div class="col-xs-4">
-                            <select id="months" name="months" class="form-control">
-                                <option value="">-</option>
-                                {foreach from=$months key=k item=v}
-                                    <option value="{$k}" {if ($sl_month == $k)}selected="selected"{/if}>{l s=$v}&nbsp;</option>
-                                {/foreach}
-                            </select>
-                        </div>
-                        <div class="col-xs-4">
-                            <select id="years" name="years" class="form-control">
-                                <option value="">-</option>
-                                {foreach from=$years item=v}
-                                    <option value="{$v}" {if ($sl_year == $v)}selected="selected"{/if}>{$v}&nbsp;&nbsp;</option>
-                                {/foreach}
-                            </select>
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="form-group">-->
+<!--                    <label>-->
+<!--                        {l s='Date of Birth'}-->
+<!--                    </label>-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-xs-4">-->
+<!--                            <select name="days" id="days" class="form-control">-->
+<!--                                <option value="">-</option>-->
+<!--                                {foreach from=$days item=v}-->
+<!--                                    <option value="{$v}" {if ($sl_day == $v)}selected="selected"{/if}>{$v}&nbsp;&nbsp;</option>-->
+<!--                                {/foreach}-->
+<!--                            </select>-->
+<!---->
+<!--                        </div>-->
+<!--                        <div class="col-xs-4">-->
+<!--                            <select id="months" name="months" class="form-control">-->
+<!--                                <option value="">-</option>-->
+<!--                                {foreach from=$months key=k item=v}-->
+<!--                                    <option value="{$k}" {if ($sl_month == $k)}selected="selected"{/if}>{l s=$v}&nbsp;</option>-->
+<!--                                {/foreach}-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                        <div class="col-xs-4">-->
+<!--                            <select id="years" name="years" class="form-control">-->
+<!--                                <option value="">-</option>-->
+<!--                                {foreach from=$years item=v}-->
+<!--                                    <option value="{$v}" {if ($sl_year == $v)}selected="selected"{/if}>{$v}&nbsp;&nbsp;</option>-->
+<!--                                {/foreach}-->
+<!--                            </select>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="required form-group">
                     <label for="old_passwd" class="required">
                         {l s='Current Password'} 
@@ -141,12 +141,12 @@
                             {l s='Sign up for our newsletter!'}
                         </label>
                     </div>
-                    <div class="checkbox">
-                        <label for="optin">
-                            <input type="checkbox" name="optin" id="optin" value="1" {if isset($smarty.post.optin) && $smarty.post.optin == 1} checked="checked"{/if}/>
-                            {l s='Receive special offers from our partners!'}
-                        </label>
-                    </div>
+<!--                    <div class="checkbox">-->
+<!--                        <label for="optin">-->
+<!--                            <input type="checkbox" name="optin" id="optin" value="1" {if isset($smarty.post.optin) && $smarty.post.optin == 1} checked="checked"{/if}/>-->
+<!--                            {l s='Receive special offers from our partners!'}-->
+<!--                        </label>-->
+<!--                    </div>-->
                 {/if}
 			{if $b2b_enable}
 				<h1 class="page-subheading">

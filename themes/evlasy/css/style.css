@@ -753,6 +753,9 @@ color: white;
 
 }
 
+.blockcategories_footer ul ul {
+display: block !important;
+}
 
 
 

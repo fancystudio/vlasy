@@ -420,18 +420,18 @@
 		{$HOOK_CREATE_ACCOUNT_TOP}
 		<div class="account_creation">
 			<h3 class="page-subheading">{l s='Your personal information'}</h3>
-			<div class="clearfix">
-				<label>{l s='Title'}</label>
-				<br />
-				{foreach from=$genders key=k item=gender}
-					<div class="radio-inline">
-						<label for="id_gender{$gender->id}" class="top">
-							<input type="radio" name="id_gender" id="id_gender{$gender->id}" value="{$gender->id}" {if isset($smarty.post.id_gender) && $smarty.post.id_gender == $gender->id}checked="checked"{/if} />
-						{$gender->name}
-						</label>
-					</div>
-				{/foreach}
-			</div>
+<!--			<div class="clearfix">-->
+<!--				<label>{l s='Title'}</label>-->
+<!--				<br />-->
+<!--				{foreach from=$genders key=k item=gender}-->
+<!--					<div class="radio-inline">-->
+<!--						<label for="id_gender{$gender->id}" class="top">-->
+<!--							<input type="radio" name="id_gender" id="id_gender{$gender->id}" value="{$gender->id}" {if isset($smarty.post.id_gender) && $smarty.post.id_gender == $gender->id}checked="checked"{/if} />-->
+<!--						{$gender->name}-->
+<!--						</label>-->
+<!--					</div>-->
+<!--				{/foreach}-->
+<!--			</div>-->
 			<div class="required form-group">
 				<label for="customer_firstname">{l s='First name'} <sup>*</sup></label>
 				<input onkeyup="$('#firstname').val(this.value);" type="text" class="is_required validate form-control" data-validate="isName" id="customer_firstname" name="customer_firstname" value="{if isset($smarty.post.customer_firstname)}{$smarty.post.customer_firstname}{/if}" />
@@ -449,58 +449,58 @@
 				<input type="password" class="is_required validate form-control" data-validate="isPasswd" name="passwd" id="passwd" />
 				<span class="form_info">{l s='(Five characters minimum)'}</span>
 			</div> 
-			<div class="form-group">
-				<label>{l s='Date of Birth'}</label>
-				<div class="row">
-					<div class="col-xs-4">
-						<select id="days" name="days" class="form-control">
-							<option value="">-</option>
-							{foreach from=$days item=day}
-								<option value="{$day}" {if ($sl_day == $day)} selected="selected"{/if}>{$day}&nbsp;&nbsp;</option>
-							{/foreach}
-						</select>
-						{*
-							{l s='January'}
-							{l s='February'}
-							{l s='March'}
-							{l s='April'}
-							{l s='May'}
-							{l s='June'}
-							{l s='July'}
-							{l s='August'}
-							{l s='September'}
-							{l s='October'}
-							{l s='November'}
-							{l s='December'}
-						*}
-					</div>
-					<div class="col-xs-4">
-						<select id="months" name="months" class="form-control">
-							<option value="">-</option>
-							{foreach from=$months key=k item=month}
-								<option value="{$k}" {if ($sl_month == $k)} selected="selected"{/if}>{l s=$month}&nbsp;</option>
-							{/foreach}
-						</select>
-					</div>
-					<div class="col-xs-4">
-						<select id="years" name="years" class="form-control">
-							<option value="">-</option>
-							{foreach from=$years item=year}
-								<option value="{$year}" {if ($sl_year == $year)} selected="selected"{/if}>{$year}&nbsp;&nbsp;</option>
-							{/foreach}
-						</select>
-					</div>
-				</div>
-			</div>
+<!--			<div class="form-group">-->
+<!--				<label>{l s='Date of Birth'}</label>-->
+<!--				<div class="row">-->
+<!--					<div class="col-xs-4">-->
+<!--						<select id="days" name="days" class="form-control">-->
+<!--							<option value="">-</option>-->
+<!--							{foreach from=$days item=day}-->
+<!--								<option value="{$day}" {if ($sl_day == $day)} selected="selected"{/if}>{$day}&nbsp;&nbsp;</option>-->
+<!--							{/foreach}-->
+<!--						</select>-->
+<!--						{*-->
+<!--							{l s='January'}-->
+<!--							{l s='February'}-->
+<!--							{l s='March'}-->
+<!--							{l s='April'}-->
+<!--							{l s='May'}-->
+<!--							{l s='June'}-->
+<!--							{l s='July'}-->
+<!--							{l s='August'}-->
+<!--							{l s='September'}-->
+<!--							{l s='October'}-->
+<!--							{l s='November'}-->
+<!--							{l s='December'}-->
+<!--						*}-->
+<!--					</div>-->
+<!--					<div class="col-xs-4">-->
+<!--						<select id="months" name="months" class="form-control">-->
+<!--							<option value="">-</option>-->
+<!--							{foreach from=$months key=k item=month}-->
+<!--								<option value="{$k}" {if ($sl_month == $k)} selected="selected"{/if}>{l s=$month}&nbsp;</option>-->
+<!--							{/foreach}-->
+<!--						</select>-->
+<!--					</div>-->
+<!--					<div class="col-xs-4">-->
+<!--						<select id="years" name="years" class="form-control">-->
+<!--							<option value="">-</option>-->
+<!--							{foreach from=$years item=year}-->
+<!--								<option value="{$year}" {if ($sl_year == $year)} selected="selected"{/if}>{$year}&nbsp;&nbsp;</option>-->
+<!--							{/foreach}-->
+<!--						</select>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
 			{if $newsletter}
 				<div class="checkbox">
 					<input type="checkbox" name="newsletter" id="newsletter" value="1" {if isset($smarty.post.newsletter) AND $smarty.post.newsletter == 1} checked="checked"{/if} />
 					<label for="newsletter">{l s='Sign up for our newsletter!'}</label>
 				</div>
-				<div class="checkbox">
-					<input type="checkbox"name="optin" id="optin" value="1" {if isset($smarty.post.optin) AND $smarty.post.optin == 1} checked="checked"{/if} />
-					<label for="optin">{l s='Receive special offers from our partners!'}</label>
-				</div>
+<!--				<div class="checkbox">-->
+<!--					<input type="checkbox"name="optin" id="optin" value="1" {if isset($smarty.post.optin) AND $smarty.post.optin == 1} checked="checked"{/if} />-->
+<!--					<label for="optin">{l s='Receive special offers from our partners!'}</label>-->
+<!--				</div>-->
 			{/if}
 		</div>
 		{if $b2b_enable}
