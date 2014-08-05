@@ -1,51 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
 
-<channel>
-	<title>Blog EN</title>
-	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
-	<link>http://www.prestashop.com/blog/en</link>
-	<description></description>
-	<lastBuildDate>Tue, 05 Aug 2014 15:44:57 +0000</lastBuildDate>
-	<language>en-US</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>http://wordpress.org/?v=3.4</generator>
+	<channel>
+		<title>Blog EN</title>
+		<atom:link href="http://www.prestashop.com/blog/en/feed/"
+			rel="self" type="application/rss+xml" />
+		<link>http://www.prestashop.com/blog/en</link>
+		<description></description>
+		<lastBuildDate>Tue, 05 Aug 2014 15:44:57 +0000</lastBuildDate>
+		<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>http://wordpress.org/?v=3.4</generator>
 		<item>
-		<title>Reader Survey: Tell us what ecommerce topics matter to you!</title>
-		<link>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/</link>
-		<comments>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/#comments</comments>
-		<pubDate>Tue, 05 Aug 2014 15:44:57 +0000</pubDate>
-		<dc:creator>Natalie Beigel</dc:creator>
-				<category><![CDATA[PrestaShop News]]></category>
+			<title>Reader Survey: Tell us what ecommerce topics matter to you!</title>
+			<link>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/</link>
+			<comments>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/#comments</comments>
+			<pubDate>Tue, 05 Aug 2014 15:44:57 +0000</pubDate>
+			<dc:creator>Natalie Beigel</dc:creator>
+			<category><![CDATA[PrestaShop News]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18065</guid>
-		<description><![CDATA[Dear readers, your opinion matters! Please take our quick, 1-minute survey to tell us what topics you’d like us to cover on the blog.]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18065</guid>
+			<description><![CDATA[Dear readers, your opinion matters! Please take our quick, 1-minute survey to tell us what topics you’d like us to cover on the blog.]]></description>
 			<content:encoded><![CDATA[<p>Dear readers, your opinion matters! Please take our quick, 1-minute survey to tell us what topics you’d like us to cover on the blog.</p>
 <p><img class="aligncenter size-large wp-image-16900" title="Readers Survey Blog Image" src="http://www.prestashop.com/blog/fr/files/2014/08/Readers-Survey-Blog-Image-1024x537.jpg" alt="" width="584" height="306" /></p>
 <p><span id="more-18065"></span></p>
 <p><iframe src="https://docs.google.com/forms/d/1xnCawknTuIixQV4DkHSYlWqgvjGx2zH2uClB4AkSAhM/viewform?embedded=true" frameborder="0" marginwidth="0" marginheight="0" width="540" height="1070"></iframe></p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>Optimize your Ecommerce Site for Social Gift Giving</title>
-		<link>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/</link>
-		<comments>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/#comments</comments>
-		<pubDate>Mon, 04 Aug 2014 15:26:19 +0000</pubDate>
-		<dc:creator>Julie Liu</dc:creator>
-				<category><![CDATA[PrestaShop Partners]]></category>
+			<title>Optimize your Ecommerce Site for Social Gift Giving</title>
+			<link>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/</link>
+			<comments>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/#comments</comments>
+			<pubDate>Mon, 04 Aug 2014 15:26:19 +0000</pubDate>
+			<dc:creator>Julie Liu</dc:creator>
+			<category><![CDATA[PrestaShop Partners]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18088</guid>
-		<description><![CDATA[Finding the perfect gift is never an easy thing to do. According to Hubspot, 64.8% of consumers are turning to social media sites to find a perfect gift. To help PrestaShop merchants capitalize on this growing trend, we are introducing &#8230; <a href="http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18088</guid>
+			<description><![CDATA[Finding the perfect gift is never an easy thing to do. According to Hubspot, 64.8% of consumers are turning to social media sites to find a perfect gift. To help PrestaShop merchants capitalize on this growing trend, we are introducing &#8230; <a href="http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p>Finding the perfect gift is never an easy thing to do. According to <a href="http://www.slideshare.net/HubSpot/47-stats-for-remarkable-holiday-marketing?utm_source=buffer&amp;utm_campaign=Buffer&amp;utm_content=buffer68391&amp;utm_medium=twitter" target="_blank">Hubspot</a>, 64.8% of consumers are turning to social media sites to find a perfect gift. To help PrestaShop merchants capitalize on this growing trend, we are introducing Give.it, an interactive gift-giving solution beyond personal messages and wrapping.</p>
 <p style="text-align: center;"><img class="aligncenter  wp-image-18089" src="http://www.prestashop.com/blog/en/files/2014/08/giveit-main.png" alt="" width="540" height="284" /></p>
 <p><span id="more-18088"></span><br />
@@ -69,19 +67,21 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 </ol>
 <p>Give.it is on a mission to change the face of online gifting. PrestaShop merchants can profit from this innovative concept by downloading the <a href="http://addons.prestashop.com/en/advertising-marketing-newsletter-modules/15784-giveit.html" target="_blank">Give.it module</a> for free from the Official PrestaShop Marketplace!</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>PrestaShop World Tour: Meet Sweet Isabelle, a Canadian Online Store Turned Bakery</title>
-		<link>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/</link>
-		<comments>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/#comments</comments>
-		<pubDate>Fri, 01 Aug 2014 13:49:28 +0000</pubDate>
-		<dc:creator>Quentin Audrain</dc:creator>
-				<category><![CDATA[PrestaShop World Tour]]></category>
+			<title>PrestaShop World Tour: Meet Sweet Isabelle, a Canadian Online
+				Store Turned Bakery</title>
+			<link>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/</link>
+			<comments>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/#comments</comments>
+			<pubDate>Fri, 01 Aug 2014 13:49:28 +0000</pubDate>
+			<dc:creator>Quentin Audrain</dc:creator>
+			<category><![CDATA[PrestaShop World Tour]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17961</guid>
-		<description><![CDATA[Canada is a fascinating and complex country for ecommerce. With two official languages (English and French), e-merchants have to work harder just to accommodate customers in their country. This however, is also a huge opportunity for merchants to quickly expand &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17961</guid>
+			<description><![CDATA[Canada is a fascinating and complex country for ecommerce. With two official languages (English and French), e-merchants have to work harder just to accommodate customers in their country. This however, is also a huge opportunity for merchants to quickly expand &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p style="text-align: left;">Canada is a fascinating and complex country for ecommerce. With two official languages (English and French), e-merchants have to work harder just to accommodate customers in their country. This however, is also a huge opportunity for merchants to quickly expand beyond their borders. After all, American and French customers are merely a few clicks away.</p>
 <p style="text-align: center;"><img class="aligncenter  wp-image-17974" src="http://www.prestashop.com/blog/en/files/2014/07/MONTREAL.jpg" alt="" width="540" height="284" /></p>
 <p><span id="more-17961"></span></p>
@@ -93,19 +93,20 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 <p>This stop wraps up our 5-month journey around the world exploring ecommerce cultures. Which country was your favorite in our world tour? Share in the comments below or Tweet at us with using <strong>#PSWorldTour</strong> on <a href="https://twitter.com/search?f=realtime&amp;q=%23PSworldtour&amp;src=typd" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop#" target="_blank">Instagram </a>and <a href="https://www.facebook.com/prestashop" target="_blank">Facebook</a>.</p>
 <p>Next stop: <strong>HOME </strong></p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-world-tour-meet-sweet-isabelle-a-canadian-online-store-turned-bakery/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>6 Time-tested Ways to Reduce Abandoned Shopping Carts</title>
-		<link>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/</link>
-		<comments>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/#comments</comments>
-		<pubDate>Thu, 31 Jul 2014 13:32:29 +0000</pubDate>
-		<dc:creator>Julie Liu</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+			<title>6 Time-tested Ways to Reduce Abandoned Shopping Carts</title>
+			<link>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/</link>
+			<comments>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/#comments</comments>
+			<pubDate>Thu, 31 Jul 2014 13:32:29 +0000</pubDate>
+			<dc:creator>Julie Liu</dc:creator>
+			<category><![CDATA[Ecommerce Tips and Advice]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17930</guid>
-		<description><![CDATA[Did you know that for every 1 shopping cart converted, 2-3 of them are abandoned? According to BI Intelligence, the global average rate for abandoned shopping carts is 71.2%. Want another staggering statistic? The estimated value of these shopping carts &#8230; <a href="http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17930</guid>
+			<description><![CDATA[Did you know that for every 1 shopping cart converted, 2-3 of them are abandoned? According to BI Intelligence, the global average rate for abandoned shopping carts is 71.2%. Want another staggering statistic? The estimated value of these shopping carts &#8230; <a href="http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p>Did you know that for every 1 shopping cart converted, 2-3 of them are abandoned? According to <a href="http://www.businessinsider.com/heres-how-retailers-can-reduce-shopping-cart-abandonment-and-recoup-billions-of-dollars-in-lost-sales-2014-4" target="_blank">BI Intelligence</a>, the global average rate for abandoned shopping carts is 71.2%. Want another staggering statistic? The estimated value of these shopping carts is worth approximately $4 trillion.</p>
 <p><img class="alignleft  wp-image-18030" src="http://www.prestashop.com/blog/en/files/2014/07/6abandoned-carts.png" alt="" width="605" height="318" /></p>
 <p>Today, we’re helping you cash in with 6 time-tested ways to reduce abandoned shopping carts. What are you waiting for? Let’s get started converting tentative shoppers into paying customers!<br />
@@ -137,19 +138,20 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 <p style="text-align: center;"><img class="aligncenter  wp-image-17934" src="http://www.prestashop.com/blog/en/files/2014/07/order-kpi.png" alt="" width="522" height="131" /></p>
 <p>If you are a PrestaShop merchant running 1.6, track your success with by reviewing the intelligent KPIs on your orders tab. Now an online merchant yet? <a href="http://www.prestashop.com/en/download" target="_blank">Download </a>PrestaShop’s ecommerce software to get started today.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>PrestaShop v1.6.0.9 is available for download!</title>
-		<link>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/</link>
-		<comments>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/#comments</comments>
-		<pubDate>Thu, 31 Jul 2014 08:44:02 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[PrestaShop News]]></category>
+			<title>PrestaShop v1.6.0.9 is available for download!</title>
+			<link>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/</link>
+			<comments>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/#comments</comments>
+			<pubDate>Thu, 31 Jul 2014 08:44:02 +0000</pubDate>
+			<dc:creator>Benjamin Utterback</dc:creator>
+			<category><![CDATA[PrestaShop News]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18029</guid>
-		<description><![CDATA[Today we released the latest version of PrestaShop, v1.6.0.9. In this new version, our development team responded to the feedback coming from 69 users in our amazing community! Thanks to their great contributions, you will find lots of enhancements plus &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18029</guid>
+			<description><![CDATA[Today we released the latest version of PrestaShop, v1.6.0.9. In this new version, our development team responded to the feedback coming from 69 users in our amazing community! Thanks to their great contributions, you will find lots of enhancements plus &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter  wp-image-16832" title="-PrestaShop-1.6" src="http://www.prestashop.com/blog/fr/files/2014/07/PrestaShop-1.6.png" alt="" width="576" height="302" /></p>
 <p><strong>Today we released the latest version of PrestaShop, <a href="http://www.prestashop.com/en/download" target="_blank">v1.6.0.9</a>.</strong></p>
 <p>In this new version, our development team responded to the feedback coming from 69 users in our <strong>amazing community</strong>! Thanks to their great contributions, you will find lots of enhancements plus some fixes to reported issues. <span id="more-18029"></span><strong>The most important improvements include:</strong></p>
@@ -163,19 +165,20 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 <p>&gt; <strong><a href="http://www.prestashop.com/en/download" target="_blank">Download PrestaShop 1.6.0.9</a></strong><br />
 &gt; <strong><a href="http://doc.prestashop.com/display/PS16/Updating+PrestaShop" target="_blank">Consult our updating guide</a></strong></p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>DIY Ecommerce Guide to Gorgeous Product Photography</title>
-		<link>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/</link>
-		<comments>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/#comments</comments>
-		<pubDate>Wed, 30 Jul 2014 16:10:48 +0000</pubDate>
-		<dc:creator>Natalie Beigel</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+			<title>DIY Ecommerce Guide to Gorgeous Product Photography</title>
+			<link>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/</link>
+			<comments>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/#comments</comments>
+			<pubDate>Wed, 30 Jul 2014 16:10:48 +0000</pubDate>
+			<dc:creator>Natalie Beigel</dc:creator>
+			<category><![CDATA[Ecommerce Tips and Advice]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17937</guid>
-		<description><![CDATA[When it comes to ecommerce and online retail, there’s no denying that product photography plays a huge role in customer purchasing behavior. Using beautiful, high-quality images to showcase your products will be your store’s biggest asset for increasing conversions. We &#8230; <a href="http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17937</guid>
+			<description><![CDATA[When it comes to ecommerce and online retail, there’s no denying that product photography plays a huge role in customer purchasing behavior. Using beautiful, high-quality images to showcase your products will be your store’s biggest asset for increasing conversions. We &#8230; <a href="http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p>When it comes to ecommerce and online retail, there’s no denying that product photography plays a huge role in customer purchasing behavior. Using beautiful, high-quality images to showcase your products will be your store’s biggest asset for increasing conversions.</p>
 <p>We interviewed Thomas Kragelund, CEO of Remove the Background, a seasoned expert at optimizing product images for ecommerce sites. In this DIY ecommerce guide to gorgeous product photography, Thomas answers commonly asked questions and shares professional techniques to help you produce irresistible product images.</p>
 <p style="text-align: center;"><img class="aligncenter  wp-image-17940" title="photoDIY2" src="http://www.prestashop.com/blog/en/files/2014/07/photoDIY2-1024x537.png" alt="" width="584" height="306" /></p>
@@ -261,19 +264,21 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 <p>Sign-up today and get 3 free product images!</p>
 <p>Learn more at <a href="http://www.removethebackground.com/?ref=1036403" target="_blank">www.RemoveTheBackground.com</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>SEO Experts &#124; Neil Patel of KISSmetrics and QuickSprout Gives SEO Advice for Ecommerce</title>
-		<link>http://www.prestashop.com/blog/en/neil-patel-seo-advice/</link>
-		<comments>http://www.prestashop.com/blog/en/neil-patel-seo-advice/#comments</comments>
-		<pubDate>Thu, 24 Jul 2014 16:55:57 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+			<title>SEO Experts &#124; Neil Patel of KISSmetrics and QuickSprout
+				Gives SEO Advice for Ecommerce</title>
+			<link>http://www.prestashop.com/blog/en/neil-patel-seo-advice/</link>
+			<comments>http://www.prestashop.com/blog/en/neil-patel-seo-advice/#comments</comments>
+			<pubDate>Thu, 24 Jul 2014 16:55:57 +0000</pubDate>
+			<dc:creator>Benjamin Utterback</dc:creator>
+			<category><![CDATA[Ecommerce Tips and Advice]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17913</guid>
-		<description><![CDATA[We welcome Neil Patel, co-founder of Crazy Egg, KISSmetrics and Hello Bar. He has cemented himself as a top marketing authority. Forbes named him one of the Top 10 online marketers. Even President Obama recognized Neil as a top 100 &#8230; <a href="http://www.prestashop.com/blog/en/neil-patel-seo-advice/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17913</guid>
+			<description><![CDATA[We welcome Neil Patel, co-founder of Crazy Egg, KISSmetrics and Hello Bar. He has cemented himself as a top marketing authority. Forbes named him one of the Top 10 online marketers. Even President Obama recognized Neil as a top 100 &#8230; <a href="http://www.prestashop.com/blog/en/neil-patel-seo-advice/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p>We welcome <a href="http://www.neilpatel.com" target="_blank">Neil Patel</a>, co-founder of Crazy Egg, KISSmetrics and Hello Bar. He has cemented himself as a top marketing authority. Forbes named him one of the Top 10 online marketers. Even President Obama recognized Neil as a top 100 entrepreneur under the age of thirty. He has teamed up with PrestaShop moderator <a href="http://www.prestashop.com/forums/user/435599-dh42/" target="_blank">Lesley Paone</a> of <a href="http://dh42.com/" target="_blank">dh42</a> to give smart SEO pointers for anyone starting an online Ecommerce store.</p>
 <p><a href="http://www.prestashop.com/blog/en/files/2014/07/120521091806-neil-patel-profile-horizontal-gallery.jpg"><img class="alignleft  wp-image-17915" title="120521091806-neil-patel-profile-horizontal-gallery" src="http://www.prestashop.com/blog/en/files/2014/07/120521091806-neil-patel-profile-horizontal-gallery.jpg" alt="" width="576" height="324" /><br />
 </a> <span id="more-17913"></span></p>
@@ -312,19 +317,21 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 <p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br />
 Thanks for reading this edition of our SEO Experts Series. What are you waiting for? Start applying this SEO advice today. Feel free to comment below with your thoughts and questions. Have a great search day.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/neil-patel-seo-advice/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/neil-patel-seo-advice/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>Ecommerce Success Story: How Eating Tools Built a Brand from Their Passion</title>
-		<link>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/</link>
-		<comments>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/#comments</comments>
-		<pubDate>Mon, 21 Jul 2014 13:49:47 +0000</pubDate>
-		<dc:creator>Julie Liu</dc:creator>
-				<category><![CDATA[Success Stories]]></category>
+			<title>Ecommerce Success Story: How Eating Tools Built a Brand from
+				Their Passion</title>
+			<link>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/</link>
+			<comments>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/#comments</comments>
+			<pubDate>Mon, 21 Jul 2014 13:49:47 +0000</pubDate>
+			<dc:creator>Julie Liu</dc:creator>
+			<category><![CDATA[Success Stories]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17886</guid>
-		<description><![CDATA[Eating Tools is a NYC based PrestaShop store that sells handcrafted, well, eating tools. This online store was created by combining, owner, Abe Shaw’s ecommerce experience with his passion for handmade cutlery. After graduation, Abe managed ecommerce departments for several &#8230; <a href="http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17886</guid>
+			<description><![CDATA[Eating Tools is a NYC based PrestaShop store that sells handcrafted, well, eating tools. This online store was created by combining, owner, Abe Shaw’s ecommerce experience with his passion for handmade cutlery. After graduation, Abe managed ecommerce departments for several &#8230; <a href="http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p><a href="http://www.eatingtools.com/" target="_blank">Eating Tools</a> is a NYC based PrestaShop store that sells handcrafted, well, <em>eating tools</em>. This online store was created by combining, owner, Abe Shaw’s ecommerce experience with his passion for handmade cutlery. After graduation, Abe managed ecommerce departments for several high-end beauty brands. Although he enjoyed working in ecommerce, high-end beauty products weren&#8217;t his passion.</p>
 <p><img class="aligncenter size-full wp-image-17887" style="color: #333333;font-style: normal;line-height: 24.375px" src="http://www.prestashop.com/blog/en/files/2014/07/eatingtools-main.png" alt="" width="580" height="192" /></p>
 <div>
@@ -351,20 +358,22 @@ Thanks for reading this edition of our SEO Experts Series. What are you waiting 
 <p>Abe turned his passion into a beautiful online store. What’s your passion? Turn it into an online store with the <a href="http://www.prestashop.com/en/download" target="_blank">PrestaShop ecommerce software</a>.</p>
 </div>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>SEO Experts &#124; Jon Henshaw of RavenTools Speaks on SEO and Ecommerce</title>
-		<link>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/</link>
-		<comments>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/#comments</comments>
-		<pubDate>Fri, 18 Jul 2014 13:50:46 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Best Development Practices]]></category>
-		<category><![CDATA[Ecommerce Tips and Advice]]></category>
+			<title>SEO Experts &#124; Jon Henshaw of RavenTools Speaks on SEO and
+				Ecommerce</title>
+			<link>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/</link>
+			<comments>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/#comments</comments>
+			<pubDate>Fri, 18 Jul 2014 13:50:46 +0000</pubDate>
+			<dc:creator>Benjamin Utterback</dc:creator>
+			<category><![CDATA[Best Development Practices]]></category>
+			<category><![CDATA[Ecommerce Tips and Advice]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17865</guid>
-		<description><![CDATA[In our last edition of the SEO Expert Series, we interviewed Rand Fishkin of Moz. Today, we have the pleasure of meeting with with Jon Henshaw, Co-Founder &#38; CMO of Raven Internet Marketing Tools. You might have seen him speaking at &#8230; <a href="http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17865</guid>
+			<description><![CDATA[In our last edition of the SEO Expert Series, we interviewed Rand Fishkin of Moz. Today, we have the pleasure of meeting with with Jon Henshaw, Co-Founder &#38; CMO of Raven Internet Marketing Tools. You might have seen him speaking at &#8230; <a href="http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p>In our last edition of the SEO Expert Series, we <a title="SEO Expert Series | Rand Fishkin of Moz" href="http://www.prestashop.com/blog/en/seo-expert-series-rand-fishkin-of-moz/" target="_blank">interviewed Rand Fishkin of Moz</a>. Today, we have the pleasure of meeting with with Jon Henshaw, Co-Founder &amp; CMO of Raven Internet Marketing Tools. You might have seen him speaking at the largest online marketing conferences such as PubCon, SMX, SearchFest, SES and others. He teamed up with PrestaShop Moderator, <a href="http://www.prestashop.com/forums/user/435599-dh42/">Lesley Paone</a> of <a href="http://dh42.com/">dh42</a> to give you his insights into how SEO, PrestaShop and ecommerce work together.</p>
 <p><img class="alignleft size-medium wp-image-17870" style="margin: auto; display: block; margin-left: 15px;" title="headshot-jon-bw" src="http://www.prestashop.com/blog/en/files/2014/07/headshot-jon-bw-300x300.jpg" alt="" width="300" height="300" align="right" /></p>
 <ol>
@@ -408,19 +417,21 @@ However, it’s possible that e-commerce sites could take advantage of local cit
 <p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
 <p>Thanks for reading, leave your comments below and stay tuned for more great tips from SEO Experts next week!</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>42 of the Best Resources to Help You Get Started with Your Online Store</title>
-		<link>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/</link>
-		<comments>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/#comments</comments>
-		<pubDate>Thu, 17 Jul 2014 15:36:53 +0000</pubDate>
-		<dc:creator>Julie Liu</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+			<title>42 of the Best Resources to Help You Get Started with Your
+				Online Store</title>
+			<link>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/</link>
+			<comments>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/#comments</comments>
+			<pubDate>Thu, 17 Jul 2014 15:36:53 +0000</pubDate>
+			<dc:creator>Julie Liu</dc:creator>
+			<category><![CDATA[Ecommerce Tips and Advice]]></category>
 
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17765</guid>
-		<description><![CDATA[As a new online business owner, you’ll find that the more you learn about running an online store, the more there is to learn. From small tips and tricks to complete overhauls, you can always improve your online store. The &#8230; <a href="http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17765</guid>
+			<description><![CDATA[As a new online business owner, you’ll find that the more you learn about running an online store, the more there is to learn. From small tips and tricks to complete overhauls, you can always improve your online store. The &#8230; <a href="http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
 			<content:encoded><![CDATA[<p>As a new online business owner, you’ll find that the more you learn about running an online store, the more there is to learn. From small tips and tricks to complete overhauls, you can always improve your online store. The front office display, user experience, marketing, SEO and social media are just a few areas to consider.</p>
 <p>With an infinite amount of online resources to help you grow each area of your online business, which resource should you use? We&#8217;ve narrowed it down and compiled a list of 42 of the best resources to help you get started with your online store.</p>
 <p><img class="aligncenter size-full wp-image-17767" src="http://www.prestashop.com/blog/en/files/2014/07/42-of-the-best-resources.png" alt="" width="599" height="315" /> <span id="more-17765"></span></p>
@@ -501,16 +512,12 @@ However, it’s possible that e-commerce sites could take advantage of local cit
 <p>Which of these resources do you use? Did we forget any important ones? Let us know in the comments below.</p>
 <p>Ready to get started with your online store? Take our <a href="http://www.prestashop.com/en/demo" target="_blank">demo </a>for a test drive or <a href="http://www.prestashop.com/en/download" target="_blank">download</a> our ecommerce software to start building your business for FREE today!</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/feed/
+			</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		</item>
 	</channel>
 </rss>
-
-<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
-
-Minified using disk: basic
-Page Caching using disk: enhanced
-Object Caching 830/978 objects using disk: basic
-
-Served from: www.prestashop.com @ 2014-08-05 20:56:02 -->
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/ 
+	Minified using disk: basic Page Caching using disk: enhanced Object Caching 
+	830/978 objects using disk: basic
