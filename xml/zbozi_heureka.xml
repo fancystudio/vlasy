@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+		<SHOPITEM>
+			<ITEM_ID>1</ITEM_ID>
+			<PRODUCTNAME>sada U-tip Keratin vlasov 100g  50-100</PRODUCTNAME>
+			<PRODUCT>sada U-tip Keratin vlasov 100g  50-100</PRODUCT>
+			<DESCRIPTION>popis</DESCRIPTION>
+			<URL>http://localhost/vlasy/50cm/1-sada-u-tip-keratin-vlasov-100g.html</URL>
+			<IMGURL>http://localhost/vlasy/35-medium/sada-u-tip-keratin-vlasov-100g.jpg</IMGURL>
+			<PRICE_VAT>195</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>
+			<PRICE_VAT>195</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>2</ITEM_ID>
+			<PRODUCTNAME>Blouse  demo_2</PRODUCTNAME>
+			<PRODUCT>Blouse  demo_2</PRODUCT>
+			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<URL>http://localhost/vlasy/50cm/2-blouse.html</URL>
+			<IMGURL>http://localhost/vlasy/7-medium/blouse.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>3</ITEM_ID>
+			<PRODUCTNAME>Printed Dress  demo_3</PRODUCTNAME>
+			<PRODUCT>Printed Dress  demo_3</PRODUCT>
+			<DESCRIPTION>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.</DESCRIPTION>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/3-printed-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/8-medium/printed-dress.jpg</IMGURL>
+			<PRICE_VAT>31.2</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>
+			<PRICE_VAT>31.2</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>4</ITEM_ID>
+			<PRODUCTNAME>Printed Dress  demo_4</PRODUCTNAME>
+			<PRODUCT>Printed Dress  demo_4</PRODUCT>
+			<DESCRIPTION>Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.</DESCRIPTION>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/4-printed-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/10-medium/printed-dress.jpg</IMGURL>
+			<PRICE_VAT>61.19</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>
+			<PRICE_VAT>61.19</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>5</ITEM_ID>
+			<PRODUCTNAME>Printed Summer Dress  demo_5</PRODUCTNAME>
+			<PRODUCT>Printed Summer Dress  demo_5</PRODUCT>
+			<DESCRIPTION>Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.</DESCRIPTION>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/5-printed-summer-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/12-medium/printed-summer-dress.jpg</IMGURL>
+			<PRICE_VAT>34.78</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>
+			<PRICE_VAT>34.78</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>6</ITEM_ID>
+			<PRODUCTNAME>Printed Summer Dress  demo_6</PRODUCTNAME>
+			<PRODUCT>Printed Summer Dress  demo_6</PRODUCT>
+			<DESCRIPTION>Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.</DESCRIPTION>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/6-printed-summer-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/16-medium/printed-summer-dress.jpg</IMGURL>
+			<PRICE_VAT>36.6</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>
+			<PRICE_VAT>36.6</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>7</ITEM_ID>
+			<PRODUCTNAME>Printed Chiffon Dress  demo_7</PRODUCTNAME>
+			<PRODUCT>Printed Chiffon Dress  demo_7</PRODUCT>
+			<DESCRIPTION>Printed chiffon knee length dress with tank straps. Deep v-neckline.</DESCRIPTION>
+			<URL>http://localhost/vlasy/clip-in-podla-seba/7-printed-chiffon-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/20-medium/printed-chiffon-dress.jpg</IMGURL>
+			<PRICE_VAT>137.76</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | CLIP-IN PODĽA SEBA | </CATEGORYTEXT>
+			<PRICE_VAT>137.76</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>8</ITEM_ID>
+			<PRODUCTNAME>Blousekkk  demo_2</PRODUCTNAME>
+			<PRODUCT>Blousekkk  demo_2</PRODUCT>
+			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<URL>http://localhost/vlasy/50cm/8-blouse.html</URL>
+			<IMGURL>http://localhost/vlasy/26-medium/blousekkk.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>9</ITEM_ID>
+			<PRODUCTNAME>Blouse Fashion Manufacturer demo_2hgh</PRODUCTNAME>
+			<PRODUCT>Blouse Fashion Manufacturer demo_2hgh</PRODUCT>
+			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<URL>http://localhost/vlasy/home/9-blousehgfhgf.html</URL>
+			<IMGURL>http://localhost/vlasy/29-medium/blouse.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<CATEGORYTEXT></CATEGORYTEXT>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+			<MANUFACTURER>Fashion Manufacturer</MANUFACTURER>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>10</ITEM_ID>
+			<PRODUCTNAME>Blouseddd  demo_2</PRODUCTNAME>
+			<PRODUCT>Blouseddd  demo_2</PRODUCT>
+			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<URL>http://localhost/vlasy/50cm/10-blouse.html</URL>
+			<IMGURL>http://localhost/vlasy/32-medium/blouseddd.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<ITEM_ID>11</ITEM_ID>
+			<PRODUCTNAME>Printed Dress  demo_3</PRODUCTNAME>
+			<PRODUCT>Printed Dress  demo_3</PRODUCT>
+			<DESCRIPTION>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.</DESCRIPTION>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/11-printed-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/33-medium/printed-dress.jpg</IMGURL>
+			<PRICE_VAT>31.2</PRICE_VAT>
+			<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>
+			<PRICE_VAT>31.2</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+</SHOP>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+		<SHOPITEM>
+			<PRODUCT>sada U-tip Keratin vlasov 100g</PRODUCT>
+			<PRODUCTNAME>sada U-tip Keratin vlasov 100g</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>			<DESCRIPTION>popis</DESCRIPTION>
+			<DESCRIPTION_SHORT>popis</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/50cm/1-sada-u-tip-keratin-vlasov-100g.html</URL>
+			<IMGURL>http://localhost/vlasy/35-medium/sada-u-tip-keratin-vlasov-100g.jpg</IMGURL>
+			<PRICE_VAT>195</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Blouse</PRODUCT>
+			<PRODUCTNAME>Blouse</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/50cm/2-blouse.html</URL>
+			<IMGURL>http://localhost/vlasy/7-medium/blouse.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Printed Dress</PRODUCT>
+			<PRODUCTNAME>Printed Dress</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>			<DESCRIPTION>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.</DESCRIPTION>
+			<DESCRIPTION_SHORT>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/3-printed-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/8-medium/printed-dress.jpg</IMGURL>
+			<PRICE_VAT>31.2</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Printed Dress</PRODUCT>
+			<PRODUCTNAME>Printed Dress</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>			<DESCRIPTION>Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Printed evening dress with straight sleeves with black thin waist belt and ruffled linings.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/4-printed-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/10-medium/printed-dress.jpg</IMGURL>
+			<PRICE_VAT>61.19</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Printed Summer Dress</PRODUCT>
+			<PRODUCTNAME>Printed Summer Dress</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>			<DESCRIPTION>Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Long printed dress with thin adjustable straps. V-neckline and wiring under the bust with ruffles at the bottom of the dress.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/5-printed-summer-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/12-medium/printed-summer-dress.jpg</IMGURL>
+			<PRICE_VAT>34.78</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Printed Summer Dress</PRODUCT>
+			<PRODUCTNAME>Printed Summer Dress</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>			<DESCRIPTION>Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Sleeveless knee-length chiffon dress. V-neckline with elastic under the bust lining.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/6-printed-summer-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/16-medium/printed-summer-dress.jpg</IMGURL>
+			<PRICE_VAT>36.6</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Printed Chiffon Dress</PRODUCT>
+			<PRODUCTNAME>Printed Chiffon Dress</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | CLIP-IN PODĽA SEBA | </CATEGORYTEXT>			<DESCRIPTION>Printed chiffon knee length dress with tank straps. Deep v-neckline.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Printed chiffon knee length dress with tank straps. Deep v-neckline.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/clip-in-podla-seba/7-printed-chiffon-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/20-medium/printed-chiffon-dress.jpg</IMGURL>
+			<PRICE_VAT>137.76</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Blousekkk</PRODUCT>
+			<PRODUCTNAME>Blousekkk</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/50cm/8-blouse.html</URL>
+			<IMGURL>http://localhost/vlasy/26-medium/blousekkk.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Blouse</PRODUCT>
+			<PRODUCTNAME>Blouse</PRODUCTNAME>
+			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/home/9-blousehgfhgf.html</URL>
+			<IMGURL>http://localhost/vlasy/29-medium/blouse.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Blouseddd</PRODUCT>
+			<PRODUCTNAME>Blouseddd</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 50CM | </CATEGORYTEXT>			<DESCRIPTION>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION>
+			<DESCRIPTION_SHORT>Short sleeved blouse with feminine draped sleeve detail.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/50cm/10-blouse.html</URL>
+			<IMGURL>http://localhost/vlasy/32-medium/blouseddd.jpg</IMGURL>
+			<PRICE_VAT>32.4</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+		<SHOPITEM>
+			<PRODUCT>Printed Dress</PRODUCT>
+			<PRODUCTNAME>Printed Dress</PRODUCTNAME>
+<CATEGORYTEXT>Vlasy | 60CM | </CATEGORYTEXT>			<DESCRIPTION>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.</DESCRIPTION>
+			<DESCRIPTION_SHORT>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom.</DESCRIPTION_SHORT>
+			<URL>http://localhost/vlasy/vlasy-u-tip-keratin-dlzka-60cm/11-printed-dress.html</URL>
+			<IMGURL>http://localhost/vlasy/33-medium/printed-dress.jpg</IMGURL>
+			<PRICE_VAT>31.2</PRICE_VAT>
+			<DELIVERY_DATE>0</DELIVERY_DATE>
+		</SHOPITEM>
+</SHOP>
