@@ -1,0 +1,15 @@
+[05.08.2014 21:57:01] - start
+There is no defined feeds for export, cannot create XML files.
+
+[05.08.2014 21:58:25] - start
+There is no defined feeds for export, cannot create XML files.
+
+[05.08.2014 21:58:27] - start
+There is no defined feeds for export, cannot create XML files.
+
+[05.08.2014 21:59:06] - start
+There is no defined feeds for export, cannot create XML files.
+
+[05.08.2014 21:59:20] - start
+There is no defined feeds for export, cannot create XML files.
+

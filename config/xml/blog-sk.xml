@@ -13,11 +13,29 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Mon, 04 Aug 2014 15:26:19 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 05 Aug 2014 15:44:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>Reader Survey: Tell us what ecommerce topics matter to you!</title>
+		<link>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/</link>
+		<comments>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/#comments</comments>
+		<pubDate>Tue, 05 Aug 2014 15:44:57 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[PrestaShop News]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18065</guid>
+		<description><![CDATA[Dear readers, your opinion matters! Please take our quick, 1-minute survey to tell us what topics you’d like us to cover on the blog.]]></description>
+			<content:encoded><![CDATA[<p>Dear readers, your opinion matters! Please take our quick, 1-minute survey to tell us what topics you’d like us to cover on the blog.</p>
+<p><img class="aligncenter size-large wp-image-16900" title="Readers Survey Blog Image" src="http://www.prestashop.com/blog/fr/files/2014/08/Readers-Survey-Blog-Image-1024x537.jpg" alt="" width="584" height="306" /></p>
+<p><span id="more-18065"></span></p>
+<p><iframe src="https://docs.google.com/forms/d/1xnCawknTuIixQV4DkHSYlWqgvjGx2zH2uClB4AkSAhM/viewform?embedded=true" frameborder="0" marginwidth="0" marginheight="0" width="540" height="1070"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/tell-us-what-ecommerce-topics-matter-to-you/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>Optimize your Ecommerce Site for Social Gift Giving</title>
 		<link>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/</link>
@@ -486,28 +504,6 @@ However, it’s possible that e-commerce sites could take advantage of local cit
 			<wfw:commentRss>http://www.prestashop.com/blog/en/42-of-the-best-resources-to-help-you-get-started-with-your-online-store/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
-		<item>
-		<title>PrestaShop World Tour: Ecommerce Trends with CEO of growing NYC web agency</title>
-		<link>http://www.prestashop.com/blog/en/prestashop-world-tour-ecommerce-trends-with-ceo-of-growing-nyc-web-agency/</link>
-		<comments>http://www.prestashop.com/blog/en/prestashop-world-tour-ecommerce-trends-with-ceo-of-growing-nyc-web-agency/#comments</comments>
-		<pubDate>Wed, 16 Jul 2014 15:39:46 +0000</pubDate>
-		<dc:creator>Quentin Audrain</dc:creator>
-				<category><![CDATA[PrestaShop World Tour]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17756</guid>
-		<description><![CDATA[Our next stop in the “Big Apple” takes us to Outside the Pixel, a growing NYC web agency, to meet with their CEO, Aurélien. They shared new and upcoming ecommerce trends we think all online merchant should know. A recent &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-world-tour-ecommerce-trends-with-ceo-of-growing-nyc-web-agency/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>Our next stop in the “Big Apple” takes us to <a href="http://outsidethepixel.com/" target="_blank">Outside the Pixel</a>, a growing NYC web agency, to meet with their CEO, Aurélien. They shared new and upcoming ecommerce trends we think all online merchant should know.</p>
-<p><img class="aligncenter size-full wp-image-17758" src="http://www.prestashop.com/blog/en/files/2014/07/PSWT-NY2.jpg" alt="" width="600" height="315" /></p>
-<p><span id="more-17756"></span>A recent trend? Mobile. According to <a href="http://blog.custora.com/2014/01/new-from-custora-the-holiday-2013-e-commerce-recap/#download" target="_blank">Custora</a>, during the 2013 holiday season, we saw a 50% increase in conversions through the use of mobile devices. What other trend are on the rise?</p>
-<p>Press play to see what Aurélien predicts.</p>
-<p>Let’s go!</p>
-<p><iframe src="//player.vimeo.com/video/100887730" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="http://vimeo.com/100887730">PrestaShop World Tour: New York with a Web Agency Founder</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-<p>Next Stop: <span style="color: #000080"><strong>MONTREAL, CANADA </strong></span></p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-world-tour-ecommerce-trends-with-ceo-of-growing-nyc-web-agency/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
@@ -517,4 +513,4 @@ Minified using disk: basic
 Page Caching using disk: enhanced
 Object Caching 830/978 objects using disk: basic
 
-Served from: www.prestashop.com @ 2014-08-04 16:56:02 -->
+Served from: www.prestashop.com @ 2014-08-05 20:56:02 -->

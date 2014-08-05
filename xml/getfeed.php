@@ -23,7 +23,6 @@
  * @version 1.2.4.2 (2014-07-07)
 */
 
-
 require_once './../config/config.inc.php';
 Autoload::getInstance()->generateIndex();
 $data = array('type' => 'display');
