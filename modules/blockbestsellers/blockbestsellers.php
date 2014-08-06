@@ -253,7 +253,7 @@ class BlockBestSellers extends Module
 		if (Configuration::get('PS_CATALOG_MODE'))
 			return false;
 
-		if (!($result = ProductSale::getBestSalesLight((int)$params['cookie']->id_lang, 0, 8)))
+		if (!($result = ProductSale::getBestSalesLight((int)$params['cookie']->id_lang, 0, 10)))
 			return (Configuration::get('PS_BLOCK_BESTSELLERS_DISPLAY') ? array() : false);
 
 		$currency = new Currency($params['cookie']->id_currency);

@@ -109,9 +109,12 @@ class HomeFeatured extends Module
 
 	public function _cacheProducts()
 	{
+		$category = new Category(Context::getContext()->shop->getCategory(), (int)Context::getContext()->language->id);
+		print_r($category);
 		if (!isset(HomeFeatured::$cache_products))
 		{
 			$category = new Category(Context::getContext()->shop->getCategory(), (int)Context::getContext()->language->id);
+			print_r($category);
 			$nb = (int)Configuration::get('HOME_FEATURED_NBR');
 			HomeFeatured::$cache_products = $category->getProducts((int)Context::getContext()->language->id, 1, ($nb ? $nb : 8), 'position');
 		}
@@ -132,21 +135,11 @@ class HomeFeatured extends Module
 	{
 		if (!$this->isCached('homefeatured.tpl', $this->getCacheId()))
 		{
-			$products['50'] = array();
-			$products['60'] = array();
-			foreach(HomeFeatured::$cache_products as $product){
-				if($product['category_default'] == '50CM'){
-					$products['50'][] = $product;
-				}
-				if($product['category_default'] == '60CM'){
-					$products['60'][] = $product;
-				}
-			}
 			$this->_cacheProducts();
 			$this->smarty->assign(
 				array(
-					'products50' => $products['50'],
-					'products60' => $products['60'],
+					'products50' => HomeFeatured::$cache_products,
+					'products60' => HomeFeatured::$cache_products,
 					'add_prod_display' => Configuration::get('PS_ATTRIBUTE_CATEGORY_DISPLAY'),
 					'homeSize' => Image::getSize(ImageType::getFormatedName('home')),
 				)
