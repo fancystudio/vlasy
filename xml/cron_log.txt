@@ -13,3 +13,6 @@ There is no defined feeds for export, cannot create XML files.
 [05.08.2014 21:59:20] - start
 There is no defined feeds for export, cannot create XML files.
 
+[05.08.2014 23:52:16] - start
+There is no defined feeds for export, cannot create XML files.
+
