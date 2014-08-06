@@ -489,13 +489,13 @@ class Blocktopmenu extends Module
 			if($category['level_depth'] == 3){
 				$html .= '<div class="row '.$cat->link_rewrite[2].' showIfResolutionRow">';
 			}
-			$html .= '<li'.(($this->page_name == 'category'
+			$html .= '<li id="'.$category['name'].'" '.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
 
 			$html .= '<a href="'.$link.'" title="'.$category['name'].'" class="'.'category-heading'.'">';
-			$html .= '<span>';
+			$html .= (($category['name'] != "Vlasy") ? '<span>' : '');
 			$html .= $category['name'];
-			$html .= '</span>';
+			$html .= (($category['name'] != "Vlasy") ? '</span>' : '');
 			$html .= '</a>';
 
 			if($category['level_depth'] == 3){

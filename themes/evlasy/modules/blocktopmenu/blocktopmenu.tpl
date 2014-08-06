@@ -2,11 +2,7 @@
 	<!-- Menu -->
 	<script type="text/javascript">
 	$(document).ready(function(){
-//		$("#showIfResolution").css("display","block");
-//		$(".showIfResolutionRow").css("display","none")
-//		$( window ).resize(function() {
-//			console.log($( window ).width());
-//		});
+		$("#Vlasy .menu-mobile-grover").css("display","none");
 	});
 	</script>
 	<div id="block_top_menu" class="sf-contener hlavne-menu clearfix col-lg-5">
