@@ -58,7 +58,7 @@
 				<div id="vat_area">
 					<div id="vat_number">
 						<div class="form-group">
-							<label for="vat-number">{l s='VAT number'}</label>
+							<label for="vat-number">DIČ</label>
 							<input type="text" class="form-control validate" data-validate="{$address_validation.$field_name.validate}" id="vat-number" name="vat_number" value="{if isset($smarty.post.vat_number)}{$smarty.post.vat_number}{else}{if isset($address->vat_number)}{$address->vat_number|escape:'html':'UTF-8'}{/if}{/if}" />
 						</div>
 					</div>
@@ -67,7 +67,7 @@
 			{if $field_name eq 'dni'}
 			{assign var="dniExist" value=true}
 			<div class="required form-group dni_block">
-				<label for="dni">{l s='Identification number'}</label>
+				<label for="dni">IČO</label>
 				<input class="form-control" data-validate="{$address_validation.$field_name.validate}" type="text" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{else}{if isset($address->dni)}{$address->dni|escape:'html'}{/if}{/if}" />
 				<span class="form_info">{l s='DNI / NIF / NIE'}</span>
 			</div>
