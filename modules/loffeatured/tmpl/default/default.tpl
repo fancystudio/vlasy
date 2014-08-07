@@ -5,12 +5,6 @@
 			<h3 class="featured-title">50 CM</h3>
 		</header>
 		<div class="list-featured responsive">
-		{if $show_button eq '1'}
-			<div class="featured-nav">
-				<a id="loffprev-{$moduleId}" class="next" href="#">&nbsp;</a>
-				<a id="loffnext-{$moduleId}" class="prev" href="#">&nbsp;</a>
-			</div>
-			{/if}
 			<ul id="loffeatured-{$moduleId}" class="featured-news clearfix">
 				{foreach from=$listFeature item=item}
 					{if $item.category_default == '50CM'}
@@ -48,6 +42,12 @@
 					{/if}
 				{/foreach}
 			</ul>
+			{if $show_button eq '1'}
+			<div class="featured-nav">
+				<a id="loffprev-{$moduleId}" class="prev" href="#">&nbsp;</a>
+				<a id="loffnext-{$moduleId}" class="next" href="#">&nbsp;</a>
+			</div>
+			{/if}
 			{if $show_pager eq '1'}<div id="loffpager-{$moduleId}" class="lof-pager"></div>{/if}
 		</div>
 	</section>
@@ -110,6 +110,8 @@
 // <![CDATA[
 			$('#loffeatured-{$moduleId}').carouFredSel({ldelim}
 				responsive:true,
+				circular: false,
+			    infinite: false,
 				prev: '#loffprev-{$moduleId}',
 				next: '#loffnext-{$moduleId}',
 				pagination: "#loffpager-{$moduleId}",
@@ -127,6 +129,8 @@
 			{rdelim});	
 			$('#loffeatured2-{$moduleId}').carouFredSel({ldelim}
 			responsive:true,
+			circular: false,
+		    infinite: false,
 			prev: '#loffprev2-{$moduleId}',
 			next: '#loffnext2-{$moduleId}',
 			pagination: "#loffpager2-{$moduleId}",
