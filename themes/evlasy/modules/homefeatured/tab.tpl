@@ -23,4 +23,3 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 {counter name=active_li assign=active_li}
-<li{if $active_li == 1} class="active"{/if}><a data-toggle="tab" href="#homefeatured" class="homefeatured">{l s='Popular' mod='homefeatured'}</a></li>
