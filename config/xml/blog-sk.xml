@@ -438,4 +438,8 @@ Minified using disk: basic
 Page Caching using disk: enhanced
 Object Caching 829/978 objects using disk: basic
 
+<<<<<<< HEAD
 Served from: www.prestashop.com @ 2014-08-08 17:56:02 -->
+=======
+Served from: www.prestashop.com @ 2014-08-07 17:56:02 -->
+>>>>>>> FETCH_HEAD
