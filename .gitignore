@@ -43,8 +43,6 @@ tools/smarty*/compile/*.php
 /themes/*/cache/*.css
 /themes/*/modules/*/*.php
 !/themes/*/modules/*/index.php
-/themes/*/lang/*.php
-!/themes/*/lang/index.php
 #mails/*
 #!mails/en
 #modules/*/mails/*
