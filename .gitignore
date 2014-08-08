@@ -45,16 +45,10 @@ tools/smarty*/compile/*.php
 !/themes/*/modules/*/index.php
 /themes/*/lang/*.php
 !/themes/*/lang/index.php
-/themes/*/modules/*/translations/*.php
-!/themes/*/modules/*/translations/index.php
-/modules/*/translations/*.php
-!/modules/*/translations/index.php
 #mails/*
 #!mails/en
 #modules/*/mails/*
 #!modules/*/mails/en
-#translations/*
-#!translations/*.gzip
  
 admin9768/themes/default/bower_components
  
