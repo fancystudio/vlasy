@@ -18,17 +18,17 @@ class AdminBlogcommentController extends ModuleAdminController {
                                     'type' => 'text',
                             ),
                             'name' => array(
-                                    'title' => $this->l('Name'),
+                                    'title' => $this->l('Názov'),
                                     'width' => 150,
                                     'type' => 'text'
                             ),
                             'content' => array(
-                                    'title' => $this->l('Comment'),
+                                    'title' => $this->l('Koment'),
                                     'width' => 340,
                                     'type' => 'text'
                             ),
                             'created' => array(
-                                    'title' => $this->l('Date'),
+                                    'title' => $this->l('Dátum'),
                                     'width' => 60,
                                     'type' => 'text',
                                     'lang' => true
@@ -67,19 +67,19 @@ class AdminBlogcommentController extends ModuleAdminController {
      {
         $this->fields_form = array(
           'legend' => array(
-          'title' => $this->l('Blog Comment'),
+          'title' => $this->l('Blog koment'),
             ),
             'input' => array(
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Comment'),
+                    'label' => $this->l('Koment'),
                     'name' => 'content',
                     'rows' => 10,
                     'cols' => 62,
                     'class' => 'rte',
                     'autoload_rte' => false,
                     'required' => false,
-                     'desc' => $this->l('Enter Your Category Description')
+                     'desc' => $this->l('Zadajte popis kategórie')
                 ),
                 array(
                        'type' => 'radio',
@@ -92,18 +92,18 @@ class AdminBlogcommentController extends ModuleAdminController {
                        array(
                        'id' => 'active',
                        'value' => 1,
-                       'label' => $this->l('Enabled')
+                       'label' => $this->l('Povoliť')
                        ),
                        array(
                        'id' => 'active',
                        'value' => 0,
-                       'label' => $this->l('Disabled')
+                       'label' => $this->l('Zakázať')
                          )
                        )
                   )
             ),
             'submit' => array(
-                'title' => $this->l('Save'),
+                'title' => $this->l('Uložiť'),
                 'class' => 'button'
             )
         );
@@ -112,7 +112,7 @@ class AdminBlogcommentController extends ModuleAdminController {
             return;
 
         $this->fields_form['submit'] = array(
-            'title' => $this->l('Save   '),
+            'title' => $this->l('Uložiť   '),
             'class' => 'button'
         );
         return parent::renderForm();

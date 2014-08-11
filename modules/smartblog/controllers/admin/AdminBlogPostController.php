@@ -25,7 +25,7 @@ class AdminBlogPostController extends AdminController {
                                     'search' => true
                             ),
                 'viewed' => array(
-                                    'title' => $this->l('View'),
+                                    'title' => $this->l('Pohľad'),
                                     'width' => 50,
                                     'type' => 'text',
                                     'lang' => true,
@@ -34,7 +34,7 @@ class AdminBlogPostController extends AdminController {
                                     'search' => false
                             ),
                              'image' => array(
-                                    'title' => $this->l('Image'),
+                                    'title' => $this->l('Obrázok'),
                                     'image' => $this->image_dir,
                                     'orderby' => false,
                                     'search' => false,
@@ -45,7 +45,7 @@ class AdminBlogPostController extends AdminController {
                                     'search' => false
                                ),
                             'meta_title' => array(
-                                    'title' => $this->l('Title'),
+                                    'title' => $this->l('Názov'),
                                     'width' => 440,
                                     'type' => 'text',
                                     'lang' => true,
@@ -54,7 +54,7 @@ class AdminBlogPostController extends AdminController {
                                     'search' => true
                             ),
                             'created' => array(
-                                    'title' => $this->l('Posted Date'),
+                                    'title' => $this->l('Dátum publikovania'),
                                     'width' => 100,
                                     'type' => 'date',
                                     'lang' => true,
@@ -98,7 +98,7 @@ class AdminBlogPostController extends AdminController {
             $SmartBlogPost = new SmartBlogPost((int) Tools::getValue('id_smart_blog_post'));
             
             if (!$SmartBlogPost->delete()){
-                $this->errors[] = Tools::displayError('An error occurred while deleting the object.')
+                $this->errors[] = Tools::displayError('Chyba pri mazaní príspevku.')
                         . ' <b>' . $this->table . ' (' . Db::getInstance()->getMsgError() . ')</b>';
             }else{
                 Hook::exec('actionsbdeletepost', array('SmartBlogPost' => $SmartBlogPost));
@@ -143,7 +143,7 @@ class AdminBlogPostController extends AdminController {
                         $SmartBlogPost->post_type = Tools::getValue('post_type');
                           
 			if (!$SmartBlogPost->save())
-				$this->errors[] = Tools::displayError('An error has occurred: Can\'t save the current object');
+				$this->errors[] = Tools::displayError('Chyba pri ukladaní objektu.');
 			else{
                 Hook::exec('actionsbnewpost', array('SmartBlogPost' => $SmartBlogPost));
                             $this->updateTags($languages, $SmartBlogPost);
@@ -171,7 +171,7 @@ class AdminBlogPostController extends AdminController {
                         $SmartBlogPost->id_author = $this->context->employee->id;
                         $SmartBlogPost->modified = Date('y-m-d H:i:s');
                 if (!$SmartBlogPost->update())
-                    $this->errors[] = Tools::displayError('An error occurred while updating an object.')
+                    $this->errors[] = Tools::displayError('Chyba pri update objektu.')
                             . ' <b>' . $this->table . ' (' . Db::getInstance()->getMsgError() . ')</b>';
                 else
                   Hook::exec('actionsbupdatepost', array('SmartBlogPost' => $SmartBlogPost));
@@ -188,12 +188,12 @@ class AdminBlogPostController extends AdminController {
                         $identifier = ((int) $object->id_parent ? '&id_smart_blog_post=' . (int) $object->id_parent : '');
                         Tools::redirectAdmin($this->context->link->getAdminLink('AdminBlogPost'));
                     } else
-                        $this->errors[] = Tools::displayError('An error occurred while updating the status.');
+                        $this->errors[] = Tools::displayError('Chyba pri update statusu.');
                 } else
-                    $this->errors[] = Tools::displayError('An error occurred while updating the status for an object.')
-                            . ' <b>' . $this->table . '</b> ' . Tools::displayError('(cannot load object)');
+                    $this->errors[] = Tools::displayError('Chyba pri update statusu objektu.')
+                            . ' <b>' . $this->table . '</b> ' . Tools::displayError('(nedá sa načítat objekt)');
             }else
-                $this->errors[] = Tools::displayError('You do not have permission to edit this.');
+                $this->errors[] = Tools::displayError('Nemáte právo na editáciu.');
         }elseif(Tools::isSubmit('smart_blog_postOrderby')&& Tools::isSubmit('smart_blog_postOrderway'))
         {
             $this->_defaultOrderBy = Tools::getValue('smart_blog_postOrderby');
@@ -215,7 +215,7 @@ class AdminBlogPostController extends AdminController {
                   
 
                     if (!move_uploaded_file($FILES['image']['tmp_name'], $path))
-                        return $this->displayError($this->l('An error occurred while attempting to upload the file.'));
+                        return $this->displayError($this->l('Chyba pri uploade súboru.'));
                     else {
                         $posts_types = BlogImageType::GetImageAllType('post');
                         foreach ($posts_types as  $image_type)
@@ -238,13 +238,13 @@ class AdminBlogPostController extends AdminController {
     public function renderForm() 
      {
       $img_desc = '';
-        $img_desc .= $this->l('Upload a Feature Image from your computer.<br/>N.B : Only jpg image is allowed');
+        $img_desc .= $this->l('Nahrajte obrázok.<br/>NPovolený len formát jpg.');
         if(Tools::getvalue('id_smart_blog_post') != '' && Tools::getvalue('id_smart_blog_post') != NULL){
              $img_desc .= '<br/><img style="height:auto;width:300px;clear:both;border:1px solid black;" alt="" src="'.__PS_BASE_URI__.'modules/smartblog/images/'.Tools::getvalue('id_smart_blog_post').'.jpg" /><br />';
         }
         $this->fields_form = array(
           'legend' => array(
-          'title' => $this->l('Blog Post'),
+          'title' => $this->l('Blog príspevok'),
             ),
             'input' => array(
                 array(
@@ -254,16 +254,16 @@ class AdminBlogPostController extends AdminController {
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Blog Title'),
+                    'label' => $this->l('Blog titulok'),
                     'name' => 'meta_title',
                     'size' => 60,
                     'required' => true,
-                    'desc' => $this->l('Enter Your Blog Post Title'),
+                    'desc' => $this->l('Zadajte titulok príspevku'),
                     'lang' => true,
                 ),
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Description'),
+                    'label' => $this->l('Popis'),
                     'name' => 'content',
                     'lang' => true,
                     'rows' => 10,
@@ -271,63 +271,63 @@ class AdminBlogPostController extends AdminController {
                     'class' => 'rte',
                     'autoload_rte' => true,
                     'required' => true,
-                    'desc' => $this->l('Enter Your Post Description')
+                    'desc' => $this->l('Zadajte popis príspevku')
                 ),
                 array(
                     'type' => 'file',
-                    'label' => $this->l('Feature Image:'),
+                    'label' => $this->l('Obrázok:'),
                     'name' => 'image',
                     'display_image' => false,
                     'desc' => $img_desc
                 ),
                 array(
 					'type' => 'select',
-					'label' => $this->l('Blog Category'),
+					'label' => $this->l('Kategória blogu'),
 					'name' => 'id_category',
 					'options' => array(
 						'query' =>BlogCategory::getCategory(),
 						'id' => 'id_smart_blog_category',
 						'name' => 'meta_title'
 					),
-					'desc' => $this->l('Select Your Parent Category')
+					'desc' => $this->l('Zvolte rodičovskú kategóriu')
                       ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Meta Keyword'),
+                    'label' => $this->l('Meta klúčové slová'),
                     'name' => 'meta_keyword',
                     'lang' => true,
                     'size' => 60,
                     'required' => false,
-                    'desc' => $this->l('Enter Your Post Meta Keyword. Separated by comma(,)')
+                    'desc' => $this->l('Zadajte klúčové slová kategórie. Oddelujte čiarkou.')
                 ),
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Short Description'),
+                    'label' => $this->l('Krátky popis'),
                     'name' => 'short_description',
                     'rows' => 10,
                     'cols' => 62,
                     'lang' => true,
                     'required' => true,
-                    'desc' => $this->l('Enter Your Post Short Description')
+                    'desc' => $this->l('Zadajte krátky názov príspevku')
                 ),
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Meta Description'),
+                    'label' => $this->l('Meta popis'),
                     'name' => 'meta_description',
                     'rows' => 10,
                     'cols' => 62,
                     'lang' => true,
                     'required' => false,
-                    'desc' => $this->l('Enter Your Post Meta Description')
+                    'desc' => $this->l('Zadajte meta popis príspevku')
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Link Rewrite'),
+                    'label' => $this->l('Link'),
                     'name' => 'link_rewrite',
                     'size' => 60,
                     'lang' => true,
                     'required' => false,
-                    'desc' => $this->l('Enetr Your Post Slug. Use In SEO Friendly URL')
+                    'desc' => $this->l('Zadajte skretku kategórie použitú do URL')
                 ),
                 array(
                     'type' => 'text',
@@ -336,11 +336,11 @@ class AdminBlogPostController extends AdminController {
                     'size' => 60,
                     'lang' => true,
                     'required' => false,
-                    'desc' => $this->l('Enter Your Post Meta Tag. Separated by comma(,)')
+                    'desc' => $this->l('Zadajte meta tag príspevku. Oddelujte čiarkou')
                 ),
                 array(
                                         'type' => 'radio',
-                                        'label' => $this->l('Comment Status'),
+                                        'label' => $this->l('Status komentu'),
                                         'name' => 'comment_status',
                                         'required' => false,
                                         'class' => 't',
@@ -349,15 +349,15 @@ class AdminBlogPostController extends AdminController {
                                             array(
                                             'id' => 'active',
                                             'value' => 1,
-                                            'label' => $this->l('Enabled')
+                                            'label' => $this->l('Povoliť')
                                             ),
                                             array(
                                             'id' => 'active',
                                             'value' => 0,
-                                            'label' => $this->l('Disabled')
+                                            'label' => $this->l('Zakázať')
                                             )
                                             ),
-                                        'desc' => $this->l('You Can Enable or Disable Your Comments')
+                                        'desc' => $this->l('Môžete zakázať alebo poviliť komenty')
                                      ),
                 array(
                                         'type' => 'radio',
@@ -370,17 +370,17 @@ class AdminBlogPostController extends AdminController {
                                             array(
                                             'id' => 'active',
                                             'value' => 1,
-                                            'label' => $this->l('Enabled')
+                                            'label' => $this->l('Povoliť')
                                             ),
                                             array(
                                             'id' => 'active',
                                             'value' => 0,
-                                            'label' => $this->l('Disabled')
+                                            'label' => $this->l('Zakázať')
                                             )
                                             )
                                      ),array(
                                         'type' => 'radio',
-                                        'label' => $this->l('Is Featured?'),
+                                        'label' => $this->l('Je súvisiace?'),
                                         'name' => 'is_featured',
                                         'required' => false,
                                         'class' => 't',
@@ -389,18 +389,18 @@ class AdminBlogPostController extends AdminController {
                                             array(
                                             'id' => 'is_featured',
                                             'value' => 1,
-                                            'label' => $this->l('Enabled')
+                                            'label' => $this->l('Povoliť')
                                             ),
                                             array(
                                             'id' => 'is_featured',
                                             'value' => 0,
-                                            'label' => $this->l('Disabled')
+                                            'label' => $this->l('Zakázať')
                                             )
                                             )
                                      )
             ),
             'submit' => array(
-                'title' => $this->l('Save'),
+                'title' => $this->l('Uložiť'),
                 'class' => 'button'
             )
         );
@@ -409,7 +409,7 @@ class AdminBlogPostController extends AdminController {
 		{
 			$this->fields_form['input'][] = array(
 				'type' => 'shop',
-				'label' => $this->l('Shop association:'),
+				'label' => $this->l('Asociácie obchodu:'),
 				'name' => 'checkBoxShopAsso',
 			);
 		}
@@ -418,7 +418,7 @@ class AdminBlogPostController extends AdminController {
             return;
         
         $this->fields_form['submit'] = array(
-            'title' => $this->l('Save   '),
+            'title' => $this->l('Uložiť   '),
             'class' => 'button'
         );
       
@@ -446,13 +446,13 @@ class AdminBlogPostController extends AdminController {
 	{
 		$tag_success = true;
 		if (!SmartBlogPost::deleteTagsForProduct((int)$post->id))
-			$this->errors[] = Tools::displayError('An error occurred while attempting to delete previous tags.');
+			$this->errors[] = Tools::displayError('Chyba pri pokuse vymazať predošlí tag.');
 		foreach ($languages as $language)
 			if ($value = Tools::getValue('tags_'.$language['id_lang']))
 				$tag_success &= SmartBlogPost::addTags($language['id_lang'],(int)$post->id, $value);
                               
 		if (!$tag_success)
-			$this->errors[] = Tools::displayError('An error occurred while adding tags.');
+			$this->errors[] = Tools::displayError('Chyba pri pokuse pridať tag.');
 		return $tag_success;
 	}
 }

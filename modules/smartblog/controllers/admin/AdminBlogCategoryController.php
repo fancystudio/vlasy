@@ -21,7 +21,7 @@ class AdminBlogCategoryController extends AdminController {
                                     'type' => 'text',
                             ),
                             'meta_title' => array(
-                                    'title' => $this->l('Title'),
+                                    'title' => $this->l('Titulok'),
                                     'width' => 440,
                                     'type' => 'text',
                                     'lang' => true
@@ -53,27 +53,27 @@ class AdminBlogCategoryController extends AdminController {
     public function renderForm() 
      {
         $img_desc = '';
-        $img_desc .= $this->l('Upload a Avatar from your computer.<br/>N.B : Only jpg image is allowed');
+        $img_desc .= $this->l('Nahrajte avatara.<br/>NPovolený len formát jpg.');
         if(Tools::getvalue('id_smart_blog_category') != '' && Tools::getvalue('id_smart_blog_category') != NULL){
              $img_desc .= '<br/><img style="height:auto;width:300px;clear:both;border:1px solid black;" alt="" src="'.__PS_BASE_URI__.'modules/smartblog/images/category/'.Tools::getvalue('id_smart_blog_category').'.jpg" /><br />';
         }
         $this->fields_form = array(
           'legend' => array(
-          'title' => $this->l('Blog Category'),
+          'title' => $this->l('Blog kategórie'),
             ),
             'input' => array(
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Meta Title'),
+                    'label' => $this->l('Meta Názov'),
                     'name' => 'meta_title',
                     'size' => 60,
                     'required' => true,
-                    'desc' => $this->l('Enter Your Category Name'),
+                    'desc' => $this->l('Zadajte názov kategórie'),
                     'lang' => true,
                 ),
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Description'),
+                    'label' => $this->l('Popis'),
                     'name' => 'description',
                     'lang' => true,
                     'rows' => 10,
@@ -81,53 +81,53 @@ class AdminBlogCategoryController extends AdminController {
                     'class' => 'rte',
                     'autoload_rte' => true,
                     'required' => false,
-                    'desc' => $this->l('Enter Your Category Description')
+                    'desc' => $this->l('Zadajte popis kategórie')
                 ),
                 array(
                     'type' => 'file',
-                    'label' => $this->l('Category Image:'),
+                    'label' => $this->l('Obrázok kategórie:'),
                     'name' => 'category_image',
                     'display_image' => false,
                     'desc' => $img_desc
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Meta Keyword'),
+                    'label' => $this->l('Meta Klúčové slová'),
                     'name' => 'meta_keyword',
                     'lang' => true,
                     'size' => 60,
                     'required' => false,
-                    'desc' => $this->l('Enter Your Category Meta Keyword. Separated by comma(,)')
+                    'desc' => $this->l('Zadajte klúčové slová kategórie. Oddelujte čiarkou.')
                 ),
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Meta Description'),
+                    'label' => $this->l('Meta Popis'),
                     'name' => 'meta_description',
                     'rows' => 10,
                     'cols' => 62,
                     'lang' => true,
                     'required' => false,
-                    'desc' => $this->l('Enter Your Category Meta Description')
+                    'desc' => $this->l('Zadajte Meta popis kategórie')
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Link Rewrite'),
+                    'label' => $this->l('Link'),
                     'name' => 'link_rewrite',
                     'size' => 60,
                     'lang' => true,
                     'required' => true,
-                    'desc' => $this->l('Enetr Your Category Slug. Use In SEO Friendly URL')
+                    'desc' => $this->l('Zadajte skretku kategórie použitú do URL')
                 ),
                 array(
                     'type' => 'select',
-                    'label' => $this->l('Parent Category'),
+                    'label' => $this->l('Rodičovská kategória'),
                     'name' => 'id_parent',
                     'options' => array(
                         'query' =>BlogCategory::getCategory(),
                         'id' => 'id_smart_blog_category',
                         'name' => 'meta_title'
                     ),
-                    'desc' => $this->l('Select Your Parent Category')
+                    'desc' => $this->l('Zvolte rodičovksú kategóriu')
                 ),
          
                 array(
@@ -141,18 +141,18 @@ class AdminBlogCategoryController extends AdminController {
                                             array(
                                             'id' => 'active',
                                             'value' => 1,
-                                            'label' => $this->l('Enabled')
+                                            'label' => $this->l('Povoliť')
                                             ),
                                             array(
                                             'id' => 'active',
                                             'value' => 0,
-                                            'label' => $this->l('Disabled')
+                                            'label' => $this->l('Zakázať')
                                             )
                                             )
                                      )
             ),
             'submit' => array(
-                'title' => $this->l('Save'),
+                'title' => $this->l('Uložiť'),
                 'class' => 'button'
             )
         );
@@ -161,7 +161,7 @@ class AdminBlogCategoryController extends AdminController {
         {
             $this->fields_form['input'][] = array(
                 'type' => 'shop',
-                'label' => $this->l('Shop association:'),
+                'label' => $this->l('Asociácie obchodu:'),
                 'name' => 'checkBoxShopAsso',
             );
         }
@@ -170,7 +170,7 @@ class AdminBlogCategoryController extends AdminController {
             return;
 
         $this->fields_form['submit'] = array(
-            'title' => $this->l('Save   '),
+            'title' => $this->l('Uložiť   '),
             'class' => 'button'
         );
         return parent::renderForm();
@@ -188,11 +188,11 @@ class AdminBlogCategoryController extends AdminController {
 			$id_lang = (int)Context::getContext()->language->id;
 			$catpost = (int)SmartBlogPost::getToltalByCategory($id_lang,Tools::getValue('id_smart_blog_category'));
 			if((int)$catpost != 0){
-				$this->errors[] = Tools::displayError('You need to delete all posts associate with this category .');
+				$this->errors[] = Tools::displayError('Prosím vymažte všetky príspevky spojené s touto kategóriou.');
 			}else{
 				$BlogCategory = new BlogCategory((int) Tools::getValue('id_smart_blog_category'));
 				if (!$BlogCategory->delete()){
-					$this->errors[] = Tools::displayError('An error occurred while deleting the object.')
+					$this->errors[] = Tools::displayError('Chyba pri mazaní príspevku.')
 							. ' <b>' . $this->table . ' (' . Db::getInstance()->getMsgError() . ')</b>';
 				}else{
 					Hook::exec('actionsbdeletecat', array('BlogCategory' => $BlogCategory));
@@ -228,7 +228,7 @@ class AdminBlogCategoryController extends AdminController {
                         $BlogCategory->modified = Date('y-m-d H:i:s');
 
             if (!$BlogCategory->save())
-                $this->errors[] = Tools::displayError('An error has occurred: Can\'t save the current object');
+                $this->errors[] = Tools::displayError('Chyba pri ukladaní objektu.');
             else{
                 Hook::exec('actionsbnewcat', array('BlogCategory' => $BlogCategory));
                             $this->processImageCategory($_FILES,$BlogCategory->id);
@@ -252,7 +252,7 @@ class AdminBlogCategoryController extends AdminController {
                         $BlogCategory->active = Tools::getValue('active');
                         $BlogCategory->modified = Date('y-m-d H:i:s');
                 if (!$BlogCategory->update())
-                    $this->errors[] = Tools::displayError('An error occurred while updating an object.')
+                    $this->errors[] = Tools::displayError('Chyba pri update objektu.')
                             . ' <b>' . $this->table . ' (' . Db::getInstance()->getMsgError() . ')</b>';
                 else
                  Hook::exec('actionsbupdatecat', array('BlogCategory' => $BlogCategory));
@@ -270,10 +270,10 @@ class AdminBlogCategoryController extends AdminController {
                     } else
                         $this->errors[] = Tools::displayError('An error occurred while updating the status.');
                 } else
-                    $this->errors[] = Tools::displayError('An error occurred while updating the status for an object.')
+                    $this->errors[] = Tools::displayError('Chyba pri update statusu objektu.')
                             . ' <b>' . $this->table . '</b> ' . Tools::displayError('(cannot load object)');
             } else
-                $this->errors[] = Tools::displayError('You do not have permission to edit this.');
+                $this->errors[] = Tools::displayError('Nemáte právo na editáciu.');
         }elseif(Tools::isSubmit('smart_blog_categoryOrderby')&& Tools::isSubmit('smart_blog_categoryOrderway'))
         {
             $this->_defaultOrderBy = Tools::getValue('smart_blog_categoryOrderby');

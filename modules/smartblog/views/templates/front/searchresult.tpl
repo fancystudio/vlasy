@@ -1,4 +1,4 @@
-{capture name=path}<a href="{smartblog::GetSmartBlogLink('smartblog')}">{l s='All Blog News' mod='smartblog'}</a>
+{capture name=path}<a href="{smartblog::GetSmartBlogLink('smartblog')}">{l s='Všetky novinky blogu' mod='smartblog'}</a>
      {if $title_category != ''}
     <span class="navigation-pipe">{$navigationPipe}</span>{$title_category}{/if}{/capture}
  

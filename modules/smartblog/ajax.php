@@ -40,23 +40,23 @@ exit;
                 $id_parent_post = (int)Tools::getValue('id_parent_post');
                 //'name'=>'Name between 2 - 25 characters !',
                 if(empty($name)){
-                   $array_error['name'] =  $SmartBlog->l('Name is required');
+                   $array_error['name'] =  $SmartBlog->l('Meno je povinné');
                 }
                 if(empty($comment)){
-                     $array_error['comment'] =   $SmartBlog->l('Comment must be between 25 and 1500 characters!') ;
+                     $array_error['comment'] =   $SmartBlog->l('Koment musí byť v rozsahu 25 a 1500 znakov!') ;
                 }
                if(!filter_var($mail,FILTER_VALIDATE_EMAIL)){
-                     $array_error['mail'] = $SmartBlog->l('E-mail address not valid !');
+                     $array_error['mail'] = $SmartBlog->l('E-mail adresanie nie je zadaná správne!');
                 }
                 if(Configuration::get('smartcaptchaoption') == '1'){
                     if($captcha != $m_captcha){
-                   $array_error['captcha'] =  $SmartBlog->l('Captcha is not valid');
+                   $array_error['captcha'] =  $SmartBlog->l('Captcha nie je zadaná správne');
                     }
                 }
                 
 
                 if(is_array($array_error)&& count($array_error)) { 
-				        $array_error['common'] = $SmartBlog->l('Warning: Please check required form bellow!');
+				        $array_error['common'] = $SmartBlog->l('Upozornenie: Prosím prezrite si povinný formulár nižšie!');
                 	die( Tools::jsonEncode( array('error'=> $array_error)));
  					      }
                 else
@@ -87,8 +87,8 @@ exit;
                         $bc->active = (int)$value;
                         $bc->created = Date('y-m-d H:i:s');
                         if($bc->add()){
-						$array_success['common'] = $SmartBlog->l('Your comment successfully submitted.');
-						$array_success['success'] =$SmartBlog->l('Your comment successfully submitted'); 
+						$array_success['common'] = $SmartBlog->l('Komentár bol úspešne potvrdený.');
+						$array_success['success'] =$SmartBlog->l('Komentár bol úspešne potvrdený.'); 
                         Hook::exec('actionsbpostcomment', array('bc' => $bc));
 
                         die( Tools::jsonEncode( $array_success));
@@ -101,10 +101,10 @@ exit;
         function smartsendMail($sname,$semailAddr,$scomment,$slink = null)
             {
         			$name =  Tools::stripslashes($sname);
-        			$e_body ='You have Received a New Comment In Your Blog Post From '. $name . '. Comment: '.$scomment.' .Your Can reply Here : '.$slink.'';
+        			$e_body ='Prijali ste nový komentár do vašeho prístevku od '. $name . '. Koment: '.$scomment.' .Môžte odpovedať tu : '.$slink.'';
         			$emailAddr =  Tools::stripslashes($semailAddr);
         			$comment =  Tools::stripslashes($scomment);
-        			$subject =  'New Comment Posted';
+        			$subject =  'Nový komentár pridaný';
         			$id_lang = (int)Configuration::get('PS_LANG_DEFAULT');	
         			$to =  Configuration::get('PS_SHOP_EMAIL');	
         			$contactMessage =  

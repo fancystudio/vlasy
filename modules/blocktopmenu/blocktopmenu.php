@@ -476,16 +476,6 @@ class Blocktopmenu extends Module
 			else
 				$link = $this->context->link->getPageLink('index');
 				
-//			if($category['level_depth'] == 3){
-//				$html .= '<li id="showIfResolution" style="display:none"'.(($this->page_name == 'category'
-//				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';
-//
-//				$html .= '<a href="'.$link.'" title="'.$category['name'].'" class="'.'category-heading'.'">';
-//				$html .= '<span>';
-//				$html .= $category['name'];
-//				$html .= '</span>';
-//				$html .= '</a></li>';
-//			}
 			if($category['level_depth'] == 3){
 				$html .= '<div class="row '.$cat->link_rewrite[2].' showIfResolutionRow">';
 			}
@@ -507,7 +497,7 @@ class Blocktopmenu extends Module
 						//print_r($product['features'][0]["value"]);
 						$html .= '<li class="menu-item">';
 						$html .= '<a href="'.$product['link'].'">'.(isset($product['features'][0]["value"]) ? '<label class="vahaProd">'.$product['features'][0]["value"].'</label>' : '');
-						if($cat->link_rewrite[2] != "clip-in-podla-seba"){
+						if($cat->id_category != 12){
 							$html .= '<img src="'.$this->context->link->getImageLink($product['link_rewrite'], $product['id_image'], 'home_default').'" alt="obrazok" class="img-responsive"/>';
 						}else{
 							$html .= '<div class="custom-set"><span></span></div>';
