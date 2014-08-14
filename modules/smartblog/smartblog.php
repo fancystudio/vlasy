@@ -562,21 +562,21 @@ class smartblog extends Module {
             'input' => array(
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Meta Title'),
+                    'label' => $this->l('Meta Názov'),
                     'name' => 'smartblogmetatitle',
                     'size' => 70,
                     'required' => true
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Meta Keyword'),
+                    'label' => $this->l('Meta klučové slová'),
                     'name' => 'smartblogmetakeyword',
                     'size' => 70,
                     'required' => true
                 ),
                 array(
                     'type' => 'textarea',
-                    'label' => $this->l('Meta Description'),
+                    'label' => $this->l('Meta Popis'),
                     'name' => 'smartblogmetadescrip',
                     'rows' => 7,
                     'cols' => 66,
@@ -584,7 +584,7 @@ class smartblog extends Module {
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Main Blog Url'),
+                    'label' => $this->l('Hlavné URL blogu'),
                     'name' => 'smartmainblogurl',
                     'size' => 15,
                     'required' => true,
@@ -592,7 +592,7 @@ class smartblog extends Module {
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Use .html with Friendly Url'),
+                            'label' => $this->l('Pouyžiť .html s Friendly URL'),
                             'name' => 'smartusehtml',
                             'required' => false,
                             'class' => 't',
@@ -601,25 +601,25 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartusehtml',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartusehtml',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),
                 array(
                     'type' => 'text',
-                    'label' => $this->l('Number of posts per page'),
+                    'label' => $this->l('Počet záznamov na stranu'),
                     'name' => 'smartpostperpage',
                     'size' => 15,
                     'required' => true
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Auto accepted comment'),
+                            'label' => $this->l('Automaticky povolené komenty'),
                             'name' => 'smartacceptcomment',
                             'required' => false,
                             'class' => 't',
@@ -628,17 +628,17 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartacceptcomment',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartacceptcomment',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),array(
                             'type' => 'radio',
-                            'label' => $this->l('Enable Captcha'),
+                            'label' => $this->l('Povoliť Captchu'),
                             'name' => 'smartcaptchaoption',
                             'required' => false,
                             'class' => 't',
@@ -647,18 +647,18 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartcaptchaoption',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartcaptchaoption',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Enable Comment'),
+                            'label' => $this->l('Povoliť komenty'),
                             'name' => 'smartenablecomment',
                             'required' => false,
                             'class' => 't',
@@ -667,18 +667,18 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartenablecomment',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartenablecomment',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Show Author Name'),
+                            'label' => $this->l('Ukázať autorovo meno'),
                             'name' => 'smartshowauthor',
                             'required' => false,
                             'class' => 't',
@@ -687,17 +687,17 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartshowauthor',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartshowauthor',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),array(
                             'type' => 'radio',
-                            'label' => $this->l('Show Post Viewed'),
+                            'label' => $this->l('Ukázať videnia článku'),
                             'name' => 'smartshowviewed',
                             'required' => false,
                             'class' => 't',
@@ -706,18 +706,18 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartshowviewed',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartshowviewed',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Show Author Name Style'),
+                            'label' => $this->l('Ukázať štýl autorovho mena'),
                             'name' => 'smartshowauthorstyle',
                             'required' => false,
                             'class' => 't',
@@ -725,25 +725,25 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartshowauthorstyle',
                             'value' => 1,
-                            'label' => $this->l('First Name, Last Name')
+                            'label' => $this->l('Meno, Priezvisko')
                              ),
                               array(
                             'id' => 'smartshowauthorstyle',
                             'value' => 0,
-                            'label' => $this->l('Last Name, First Name')
+                            'label' => $this->l('Priezvisko, Meno')
                             )
                           )
                 ),
                 array(
                     'type' => 'file',
-                    'label' => $this->l('AVATAR Image:'),
+                    'label' => $this->l('AVATAR Obrázok:'),
                     'name' => 'avatar',
                     'display_image' => false,
                     'desc' => $img_desc
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Show No Image'),
+                            'label' => $this->l('Ukázať No Image'),
                             'name' => 'smartshownoimg',
                             'required' => false,
                             'class' => 't',
@@ -752,18 +752,18 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartshownoimg',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartshownoimg',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),
                 array(
                             'type' => 'radio',
-                            'label' => $this->l('Show Category'),
+                            'label' => $this->l('Ukázať kategóriu'),
                             'name' => 'smartdisablecatimg',
                             'required' => false,
                             'class' => 't',
@@ -773,12 +773,12 @@ class smartblog extends Module {
                               array(
                             'id' => 'smartdisablecatimg',
                             'value' => 1,
-                            'label' => $this->l('Enabled')
+                            'label' => $this->l('Povolené')
                              ),
                               array(
                             'id' => 'smartdisablecatimg',
                             'value' => 0,
-                            'label' => $this->l('Disabled')
+                            'label' => $this->l('Zablokované')
                             )
                           )
                 ),
@@ -821,7 +821,7 @@ class smartblog extends Module {
                 ),
             ),
             'submit' => array(
-                'title' => $this->l('Save'),
+                'title' => $this->l('Uložiť'),
                 'class' => 'button'
             )
         );

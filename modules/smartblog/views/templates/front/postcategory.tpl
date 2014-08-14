@@ -1,11 +1,11 @@
-{capture name=path}<a href="{smartblog::GetSmartBlogLink('smartblog')}">{l s='All Blog News' mod='smartblog'}</a>
+{capture name=path}<a href="{smartblog::GetSmartBlogLink('smartblog')}">{l s='Všetky novinky blogu' mod='smartblog'}</a>
     {if $title_category != ''}
     <span class="navigation-pipe">{$navigationPipe}</span>{$title_category}{/if}{/capture}
     {if $postcategory == ''}
         {if $title_category != ''}
-             <p class="error">{l s='No Post in Category' mod='smartblog'}</p>
+             <p class="error">{l s='Žiadný príspevok v kategórii' mod='smartblog'}</p>
         {else}
-             <p class="error">{l s='No Post in Blog' mod='smartblog'}</p>
+             <p class="error">{l s='Žiadny prispevok v blogu' mod='smartblog'}</p>
         {/if}
     {else}
 	{if $smartdisablecatimg == '1'}
@@ -55,7 +55,7 @@
                 </ul>
 			</div>
 			<div class="col-md-6">
-                <div class="results">{l s="Showing" mod="smartblog"} {if $limit_start!=0}{$limit_start}{else}1{/if} {l s="to" mod="smartlatestnews"} {if $limit_start+$limit >= $total}{$total}{else}{$limit_start+$limit}{/if} {l s="of" mod="smartblog"} {$total} ({$c} {l s="Pages" mod="smartblog"})</div>
+                <div class="results">{l s="Ukázané" mod="smartblog"} {if $limit_start!=0}{$limit_start}{else}1{/if} {l s="to" mod="smartlatestnews"} {if $limit_start+$limit >= $total}{$total}{else}{$limit_start+$limit}{/if} {l s="of" mod="smartblog"} {$total} ({$c} {l s="Pages" mod="smartblog"})</div>
             </div>
   </div>
   </div> {/if}

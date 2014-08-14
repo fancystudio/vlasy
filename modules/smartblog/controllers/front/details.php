@@ -27,7 +27,6 @@ class  smartblogDetailsModuleFrontController extends smartblogModuleFrontControl
            $countcomment = $blogcomment->getToltalComment($id_post);
            $id_cate = $post['id_category'];
            $title_category = $BlogCategory->getNameCategory($id_cate);
-           print_r($post); 
            if (file_exists(_PS_MODULE_DIR_.'smartblog/images/' . $post["post_img"]) )
                 {
                    $post_img =  $post["post_img"];
@@ -87,13 +86,13 @@ class  smartblogDetailsModuleFrontController extends smartblogModuleFrontControl
                 $id_parent_post = (int)Tools::getValue('id_parent_post');
                 
                 if(empty($name)){
-                    $this->_report .= '<p class="error">'.$this->module->l('Name is required').'</p>';
+                    $this->_report .= '<p class="error">'.$this->module->l('Meno je povinné').'</p>';
                 }
                 elseif(empty($comment)){
-                    $this->_report .= '<p class="error">'.$this->module->l('Comment is required').'</p>';
+                    $this->_report .= '<p class="error">'.$this->module->l('Koment nie je zadaná správne').'</p>';
                 }
                 elseif(!filter_var($mail,FILTER_VALIDATE_EMAIL)){
-                    $this->_report .= '<p class="error">'.$this->module->l('E-mail is not valid').'</p>';
+                    $this->_report .= '<p class="error">'.$this->module->l('E-mail adresanie je zadaná správne').'</p>';
                 }
                 else
                 {
@@ -120,7 +119,7 @@ class  smartblogDetailsModuleFrontController extends smartblogModuleFrontControl
                         $bc->id_parent = (int)$id_parent_post;
                         $bc->active = (int)$value;
                         if($bc->add()){
-						   $this->_report.='<p class="success">'.$this->module->l('Comment added !').'</p>';
+						   $this->_report.='<p class="success">'.$this->module->l('Koment pridaný !').'</p>';
 						   Hook::exec('actionsbpostcomment', array('bc' => $bc));
 						   $this->smartsendMail($name,$mail,$comment);
                         }
@@ -131,7 +130,7 @@ class  smartblogDetailsModuleFrontController extends smartblogModuleFrontControl
 	private function smartsendMail($sname,$semailAddr,$scomment,$slink = null)
     {
 			$name =  Tools::stripslashes($sname);
-			$e_body ='You have Received a New Comment In Your Blog Post From '. $name . '. Comment: '.$scomment.' .Your Can reply Here : '.$slink.'';
+			$e_body ='Prijali ste nový komentár do vašeho prístevku od '. $name . '. Koment: '.$scomment.' .Môžte odpovedať tu : '.$slink.'';
 			$emailAddr =  Tools::stripslashes($semailAddr);
 			$comment =  Tools::stripslashes($scomment);
 			$subject =  'New Comment Posted';

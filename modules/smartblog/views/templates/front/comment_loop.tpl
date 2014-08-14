@@ -11,7 +11,7 @@
                                           {if Configuration::get('smartenablecomment') == 1}
                                             {if $comment_status == 1}
                             <div class="reply">
-                                   <a onclick="return addComment.moveForm('comment-{$comment.id_smart_blog_comment}', '{$comment.id_smart_blog_comment}', 'respond', '{$smarty.get.id_post}')"  class="comment-reply-link">{l s="Reply" mod="smartblog"}</a>
+                                   <a onclick="return addComment.moveForm('comment-{$comment.id_smart_blog_comment}', '{$comment.id_smart_blog_comment}', 'respond', '{$smarty.get.id_post}')"  class="comment-reply-link">{l s="Odpoveď" mod="smartblog"}</a>
                              </div>
                                             {/if}
                                           {/if}
