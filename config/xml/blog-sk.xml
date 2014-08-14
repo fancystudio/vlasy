@@ -13,11 +13,136 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Thu, 07 Aug 2014 14:53:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 14 Aug 2014 15:18:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>4 Essential Tips To Improving Your On-Site Search Engine</title>
+		<link>http://www.prestashop.com/blog/en/4-essential-tips-to-improving-your-on-site-search-engine/</link>
+		<comments>http://www.prestashop.com/blog/en/4-essential-tips-to-improving-your-on-site-search-engine/#comments</comments>
+		<pubDate>Thu, 14 Aug 2014 15:18:42 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18198</guid>
+		<description><![CDATA[This week we welcome Steve Chou, co-owner of Bumblebee Linens and MyWifeQuitHerJob.com. Within a year of launching, Steve’s online store &#8211; Bumblebee Linens &#8211; successfully netted over $100,000 in sales. Yes, that’s right – 6 figures in one year. He &#8230; <a href="http://www.prestashop.com/blog/en/4-essential-tips-to-improving-your-on-site-search-engine/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>This week we welcome Steve Chou, co-owner of Bumblebee Linens and MyWifeQuitHerJob.com. Within a year of launching, Steve’s online store &#8211; Bumblebee Linens &#8211; successfully netted over $100,000 in sales. Yes, that’s right – 6 figures in one year.</p>
+<p>He then created MyWifeQuitHerJob.com to share expert tips and advice on running a successful online business. Today his blog reaches over 90,000 monthly readers and has been featured by <em>The New York Times </em>and <em>The</em> <em>Huffington Post</em>. We invited him to share expert advice with 4 essential tips to improving your on-site search engine.</p>
+<p style="text-align: center"><img class="aligncenter  wp-image-18199" src="http://www.prestashop.com/blog/en/files/2014/08/search-improve5.png" alt="" width="540" height="284" /> <span id="more-18198"></span></p>
+<p>If you run your own online store, you probably already know that optimizing for the search engines (especially Google) is essential if you want to drive more traffic to your web site and increase your sales. However, as important as it is to drive traffic to your web site, <strong>the real key is keeping visitors on your site </strong>&#8211; and encouraging them to buy.<br />
+<img class="aligncenter size-medium wp-image-18202" src="http://www.prestashop.com/blog/en/files/2014/08/mywifequitherjob-headshot-200x300.jpg" alt="" width="200" height="300" align="right" /><br />
+Unfortunately, too many online businesses focus so much on optimizing for the big search engines that they completely <strong>neglect their own web sites</strong>. After <a href="http://mywifequitherjob.com/how-to-open-an-online-store/" target="_blank">teaching ecommerce</a> and running my own online business selling handkerchiefs for many years now, I have learned the value of <strong>a good on-site search engine</strong>.</p>
+<p>Here&#8217;s an interesting fact. Most customers that land on my store home page don’t browse for the product they want. <strong>Instead, they head directly to the search bar to locate exactly what they want.</strong></p>
+<p><strong></strong>If your site isn&#8217;t ready to handle those potential customers, you could lose thousands of dollars in business. In fact, the data indicates that more than <strong>95 percent of customers will leave a site immediately if the search doesn&#8217;t yield what they are looking for.</strong> One bad search, and that customer is gone &#8212; and so is your sale.</p>
+<h4><span style="color: #fc883e">Out-Of-The-Box Search Solutions Are Not Good Enough</span></h4>
+<p>If you blindly add products to your shopping cart database without taking into account your on-site search engine, then guess what? Your on-site search engine is going to suck.<br />
+Not too long ago, I analyzed some of the search queries on my site that weren&#8217;t returning results for customers. Here were the results:</p>
+<p style="padding-left: 30px">handkie<br />
+hankercheif<br />
+women’s hankies<br />
+mankerchief</p>
+<p><strong>It’s pretty clear, when looking at these terms, why no results were returned.</strong> The first two of those are misspelled. The third features an apostrophe that would normally be stripped out of the search string, but wasn&#8217;t. The fourth is clearly an attempt to find a handkerchief for a man. All of these items are available in my online store. However, a customer wouldn&#8217;t realize this from the search results.</p>
+<p>Most ecommerce platforms won’t offer you what you need for an effective search return by default. <strong>Misspellings and synonyms could be costing you thousands of dollars,</strong> and you might not even realize it. If you want a chance at retaining these would-be customers and converting them to sales, here are 4 things you need to start doing:</p>
+<h4><span style="color: #fc883e">1. Understand That Improving Your On-Site Search Engine Is Up To You</span></h4>
+<p>It’s true that most of your customers are going to find your products through Google, landing directly on the product page or on a category page. However, even with this reality, there are likely many potential customers using your on-site search tool.</p>
+<p>While you don’t need to create Google’s next competitor, you do have to create <strong>a localized search engine </strong>on your site for your own products. In other words, you will need to <strong>populate product specific search terms</strong> to help potential customers find relevant results that keep them on your site. Even if you need a little help from a web developer, it is usually worth the investment.</p>
+<p>PrestaShop’s onsite search is already pretty good in that it offers auto-completion and search suggestions, but most of work in optimizing your own search engine is going to require work on your part.</p>
+<h4><span style="color: #fc883e">2. Log All of Your Searches</span></h4>
+<p>You will never be able to think of all the variations on your products. No matter how long you spend trying to pinpoint possible misspellings, syntax errors, punctuation mistakes, and other variations on your products, you will never think of them all. Searchers will constantly surprise you.</p>
+<p>If you want a high-level view of what’s happening with search queries on your site, <strong>log them all</strong>. You can spot patterns and irregularities and adjust accordingly so that, even when searchers make mistakes, they will see results on the page. Here are the main things to watch for as you analyze the queries on your site:</p>
+<p style="padding-left: 30px"><strong>Synonyms:</strong> Even if you have good product descriptions that provide alternative words for your merchandise, there is likely another word you haven’t heard of. Make note of those words and direct your on-site search to connect them to the appropriate products.</p>
+<p style="padding-left: 30px"><strong>Plurals, apostrophes, and other punctuation: </strong>Make sure that your search strings strip punctuation marks and plurals. You can tinker with the code to make this happen so that errant grammar doesn&#8217;t doom your customers’ search results.<br />
+<strong></strong></p>
+<p style="padding-left: 30px"><strong>Contractions:</strong> Many searchers use slang and abbreviations when looking for specific products. Factor these into your search as well.<br />
+<strong></strong></p>
+<p style="padding-left: 30px"><strong>Misspellings: </strong>People will always have trouble spelling. You need to make sure your on-site search takes that into account. Pay attention to “alternative” spellings and common typos so that you can return valid search results when customers make mistakes.</p>
+<h4><span style="color: #fc883e">3. Allow Customers to Easily Refine Searches</span></h4>
+<p>My store sells handkerchiefs. More than half of the products I sell are labeled “handkerchiefs.” This means that someone looking for “hankies” is likely to run into trouble with the search. Most customers aren&#8217;t going to stick around when they see the meager results. At the same time, it’s impractical for me to go back and add the search term “hankies” to all of those product search descriptions.</p>
+<p>The good news is that you can use a little hack to get around that issue. Rather than displaying no results, or very limited results, you can <strong>include a new search link</strong> that asks the customer if s/he meant to look for something else. In my case, a search for “hankies” shows this message:</p>
+<p><strong>Did you mean to search for “handkerchiefs”?</strong></p>
+<p><strong></strong>This method can be applied to a number of misspellings and other errors that surface in customer searches. It’s easy to make this link <strong>prominent and clickable </strong>so that customers have to put very little effort into changing up the search. They receive better results, and stay on your site rather than abandoning.</p>
+<h4><span style="color: #fc883e">4. Add Search-Specific Keywords to Your Products</span></h4>
+<p>Now that you&#8217;ve analyzed what people are looking for, it’s time to <strong>add search-specific keywords to your products.</strong> These are keywords that might not appear in your product name or title, and may not appear in the product description. However, you want these products to be listed for certain popular search terms on your site.</p>
+<p>“Mother of the bride” is a popular term on my site. However, we don’t want to title or describe hundreds of products using that term. So this term is <strong>included in the search terms</strong> associated with particular products. This association means that customers can find hundreds of suitable items when they search for “mother of the bride.”</p>
+<p>The best way to go about this process is to<strong> add the search terms each time you add a new product. </strong>Make it part of the routine when you add products to avoid time-consuming mass updates. If you are in a position that requires mass updates, block out time to do it little by little, starting with the most popular terms.</p>
+<p><em>Bottom Line<br />
+</em>Your on-site search matters. If you don’t want to lose customers due to frustrating search results, you need to make the effort to improve your on-site search.</p>
+<div>
+<hr align="left" size="2" width="20%" />
+</div>
+<p>With all this great advice, where should you begin? If you’re a PrestaShop merchant, we’ve got you covered with:</p>
+<h4><span style="color: #fc883e">4 Steps to Get Started</span></h4>
+<p style="text-align: left"><strong>1.</strong> Access and review keywords your customers have searched<br />
+<em>         Back Office &gt; Stats &gt; Shop Search </em></p>
+<p style="text-align: left"><strong>2. </strong>Categorize each search word or phrase into<br />
+<span style="color: #800080">          a. Misspellings or Synonyms</span><br />
+<span style="color: #008000">          b. Attributes or Descriptions</span></p>
+<p><strong>3.</strong> For each word or phrase under the <span style="color: #800080">Misspelling or Synonyms</span> category, figure out which keyword(s) you would like to redirect customers to. Then create redirects for each word.<br />
+<em>          Back Office &gt; Preferences &gt; Search</em></p>
+<p><strong>4.</strong> For each<span style="color: #008000"> Attribute or Description,</span> find products that fit those descriptions and add the keyword(s) as tags.<br />
+<em>         Back Office &gt; Catalog &gt; Product &gt; Information Tab</em><br />
+(Learn more about <a href="http://doc.prestashop.com/display/PS16/Managing+Tags" target="_blank">managing Tags</a> in our User Guide.)</p>
+<p>Want a premium feature to ensure customers always find what they’re looking for? One of our certified agencies has developed the perfect solution. Give suggestions for “no result” searches with the <a href="http://addons.prestashop.com/en/search-filters-prestashop-modules/5071-search-autocorrection.html" target="_blank">Search AutoCorrection Module</a>.</p>
+<p>Not a PrestaShop merchant? Ask yourself, “Does my shopping cart software offer all these <a href="http://www.prestashop.com/en/features" target="_blank">features – for free</a>?” If not, it’s time to<a href="http://www.prestashop.com/en/switch-to-prestashop" target="_blank"> switch to PrestaShop</a>! (Or help us convince you by testing our <a href="http://demo.prestashop.com/en/" target="_blank">demo</a>.)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/4-essential-tips-to-improving-your-on-site-search-engine/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>August Staff Picks: Top 3 Features to Help You Sell More</title>
+		<link>http://www.prestashop.com/blog/en/august-staff-picks-top-3-features-to-help-you-sell-more/</link>
+		<comments>http://www.prestashop.com/blog/en/august-staff-picks-top-3-features-to-help-you-sell-more/#comments</comments>
+		<pubDate>Tue, 12 Aug 2014 16:03:19 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[PrestaShop Partners]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18134</guid>
+		<description><![CDATA[In an ever growing and competitive online market, you are always looking for the right tools and features to help you sprint ahead. Our team has selected this month’s top 3 PrestaShop features to help you sell more. Best of &#8230; <a href="http://www.prestashop.com/blog/en/august-staff-picks-top-3-features-to-help-you-sell-more/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-18192" src="http://www.prestashop.com/blog/en/files/2014/08/staff-picks-1.png" alt="" width="200" height="155" align="right" />In an ever growing and competitive online market, you are always looking for the right tools and features to help you sprint ahead. Our team has selected this month’s top 3 PrestaShop features to help you sell more. Best of all, each of these features are available in your PrestaShop back office for a quick and easy installation! <span id="more-18134"></span></p>
+<p><strong>Here’s what you’ll find!</strong></p>
+<ol>
+<ul>
+<li><span style="color: #ed2279">Brow.si</span> – a completely free feature that optimizes your shop’s mobile shopping experience</li>
+<li><span style="color: #ed2279">PrestaStats</span> – view, compare and export your store’s critical data with an advanced dashboard</li>
+<li><span style="color: #ed2279">Riskified</span> – fraud prevention and protection for all or any high risk transactions</li>
+</ul>
+</ol>
+<h2></h2>
+<h2><a href="http://addons.prestashop.com/en/mobile/8609-browsi.html" target="_blank"><span style="color: #008000">1. Brow.si</span></a></h2>
+<p><strong>TRANSFORM YOUR MOBILE FRIENDLY SHOP INTO A SEAMLESS USER EXPERIENCE</strong></p>
+<p style="text-align: center"><img class="aligncenter  wp-image-18136" src="http://www.prestashop.com/blog/en/files/2014/08/browsi.png" alt="" width="527" height="278" /></p>
+<p style="text-align: left"><span style="color: #ed2279"><strong>What it does: </strong></span>Brow.si creates an intuitive mobile shopping experience with an easy-to-use, semi-transparent layer. It adds features for customers to easily search, explore, share, and purchase from anywhere on your site.</p>
+<p style="text-align: left"><span style="color: #ed2279"><strong>Why we love it:</strong></span> In one click, give your website app-like functionality with Brow.si. When users visit from their smartphone, key elements of mobile browsing makes the shopping experience clear, consistent and helpful. Customize this feature to match your site, set localization options and access analytics.</p>
+<p style="text-align: left"><span style="color: #ed2279"><strong>How it helps you sell more: </strong></span>Brow.si adds features that enrich the mobile browsing experience with push notifications, mobile search, a mobile checkout funnel, 1-click social sharing and more. Convert more mobile shoppers with an intuitive user experience.</p>
+<p style="text-align: center"><a href="http://addons.prestashop.com/en/mobile/8609-browsi.html" target="_blank">Get Brow.si on your shop – it’s free!</a><br />
+<em>Or find it in your PrestaShop Back Office &gt; Modules &gt; Mobile</em></p>
+<h2></h2>
+<h2><a href="http://addons.prestashop.com/en/analytics-stats-prestashop-modules/17294-prestastats.html" target="_blank"><span style="color: #008000">2. PrestaStats</span></a></h2>
+<p style="text-align: center"><strong>MANAGE BUSINESS DATA MORE CLOSELY THAN EVER WITH ADVANCED FUNCTIONALITY</strong> <img class="aligncenter  wp-image-18137" src="http://www.prestashop.com/blog/en/files/2014/08/prestastats.png" alt="" width="605" height="294" /></p>
+<p style="text-align: left"><span style="color: #ed2279"><strong>What it does:</strong></span> PrestaStats exports raw data from your PrestaShop store and compiles it into easy to understand statistics you’ll need to make smarter business decisions. Abandoned carts, top products and profit are easily accessible from a real-time dashboard.</p>
+<p style="text-align: left"><span style="color: #ed2279"><strong>Why we love it:</strong></span> Your data is consolidated into key statistics to understand your business quickly and in-depth. Access them from any device, at any time &#8211; especially when to need to make critical business decisions. Best of all, you can review data from as far back as the day your shop opened. <strong></strong></p>
+<p style="text-align: left"><strong><span style="color: #ed2279">How it helps you sell more:</span> </strong>These statistics help you understand what’s happening with your online store to help you make better sales, management and marketing decisions. Quickly spot trends to make timely assessments, based on today’s data…today. PrestaStats empowers you with hard facts that help you run your online business smoother.</p>
+<p style="text-align: center"><a href="http://addons.prestashop.com/en/analytics-stats-prestashop-modules/17294-prestastats.html" target="_blank">Start Your Free Trial</a><br />
+<em>Or find it in your PrestaShop Back Office &gt; Modules &gt; Analytics &amp; Stats</em></p>
+<h2></h2>
+<h2><a href="http://addons.prestashop.com/en/secure-payment-prestashop-modules/17295-riskified.html" target="_blank"><span style="color: #008000">3. Riskified</span></a></h2>
+<p style="text-align: center"><strong>ACCEPT TRANSACTIONS YOU WOULD HAVE DECLINED WITH GUARANTEED PROTECTION</strong> <img class="aligncenter  wp-image-18138" src="http://www.prestashop.com/blog/en/files/2014/08/riskified.png" alt="" width="488" height="191" /></p>
+<p><span style="color: #ed2279"><strong>What it does:</strong> </span>Riskified’s turnkey fraud detection features lets you review, verify and approve all transaction or selected suspicious transactions. It also provides valuable insights into your transaction, which helps you understand your customers better.</p>
+<p><span style="color: #ed2279"><strong>Why we love it:</strong></span> Riskified stands by their fraud detection technology by offering a 100% money back guarantee in the event of a fraud. You pay only when a transaction is approved and you make money.</p>
+<p><span style="color: #ed2279"><strong>How it helps you sell more:</strong></span>Complete orders you would otherwise decline because they appear fraudulent to gain incremental sales. You also increase your profits by reducing charge-back losses and avoiding bank fees.</p>
+<p style="text-align: center"><a href="http://addons.prestashop.com/en/secure-payment-prestashop-modules/17295-riskified.html" target="_blank">Accept More Payments &#8211; Request Your Demo<br />
+</a><em>Or find it in your PrestaShop Back Office &gt; Modules &gt;<br />
+Site Certification &amp; Fraud Prevention</em></p>
+<div>
+<hr align="left" size="2" width="20%" />
+</div>
+<p>Which of these features are you looking forward to adding on your PrestaShop store? Let us know in the comments below. Then tune in next month to see which features we select.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/august-staff-picks-top-3-features-to-help-you-sell-more/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>Infographic: Back-to-School Shopping and Ecommerce 2014</title>
 		<link>http://www.prestashop.com/blog/en/infographic-back-to-school-shopping-and-ecommerce-2014/</link>
@@ -88,7 +213,7 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 <p>Give.it is on a mission to change the face of online gifting. PrestaShop merchants can profit from this innovative concept by downloading the <a href="http://addons.prestashop.com/en/advertising-marketing-newsletter-modules/15784-giveit.html" target="_blank">Give.it module</a> for free from the Official PrestaShop Marketplace!</p>
 ]]></content:encoded>
 			<wfw:commentRss>http://www.prestashop.com/blog/en/optimize-your-ecommerce-site-for-social-gift-giving/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
+		<slash:comments>1</slash:comments>
 		</item>
 		<item>
 		<title>PrestaShop World Tour: Meet Sweet Isabelle, a Canadian Online Store Turned Bakery</title>
@@ -333,102 +458,6 @@ Thanks for reading this edition of our SEO Experts Series. What are you waiting 
 			<wfw:commentRss>http://www.prestashop.com/blog/en/neil-patel-seo-advice/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
-		<item>
-		<title>Ecommerce Success Story: How Eating Tools Built a Brand from Their Passion</title>
-		<link>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/</link>
-		<comments>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/#comments</comments>
-		<pubDate>Mon, 21 Jul 2014 13:49:47 +0000</pubDate>
-		<dc:creator>Julie Liu</dc:creator>
-				<category><![CDATA[Success Stories]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17886</guid>
-		<description><![CDATA[Eating Tools is a NYC based PrestaShop store that sells handcrafted, well, eating tools. This online store was created by combining, owner, Abe Shaw’s ecommerce experience with his passion for handmade cutlery. After graduation, Abe managed ecommerce departments for several &#8230; <a href="http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p><a href="http://www.eatingtools.com/" target="_blank">Eating Tools</a> is a NYC based PrestaShop store that sells handcrafted, well, <em>eating tools</em>. This online store was created by combining, owner, Abe Shaw’s ecommerce experience with his passion for handmade cutlery. After graduation, Abe managed ecommerce departments for several high-end beauty brands. Although he enjoyed working in ecommerce, high-end beauty products weren&#8217;t his passion.</p>
-<p><img class="aligncenter size-full wp-image-17887" style="color: #333333;font-style: normal;line-height: 24.375px" src="http://www.prestashop.com/blog/en/files/2014/07/eatingtools-main.png" alt="" width="580" height="192" /></p>
-<div>
-<p>Abe was always interested in the art of handcrafted products, knives in particular. For 15 years running, he has attended every <a href="https://twitter.com/BLADE_Show" target="_blank">Blade Show</a> &#8211; the largest knife show in the world. During these exhibitions, he met craftspeople who specialized in creating stunning knives. These talented artists inspired Abe to build his own ecommerce website to showcase their work. Let’s see how he became our ecommerce success story.</p>
-<p><span id="more-17886"></span></p>
-<h4><span style="color: #8b4513">How did your passion for handmade cutlery help you start your online business?</span></h4>
-<p>Each year I attend the Blade Show, I would meet more amazing craftspeople who I now call friends and mentors. As I created Eating Tools, these amazing craftspeople transitioned into my partners and producers. <strong>I would not be part of this community if it weren&#8217;t for my passion.</strong> I enjoy working with artists and designers to help tell their stories and present their work. True appreciation for the products I sell makes setting up my online store feel less like work.</p>
-<h4><span style="color: #8b4513">Having worked in ecommerce, how long would it take you to create an online store?</span></h4>
-<p>Getting an ecommerce site up and running can be easy with a platform like PrestaShop. PrestaShop is as intuitive to set up and as easy to use as it gets. It’s open and flexible with a massive and active developer and user community. I can have an ecommerce site online, with my logo, my products, and all the necessary components <strong>in a matter of hours / days</strong>. However, I took my time building a website with a completely custom design.</p>
-<h4><span style="color: #8b4513">How long did it take to create Eating Tools? Was it worth it?</span></h4>
-<p>From start to finish, building Eating Tools took several months – and it was worth it. As I like to say, the devil is always in the details. Eating Tools, like all ecommerce projects I&#8217;ve worked on, had its own unique challenges and required thinking about certain things in new ways. With Eating Tools, I wanted to create more than online store, <strong>I wanted to create a brand. </strong>My main focus was user experience. I worked with a professional to photograph each and every product and create a uniform look across all product categories. Selling one-of-a-kind products is a challenge because each one requires new photography, new descriptions, and new SEO considerations.</p>
-<p style="text-align: center"><img class="aligncenter  wp-image-17890" src="http://www.prestashop.com/blog/en/files/2014/07/social-media.png" alt="" width="356" height="454" /></p>
-<h4><span style="color: #8b4513">So now what you have your online store set up, how did you find customers?</span></h4>
-<p>Word of mouth, SEO, Social Media, Email Marketing – ideally in that order. PrestaShop is incredibly SEO-friendly out of the box. I supplement that with ongoing <a href="https://twitter.com/EatingTools" target="_blank">content updates</a>, on-site optimization (front-end keyword work, internal links, meta tags, URL redirect, etc.) and strategic outside link building.</p>
-<p>Then once a visitor lands on the website, <strong>I aim to convert them with exceptional customer service</strong>. There is a no-questions-asked return policy. Customers need to feel safe that if they’re not happy, I’m not happy and that I’ll do whatever it takes, including giving them their money back. Also, to a degree, the product selection is exclusive to Eating Tools. Advertising that fact throughout the site is important. All the time spent on photography and writing strong product descriptions helps convey that message.</p>
-<p><img class="aligncenter size-full wp-image-17889" src="http://www.prestashop.com/blog/en/files/2014/07/oneofakind.png" alt="" width="580" height="247" /></p>
-<h4><span style="color: #8b4513">What do you do to keep customers coming back?</span></h4>
-<p>My team and I follow up with current customers – via social media, through email (including email marketing) and even personal phone calls – it’s how Eating Tools works. As an online merchant, we want to develop a relationship with our customers. We really do love providing incredible, handmade, one-of-a-kind tools for people to appreciate and use. We’re confident that <strong>when customers experience our passion for the products we sell, they’ll come back.</strong></p>
-<h4><span style="color: #8b4513">Do you have any advice for new online merchants?</span></h4>
-<p>My advice would be that, like any business relationship, when you work with a developer, you’re working with a person, just like you. <strong>Find someone who understands your goals, not just on a technical level but on a business, brand and customer level.</strong> Specifically, look for a developer you can bounce ideas off of and will be proactive about suggesting a better way to do something.</p>
-<h4><span style="color: #8b4513">What’s next for Eating Tools?</span></h4>
-<p>I’m always looking to expand the product selection. At the same time, I would like to continuously update features, content, design and the user experience (UX). There’s always more to do! It’s a process and that’s part of what makes owning and running an online store <strong>so much fun! </strong></p>
-<p style="text-align: center"><img class="aligncenter size-full wp-image-17888" src="http://www.prestashop.com/blog/en/files/2014/07/Logo.jpg" alt="" width="131" height="155" /></p>
-<p>Abe turned his passion into a beautiful online store. What’s your passion? Turn it into an online store with the <a href="http://www.prestashop.com/en/download" target="_blank">PrestaShop ecommerce software</a>.</p>
-</div>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/ecommerce-success-story-how-eating-tools-built-a-brand-from-their-passion/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>SEO Experts &#124; Jon Henshaw of RavenTools Speaks on SEO and Ecommerce</title>
-		<link>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/</link>
-		<comments>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/#comments</comments>
-		<pubDate>Fri, 18 Jul 2014 13:50:46 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Best Development Practices]]></category>
-		<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17865</guid>
-		<description><![CDATA[In our last edition of the SEO Expert Series, we interviewed Rand Fishkin of Moz. Today, we have the pleasure of meeting with with Jon Henshaw, Co-Founder &#38; CMO of Raven Internet Marketing Tools. You might have seen him speaking at &#8230; <a href="http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>In our last edition of the SEO Expert Series, we <a title="SEO Expert Series | Rand Fishkin of Moz" href="http://www.prestashop.com/blog/en/seo-expert-series-rand-fishkin-of-moz/" target="_blank">interviewed Rand Fishkin of Moz</a>. Today, we have the pleasure of meeting with with Jon Henshaw, Co-Founder &amp; CMO of Raven Internet Marketing Tools. You might have seen him speaking at the largest online marketing conferences such as PubCon, SMX, SearchFest, SES and others. He teamed up with PrestaShop Moderator, <a href="http://www.prestashop.com/forums/user/435599-dh42/">Lesley Paone</a> of <a href="http://dh42.com/">dh42</a> to give you his insights into how SEO, PrestaShop and ecommerce work together.</p>
-<p><img class="alignleft size-medium wp-image-17870" style="margin: auto; display: block; margin-left: 15px;" title="headshot-jon-bw" src="http://www.prestashop.com/blog/en/files/2014/07/headshot-jon-bw-300x300.jpg" alt="" width="300" height="300" align="right" /></p>
-<ol>
-<li>
-<h4>What would be your first steps in starting SEO for a newly launched e-commerce site?</h4>
-<p>Most new e-commerce sites suffer from big problems that can be fixed easily. So the very first thing I would do is crawl and analyze it using our <a href="http://raventools.com/marketing-tools/seo-site-auditor/" target="_blank">Site Auditor</a>. My initial focus would be on identifying and fixing visibility issues. For example, I would want to know if any of my pages are accidently being blocked by robots.txt. I would follow that with fixing any blocked pages, broken links and/or broken images. Once you fix the search engine visibility, navigation and coding errors, you can then focus your energy on optimizing the META data and content of the site.</p>
-<h4><span id="more-17865"></span></h4>
-</li>
-<li>
-<h4>Do you think every e-commerce site needs a blog?</h4>
-<p>A blog can be quite valuable for an e-commerce site. If done well, an e-commerce blog can funnel significant traffic to product pages and assist in converting that traffic. A few examples of blog posts that work well include new product reviews, announcements, top 10 lists and personal interest stories that tie in relevant products and services. Blogs also provide a casual medium for communicating changes to the site that users might find interesting. So, the short answer is yes. E-commerce sites need a blog.</p>
-<h4></h4>
-</li>
-<li>
-<h4>What do you think are the most important factors in getting product pages to rank high in search engines?</h4>
-<p>Many e-commerce pages suffer from duplicate content. So, the first factor I would focus on is uniqueness. The goal should be to make a product page hyper-focused on the actual product. That means possibly having longer, unique product descriptions and including additional collateral like original videos, reviews and other content that can’t be found anywhere else. The perfect product page would be one that gives people a reason to share and link to, versus a page that simply exists for a shopper to add to a cart.</li>
-<li>
-<h4>Do you have any suggestions for drop shippers that use a product feed with no unique descriptions?</h4>
-<p>If you’re using content that everyone else is using for their product pages, then getting your product pages to rank will be very difficult. Similar to my previous answer, drop shippers need to find a way to make their product pages unique and present value to both the visitor and search engines.</li>
-<li>
-<h4>How would you go about link building for an e-commerce site?</h4>
-<p>I would find and reach out to sites that are relevant to my site’s focus and products. I would then explore both advertising and editorial options with them. I would be less interested in whether or not the link uses the nofollow and more interested in whether or not the site has a sizable audience that will drive targeted traffic to my site. Not only is that more effective, both in the short and long term, it also provides me with more options to present to site owners. For example, it may be worth it to get a “sponsored” review if there’s a good chance it will still provide exposure to my brand and product(s).<br />
-The truth is, there are many tactics that work well for e-commerce sites. One tactic I like in particular is creating special destination pages that are altruistic in nature and/or provide interesting tools or statistics that visitors will want to share and discuss on blogs and social media. After a successful campaign with that page, the e-commerce site can then promote their product(s) on it or redirect it to a relevant category or product page while still maintaining some of the original content.</li>
-<li>
-<h4>What are &#8220;local citations&#8221;? Do you think they are important for e-commerce sites that sell to a whole country, several countries, or even worldwide?</h4>
-<p>Local Citations are when other sites mention your business name, address and other contact details. If done well, they can help boost search engine visibility in both local and personalized results. Their importance to e-commerce sites that aren’t based in a particular city is marginal.<br />
-However, it’s possible that e-commerce sites could take advantage of local citations from a worldwide perspective. For example, you could create country specific e-commerce sites that use a related Top Level Domain (TLD) for each country and are written in that country’s primary language. It’s key to make sure each country’s specific site is not a direct copy of the other. Instead, the home page and supporting pages should take into account cultural norms and find other ways to make their product pages unique. You would essentially be making variants of each site; any link building, content marketing and local citations would be specific to that country.</li>
-<li>
-<h4>When an e-commerce website has product pages for products that will never be in stock again, how would you handle them for SEO? Remove the page? Leave the pages up with an Out of Stock message? Redirect the page to other products or something else?</h4>
-<p>It depends on search engine visibility and traffic, the backlink profile and related referral traffic, and whether or not the e-commerce site has other products that are good replacements. With that being said, my general inclination is to do a 301 redirect to a relevant category or product page. I don’t like the negative message it sends to users when you have a product page for something that no longer exists. If you keep that live, the user is more likely to bounce and try to find the product somewhere else, so you might as well try to capture them with a more positive experience.</li>
-<li>
-<h4>Do you have any suggestions on how category pages should be handled in relation to duplicate content and thin content?</h4>
-<p>E-commerce sites should treat category pages similar to how blogs should be handling category pages. If you want a category page to perform well, make the percentage of unique content higher than the list of short and duplicated titles and short descriptions. Turn the category page into a true destination page where product listing aren’t the sole focus of the page.</li>
-<li>
-<h4>What are some tips you can give online merchants looking to hire an SEO firm to handle their e-commerce website?</h4>
-<p>A good SEO firm should be heavily focused on Information Architecture (IA). The starting place for good search engine visibility is optimized IA. The second thing is a solid content strategy. That includes content for category and product pages and also general content marketing initiatives. Aside from effective strategies and techniques, they should be focused on reporting performance. And by performance, I don’t mean where the site ranks. I mean reports that can show an increase in organic traffic and goal conversions from that traffic.</li>
-<li>
-<h4>Can you explain how Raven Tools would help PrestaShop merchants?</h4>
-<p>I think Raven could help PrestaShop merchants in several ways. The first thing I would recommend is that they use the Site Auditor to automatically diagnose and quickly fix any issues they might have on their site. The next thing would be to connect their <a href="http://raventools.com/marketing-tools/google-analytics/" target="_blank">Google Analytics</a> and <a href="http://raventools.com/marketing-tools/google-webmaster-tools/" target="_blank">Webmaster Tools</a> accounts with Raven. That would allow them to monitor and report on their site performance, including the ability to know which keywords drive the most traffic to their site. Then I would have them connect their social network accounts, like Twitter and Facebook, and use Raven to schedule posts throughout the week that share the type of content I’ve described in this interview. There’s a lot more they could do with Raven, but those are some of the bigger things that come to mind.</li>
-</ol>
-<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-</p>
-<p>Thanks for reading, leave your comments below and stay tuned for more great tips from SEO Experts next week!</p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/seo-experts-jon-henshaw-of-raventools-speaks-on-seo-and-ecommerce/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
@@ -436,10 +465,6 @@ However, it’s possible that e-commerce sites could take advantage of local cit
 
 Minified using disk: basic
 Page Caching using disk: enhanced
-Object Caching 829/978 objects using disk: basic
+Object Caching 828/975 objects using disk: basic
 
-<<<<<<< HEAD
-Served from: www.prestashop.com @ 2014-08-08 17:56:02 -->
-=======
-Served from: www.prestashop.com @ 2014-08-07 17:56:02 -->
->>>>>>> FETCH_HEAD
+Served from: www.prestashop.com @ 2014-08-14 17:56:02 -->
