@@ -6,7 +6,7 @@ define('_DB_PASSWD_', 'vlasyDev12*');
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheApc');
-define('_PS_CACHE_ENABLED_', '1');
+define('_PS_CACHE_ENABLED_', '0');
 define('_MEDIA_SERVER_1_', '');
 define('_MEDIA_SERVER_2_', '');
 define('_MEDIA_SERVER_3_', '');
