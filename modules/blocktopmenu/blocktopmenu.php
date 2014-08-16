@@ -475,9 +475,9 @@ class Blocktopmenu extends Module
 			}
 			else
 				$link = $this->context->link->getPageLink('index');
-				
+
 			if($category['level_depth'] == 3){
-				$html .= '<div class="row '.$cat->link_rewrite[2].' showIfResolutionRow">';
+				$html .= '<div class="row '.(($cat->id_category == 12) ? "clip-in-podla-seba" : $cat->link_rewrite[2]).' showIfResolutionRow ">';
 			}
 			$html .= '<li id="'.$category['name'].'" '.(($this->page_name == 'category'
 				&& (int)Tools::getValue('id_category') == (int)$category['id_category']) ? ' class="sfHoverForce"' : '').'>';

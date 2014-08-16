@@ -153,7 +153,6 @@
 		<module name="shoppingfluxexport"/>
 		<module name="socolissimo"/>
 		<module name="sofortbanking"/>
-		<module name="stripejs"/>
 		<module name="syspay"/>
 		<module name="textmaster"/>
 		<module name="tntcarrier"/>
