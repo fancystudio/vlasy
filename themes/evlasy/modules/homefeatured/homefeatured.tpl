@@ -26,19 +26,18 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	  $(".products50Homepage .product_list").flexisel({
-		  visibleItems: 4,
-		    animationSpeed: 200,
+		  animationSpeed: 200,
 		    autoPlay: false,
-		    autoPlaySpeed: 3000,
 		    pauseOnHover: true,
 		    clone:false,
-		    enableResponsiveBreakpoints: true,
+		    enableResponsiveBreakpoints: true
 	  });
 	  $(".products60Homepage .product_list").flexisel({
 		    animationSpeed: 200,
 		    autoPlay: false,
 		    pauseOnHover: true,
-		    clone:false
+		    clone:false,
+		    enableResponsiveBreakpoints: true
 		  });
 //	 $('.products50Homepage .product_list').bxSlider({
 //	    slideWidth: 200,
