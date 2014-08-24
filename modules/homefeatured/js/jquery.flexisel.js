@@ -73,7 +73,7 @@
                 
                 var innerWidth = listParent.width(); // Set widths
                 itemsWidth = (innerWidth) / itemsVisible;
-                childSet.width(itemsWidth);        
+                //childSet.width(itemsWidth);        
                 if (settings.clone) {
                     childSet.last().insertBefore(childSet.first());
                     childSet.last().insertBefore(childSet.first());
@@ -131,7 +131,7 @@
 
                     itemsWidth = (innerWidth) / itemsVisible;
 
-                    childSet.width(itemsWidth);
+                    //childSet.width(itemsWidth);
                     if (settings.clone) {
                         object.css({
                             'left' : -itemsWidth                            
@@ -323,7 +323,7 @@
 
                 var innerWidth = listParent.width();
                 itemsWidth = (innerWidth) / itemsVisible;
-                childSet.width(itemsWidth);
+                //childSet.width(itemsWidth);
                 if (settings.clone) {
                     object.css({
                         'left' : -itemsWidth

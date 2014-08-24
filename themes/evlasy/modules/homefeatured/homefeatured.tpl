@@ -22,6 +22,35 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+<link href="modules/homefeatured/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+$(document).ready(function(){
+	  $(".products50Homepage .product_list").flexisel({
+		  visibleItems: 4,
+		    animationSpeed: 200,
+		    autoPlay: false,
+		    autoPlaySpeed: 3000,
+		    pauseOnHover: true,
+		    clone:false,
+		    enableResponsiveBreakpoints: true,
+	  });
+	  $(".products60Homepage .product_list").flexisel({
+		    animationSpeed: 200,
+		    autoPlay: false,
+		    pauseOnHover: true,
+		    clone:false
+		  });
+//	 $('.products50Homepage .product_list').bxSlider({
+//	    slideWidth: 200,
+//	    slideMargin: 10
+//	  });
+//  $('.products60Homepage').bxSlider({
+//	    slideWidth: 1200,
+//	    minSlides: 2,
+//	    maxSlides: 3
+//  });
+});
+</script>
 {counter name=active_ul assign=active_ul}
 {if isset($products50) && $products50}
 	{assign var="products" value=$products50}

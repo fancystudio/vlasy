@@ -2,7 +2,9 @@ body {
 background:#fff;
 font-family:Arial, sans-serif;
 }
-
+.homefeatured li{
+	clear:none !important;
+}
 p {
 margin-bottom:20px;
 }
@@ -12,7 +14,7 @@ height:20px;
 clear:both;
 }
 
-#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+.products50Homepage .product_list {
 display:none;
 }
 
