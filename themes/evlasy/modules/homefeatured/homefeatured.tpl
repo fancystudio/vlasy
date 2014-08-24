@@ -27,6 +27,7 @@
 $(document).ready(function(){
 	  $(".products50Homepage .product_list").flexisel({
 		  animationSpeed: 200,
+		  visibleItems: 3,
 		    autoPlay: false,
 		    pauseOnHover: true,
 		    clone:false,
