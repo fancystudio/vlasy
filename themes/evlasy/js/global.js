@@ -141,13 +141,20 @@ function blockHover(status)
 			var pcHeight = $(this).parent().outerHeight();
 			var pcPHeight = $(this).parent().find('.button-container').outerHeight() + $(this).parent().find('.comments_note').outerHeight() + $(this).parent().find('.functional-buttons').outerHeight();
 			$(this).parent().addClass('hovered');
-			$(this).parent().css('height', pcHeight + pcPHeight).css('margin-bottom', pcPHeight * (-1));
+			if($(this).parents(".jcarousel50").length != 1 && $(this).parents(".jcarousel60").length != 1){
+				$(this).parent().css('height', pcHeight + pcPHeight).css('margin-bottom', pcPHeight * (-1));
+			}
 		}
 	});
 
 	$(document).off('mouseleave').on('mouseleave', '.product_list.grid li.ajax_block_product .product-container', function(e){
-		if ($('body').find('.container').width() == 1170)
-			$(this).parent().removeClass('hovered').removeAttr('style');
+		if ($('body').find('.container').width() == 1170){
+			if($(this).parents(".jcarousel50").length != 1 && $(this).parents(".jcarousel60").length != 1){
+				$(this).parent().removeClass('hovered').removeAttr('style');
+			}else{
+				$(this).parent().removeClass('hovered');
+			}
+		}
 	});
 }
 
