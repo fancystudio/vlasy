@@ -13,11 +13,115 @@
 	<atom:link href="http://www.prestashop.com/blog/en/feed/" rel="self" type="application/rss+xml" />
 	<link>http://www.prestashop.com/blog/en</link>
 	<description></description>
-	<lastBuildDate>Thu, 14 Aug 2014 15:18:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 20 Aug 2014 15:30:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>Why Bootstrap Has Matched the Hype</title>
+		<link>http://www.prestashop.com/blog/en/why-bootstrap-has-matched-the-hype/</link>
+		<comments>http://www.prestashop.com/blog/en/why-bootstrap-has-matched-the-hype/#comments</comments>
+		<pubDate>Wed, 20 Aug 2014 15:19:53 +0000</pubDate>
+		<dc:creator>Benjamin Utterback</dc:creator>
+				<category><![CDATA[Best Development Practices]]></category>
+		<category><![CDATA[Ecommerce Tips and Advice]]></category>
+		<category><![CDATA[Ecommerce Trends]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18245</guid>
+		<description><![CDATA[Bootstrap is no longer a buzzword in web-design. It has become a full-fledged action verb. “Are you having trouble starting your web-design project? Just Bootstrap it.” When a brand name like Twitter Bootstrap becomes an informal everyday word, you know &#8230; <a href="http://www.prestashop.com/blog/en/why-bootstrap-has-matched-the-hype/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p style="text-align: left;" align="center">Bootstrap is no longer a buzzword in web-design. It has become a full-fledged action verb. “Are you having trouble starting your web-design project? Just Bootstrap it.” When a brand name like Twitter Bootstrap becomes an informal everyday word, you know that people like it and that people use it, a lot.</p>
+<p style="text-align: left;" align="center">In the likes Xerox for photocopying, and Google for online searching, Bootstrap has essentially become the go-to framework for designing websites. That may be a bit of a bold statement given the number of competitors in the market, but hear me out. In my previous post, I gave <a href="http://www.prestashop.com/blog/en/what-is-bootstrap/">a brief history of the unlikely birth and explosive hype</a> surrounding the Twitter Bootstrap framework.</p>
+<p>Now, let’s look into 5 reasons why Bootstrap has matched the hype.</p>
+<p><img class="alignleft size-full wp-image-18251" title="img-02" src="http://www.prestashop.com/blog/en/files/2014/08/img-02.png" alt="" width="500" height="150" /><span id="more-18245"></span></p>
+<h4>1. Time Saver:</h4>
+<p>Bootstrap comes equipped with pre-made grids, patterns, and ready-to-go CSS and HTML style elements like tables, forms, buttons, icons etc. What does this mean for the busy web-designer? It means that you literally have everything you need to create a professional looking website from scratch, all with one package of Bootstrap. Gone are the days where you have to style and code every element of your webpage, just Bootstrap it.</p>
+<h4>2. Fully Responsive:</h4>
+<p>Nearly all websites need to be mobile ready and responsive, especially ecommerce websites. You want your visitors to be able to browse products on a desktop at home, add products on their tablet while waiting to board a plane, and complete checkout on their smartphone after landing. It happens more and more each day as the power of mobile design and mobile payments evolve. Bootstrap comes ready with a variety of responsive grids to service every level of mobile ready design.</p>
+<h4>3. Active Community:</h4>
+<p>To date, <a href="https://github.com/twbs/bootstrap">Bootstrap’s GitHub repository</a> has 70,000 stars (which equate to Facebook likes, or Google +1’s). It also has nearly 600 contributors making it one of the most popular repositories on GitHub. You can be sure that if you ever have a problem, concern or question, simply post the question on GitHub Bootstrap threads and interact with the experts. Chances are, your question has been answered already. It’s good to know the community has got your back.</p>
+<h4>4. JavaScript Plugin Bundles:</h4>
+<p>One of Bootstrap’s greatest features is that it comes pre-bundled with a variety of useful JavaScript plugins. Every designer knows the headache that can come with compatibility between JavaScript functions and your web-design. Fortunately, all of Bootstraps pre-bundled JS plugins work flawlessly. Do you need animated tabs, moving sliders and collapsible menus? Just Bootstrap it.</p>
+<h4>5. Docs. Docs. Docs:</h4>
+<p>One can never underestimate the power of good documentation. Bootstrap is heralded around the web-design world for having extensive, helpful and easy-to-read documentation. They provide examples of nearly every element. I can’t forget to mention that it also includes a demo that makes it even more accessible for the beginner web-designer. From the easiest functions to the most complex elements, the Bootstrap documentation covers all bases.</p>
+<p>&#8212;&#8211;</p>
+<p>Bootstrap exploded through the web-design scene and it’s no surprise why. The combination of ready-made elements, bundled animations, extensive documentation and a passionate community make the Twitter Bootstrap framework an attractive solution for all levels of web-design. That’s not to say you’ll have your dream website in a snap, you still must have a pretty good knowledge of HTML and CSS to really get started. If you haven’t seen it already, we were fortunate enough to interview the creator of Bootstrap, Mark Otto. You can <a href="http://www.prestashop.com/blog/en/creator-of-bootstrap-mark-otto-speaks-to-attendees-at-prestashop-barcamp-2013/">check out the full video here</a>.</p>
+<p>Thanks for reading all about this awesome Framework, be sure to comment below. Finally, I’ll leave you with one question. Do you Bootstrap?</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/why-bootstrap-has-matched-the-hype/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Anatomy of Ecommerce Return Policies</title>
+		<link>http://www.prestashop.com/blog/en/the-anatomy-of-ecommerce-return-policies/</link>
+		<comments>http://www.prestashop.com/blog/en/the-anatomy-of-ecommerce-return-policies/#comments</comments>
+		<pubDate>Tue, 19 Aug 2014 16:06:39 +0000</pubDate>
+		<dc:creator>Julie Liu</dc:creator>
+				<category><![CDATA[Ecommerce Tips and Advice]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18224</guid>
+		<description><![CDATA[A clear and comprehensive return policy reinforces credibility and is crucial for building customer trust. As an online merchant, a return policy helps you reduce the time spent on refunds, address customer concerns and increase profitability. So what should it &#8230; <a href="http://www.prestashop.com/blog/en/the-anatomy-of-ecommerce-return-policies/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<p>A clear and comprehensive return policy reinforces credibility and is crucial for building customer trust. As an online merchant, a return policy helps you reduce the time spent on refunds, address customer concerns and increase profitability. So what should it include and where should you start? We’ll help you get going by exploring the anatomy of ecommerce return policies.</p>
+<p><img class="aligncenter size-full wp-image-18240" src="http://www.prestashop.com/blog/en/files/2014/08/Return-Policies.jpg" alt="" width="600" height="315" /></p>
+<h2><span id="more-18224"></span><span style="color: #ff7d2f;font-weight: bold">What can be returned?</span></h2>
+<p>The first decision you have to make is whether or not you want to accept returns or exchanges. Not sure? Here are 5 product categories that are generally not accepted for returns according to the <a href="http://www.dca.ca.gov/publications/legal_guides/s-6.shtml" target="_blank">California Legal Guide.</a> Your local government should have similar documents available.</p>
+<ol>
+<li>Food, plants, flowers, and other perishable goods</li>
+<li>Customized goods received as ordered</li>
+<li>Goods which cannot be resold due to health considerations</li>
+<li>Products returned in non-resalable condition</li>
+<li>Returns without original tags, packaging and receipts or invoices</li>
+</ol>
+<p>If you sell an assortment of products, outline which items can or cannot be returned.</p>
+<h2><span style="color: #ff7d2f">Refund Amount</span></h2>
+<p>List the refund amount customers can expect. For example, shipping fees are generally not refunded while taxes are. If you charge restocking fees, list them in your return policy as well. Customers should be able to calculate the exact amount they will receive.</p>
+<h2><span style="color: #ff7d2f">How much time?</span></h2>
+<p>Specify the return period (in days or months), customers have to return their order. Not sure how much time is appropriate? Consider this key factor &#8211; payment processers store customers’ credit card information for a limited number of days. Without this, you will not be able to refund customers. Other factors to consider include the order delivery and return shipping times.</p>
+<p>For a very clear return policy, we suggest indicating when the return period starts. Is it the day the purchase is made, orders ship, or customers receive the package? Also, include the activity that must be completed before that period ends. For example, do customers just have to ship their return or should you receive the package by the then. Finally, specify how many days it will take for your business to process the refund and keep customers updated by systematically updating their return status.</p>
+<h2><span style="color: #ff7d2f">Where should customers send returns?</span></h2>
+<p>List the address return packages should be sent to and don’t forget to include the department. To help ensure customers ship to the right location, include a return slip customers can tape outside of their package.</p>
+<p>You should also specify who pays for the postage. Having customers pay for the postage is cost effective, however, they may select a cheap and unreliable shipping service. Regardless of who pays, insure your product(s) with tracking services.</p>
+<h2><span style="color: #ff7d2f">What about exchanges?</span></h2>
+<p>Can customers return an item for an exchange or store credit? If so, what is the process like for customers? How long will it take? Also, list any fees they will have to pay such as restocking fees or additional shipping charges. If you do not accept exchanges or offer store credit, clearly state so.</p>
+<h2><span style="color: #ff7d2f">Special situations:</span></h2>
+<h4><strong>Sales</strong></h4>
+<p>When retailers run sales, it can be assumed that those goods cannot be returned. However, this assumption varies from person to person, so explicitly state the applicable return policy for sales. For example, if you use language like “as is”, “all sales final”, “gifts with purchase”, or “BOGO (buy one get one free)”, clearly state it will not be accepted for refunds.</p>
+<h4><strong>Past Due</strong></h4>
+<p>Let customers know what happens if products are received past the return period. Will customers receive store credit, get a refund at a discounted amount, or will you simply return the item back? A strict return policy may protect you against losses, however, it may also dissuade customers from making purchases.</p>
+<h2><span style="color: #ff7d2f">Closing remarks</span></h2>
+<p>Include a clause that lets you make reasonable changes or updates to the return policy at your discretion. As you learn more about your customers’ shopping habits, you can modify the return policy to better reflect their expectations. If you find that you receive too many returns, check out these <a href="http://www.prestashop.com/blog/en/10-ways-to-reduce-returns-for-your-e-commerce-site/" target="_blank">10 ways to reduce returns</a>.</p>
+<p>Let us know if this has been helpful, or if we’ve missed anything by commenting below. Looking for an ecommerce software that helps you manage orders and returns more efficiently? <a href="http://www.prestashop.com/en/download" target="_blank">Download PrestaShop’s shopping cart software</a> to get started!</p>
+<address><em>(Author’s Note: This blog post is intended to help you draft your return policy. Please consult your lawyer to ensure your return policy adheres to local and/or federal laws.)</em></address>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/the-anatomy-of-ecommerce-return-policies/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to Install PrestaShop &#124; Video Tutorial</title>
+		<link>http://www.prestashop.com/blog/en/how-to-install-prestashop-video-tutorial/</link>
+		<comments>http://www.prestashop.com/blog/en/how-to-install-prestashop-video-tutorial/#comments</comments>
+		<pubDate>Mon, 18 Aug 2014 14:33:31 +0000</pubDate>
+		<dc:creator>Benjamin Utterback</dc:creator>
+				<category><![CDATA[Best Development Practices]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18058</guid>
+		<description><![CDATA[If you are looking to learn how to install PrestaShop, you came to the right spot. This easy to understand video, created by PrestaShop Forum Moderator, Fabio Porta aka Nemo1, introduces the 1.6 version of PrestaShop and teaches you step-by-step how to &#8230; <a href="http://www.prestashop.com/blog/en/how-to-install-prestashop-video-tutorial/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
+			<content:encoded><![CDATA[<h3></h3>
+<p>If you are looking to learn how to install PrestaShop, you came to the right spot. This easy to understand video, created by PrestaShop Forum Moderator, Fabio Porta aka <a href="http://www.prestashop.com/forums/user/228329-nemo1/" target="_blank">Nemo1</a>, introduces the 1.6 version of PrestaShop and teaches you step-by-step how to install PrestaShop onto your server. To see more PrestaShop 101 tutorial videos, check out the<a href="https://www.youtube.com/user/NemoPostScriptum" target="_blank"> YouTube page for Nemo&#8217;s Post Scriptum</a>.</p>
+<p>Use this tutorial video in combination with the <a href="http://doc.prestashop.com/display/PS16/Installing+PrestaShop" target="_blank">Official PrestaShop documentation</a> to get started on your online store. If you are have any questions, feel free to comment on this post. Check out below the video for more links to our awesome community resources.</p>
+<p><iframe src="//www.youtube.com/embed/p8RQOUogBmQ" frameborder="0" width="560" height="315"></iframe></p>
+<h4><span style="font-size: 14px;"><span id="more-18058"></span>Ways to Contribute</span></h4>
+<p>Whether you are a developer, a merchant, or just a software enthusiast, there are a variety ways you can help contribute to PrestaShop.</p>
+<ul>
+<li><a href="http://www.prestashop.com/forums/">Join the PrestaShop Forum</a> and be active on one of the largest online retail communities in the world. With over 650,000 members and nearly 30 languages/communities, you’ll be in the perfect place for Ecommerce discussions, tips, technical tutorials and more.</li>
+<li><a href="https://crowdin.net/project/prestashop-official">Help translate PrestaShop in your language</a>. Thanks to contributions from our global Community, store owners can translate their online store in 60+ languages. Submit translations on PrestaShop’s CrowdIn page to help the Community sell all across the globe.</li>
+<li>Found an issue or want to submit a feature request? <a href="http://forge.prestashop.com/">Use the Forge!</a> PrestaShop Forge is the official issue-tracker for PrestaShop. You don’t need to be a developer to write a ticket or request an improvement. You will need to create an account on the Forge:<a href="http://doc.prestashop.com/display/PS16/How+to+use+the+Forge+to+contribute+to+PrestaShop">follow these instructions</a>, and then wait for a core developer to answer you.</li>
+</ul>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/en/how-to-install-prestashop-video-tutorial/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>4 Essential Tips To Improving Your On-Site Search Engine</title>
 		<link>http://www.prestashop.com/blog/en/4-essential-tips-to-improving-your-on-site-search-engine/</link>
@@ -283,181 +387,6 @@ By installing the<a href="http://addons.prestashop.com/en/advertising-marketing-
 			<wfw:commentRss>http://www.prestashop.com/blog/en/6-time-tested-ways-to-reduce-abandoned-shopping-carts/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
-		<item>
-		<title>PrestaShop v1.6.0.9 is available for download!</title>
-		<link>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/</link>
-		<comments>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/#comments</comments>
-		<pubDate>Thu, 31 Jul 2014 08:44:02 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[PrestaShop News]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=18029</guid>
-		<description><![CDATA[Today we released the latest version of PrestaShop, v1.6.0.9. In this new version, our development team responded to the feedback coming from 69 users in our amazing community! Thanks to their great contributions, you will find lots of enhancements plus &#8230; <a href="http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter  wp-image-16832" title="-PrestaShop-1.6" src="http://www.prestashop.com/blog/fr/files/2014/07/PrestaShop-1.6.png" alt="" width="576" height="302" /></p>
-<p><strong>Today we released the latest version of PrestaShop, <a href="http://www.prestashop.com/en/download" target="_blank">v1.6.0.9</a>.</strong></p>
-<p>In this new version, our development team responded to the feedback coming from 69 users in our <strong>amazing community</strong>! Thanks to their great contributions, you will find lots of enhancements plus some fixes to reported issues. <span id="more-18029"></span><strong>The most important improvements include:</strong></p>
-<p>- Smarty update to 3.1.19<br />
-- Improvements for the Block Layered Navigation<br />
-- Optimization of the database loading time for large catalogs and categories<br />
-- Better implementation of HTML Purifier<br />
-- Mobile detection has been updated for improved stability</p>
-<p>Additional details can be found in the <a href="http://forge.prestashop.com/secure/Dashboard.jspa" target="_blank">Forge</a> and <a href="https://github.com/prestashop" target="_blank">GitHub</a>. You can view the full list of improvements in the <a href="http://www.prestashop.com/en/developers-versions/changelog/1.6.0.9" target="_blank">Changelog</a>.</p>
-<p>We would like to take this opportunity to remind you that PrestaShop users can directly <strong>participate in our development activities by joining the PrestaShop User Club</strong>. This group of users receives early access to new versions and provides direct input to our development team. If you’re interesting in joining this group, you can learn more <a href="http://www.prestashop.com/blog/en/introducing-the-user-club-building-prestashop-together/" target="_blank">here</a> or register directly <a href="http://www.prestashop.com/club/" target="_blank">here</a>.</p>
-<p>&gt; <strong><a href="http://www.prestashop.com/en/download" target="_blank">Download PrestaShop 1.6.0.9</a></strong><br />
-&gt; <strong><a href="http://doc.prestashop.com/display/PS16/Updating+PrestaShop" target="_blank">Consult our updating guide</a></strong></p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/prestashop-v1-6-0-9-is-available-for-download/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>DIY Ecommerce Guide to Gorgeous Product Photography</title>
-		<link>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/</link>
-		<comments>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/#comments</comments>
-		<pubDate>Wed, 30 Jul 2014 16:10:48 +0000</pubDate>
-		<dc:creator>Natalie Beigel</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17937</guid>
-		<description><![CDATA[When it comes to ecommerce and online retail, there’s no denying that product photography plays a huge role in customer purchasing behavior. Using beautiful, high-quality images to showcase your products will be your store’s biggest asset for increasing conversions. We &#8230; <a href="http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>When it comes to ecommerce and online retail, there’s no denying that product photography plays a huge role in customer purchasing behavior. Using beautiful, high-quality images to showcase your products will be your store’s biggest asset for increasing conversions.</p>
-<p>We interviewed Thomas Kragelund, CEO of Remove the Background, a seasoned expert at optimizing product images for ecommerce sites. In this DIY ecommerce guide to gorgeous product photography, Thomas answers commonly asked questions and shares professional techniques to help you produce irresistible product images.</p>
-<p style="text-align: center;"><img class="aligncenter  wp-image-17940" title="photoDIY2" src="http://www.prestashop.com/blog/en/files/2014/07/photoDIY2-1024x537.png" alt="" width="584" height="306" /></p>
-<p><span id="more-17937"></span></p>
-<h2 style="text-align: center;">-</h2>
-<h2><span style="color: #ff6600;">What specific photography equipment do you recommend?</span></h2>
-<p style="text-align: center;"><img class="aligncenter  wp-image-18011" title="Image1" src="http://www.prestashop.com/blog/en/files/2014/07/Image12.png" alt="" width="585" height="495" /></p>
-<p>Nowadays you don&#8217;t need expensive photography equipment to get high quality product images. There are five key factors that will play an important role in the creation of professional product images for your website:</p>
-<p style="padding-left: 60px;"><span style="color: #ff6600;">●</span> Camera<br />
-<span style="color: #ff6600;">●</span> Studio setup<br />
-<span style="color: #ff6600;">●</span> Lighting<br />
-<span style="color: #ff6600;">●</span> Product styling<br />
-<span style="color: #ff6600;">●</span> Post-production</p>
-<h4>1. Camera</h4>
-<p>Everyone has a camera these days, whether it’s built into your phone, an old point-and-shoot or something more on the professional side. You don’t need the best-of-the-best for great product images. At the bare minimum, we suggest that you use a camera that has manual exposure and aperture settings.</p>
-<h4>2. Studio setup</h4>
-<p>To create your studio setup, it&#8217;s important to find a place where you have enough space to create a simple ‘sweep’ backdrop and that allows you to move around and shoot different product angles. Your living room or a spare room will work just fine but if you take photos on a regular basis we recommend a fixed location because it can take to setup and teardown each session. Also it&#8217;s easier to get consistent results when you have a fixed studio in place.</p>
-<p>In order to create the studio you just need a room, a table, a roll of white paper to create a seamless ‘sweep’ backdrop behind the product and some duct tape to secure your white paper sweep. If we have to choose one essential piece of equipment to recommend, a tripod is definitely at the top of the list. Using a tripod to stabilize your camera is a critical part of your setup and will help you to achieve better results in no time.</p>
-<h4>3. Lighting</h4>
-<p>This is also one of the most important elements in product photography. If you don’t have proper lighting, your images won’t accurately represent your products. There are different lighting techniques you can use for digital product images such as continuous lighting or flash lighting, however the most important point to remember is to avoid mixing different types of lighting. Doing so will help you capture more realistic product images.</p>
-<p>If you are on a budget, we recommend taking advantage of the natural light coming from a window in your studio space. That being said, this option does have some major drawbacks like night time shooting and the ability to achieve consistency on a continuous basis. We strongly recommend spending your first penny on lighting. Two or three sources will do and you will notice the results instantly.</p>
-<h4>4. Product Styling</h4>
-<p>In order to get great results as well as reduce time and work required during the post-production phase, we recommend that you thoroughly prepare your products before you start your photo shoot. Here are a few suggestions:</p>
-<p style="padding-left: 60px;"><span style="color: #ff6600;">●</span> Repair imperfections such as a stains or missing buttons.<br />
-<span style="color: #ff6600;">●</span> Remove labels, stickers, tags and dust.<br />
-<span style="color: #ff6600;">●</span> Use a steamer to eliminate wrinkles and creases.<br />
-<span style="color: #ff6600;">●</span> Show the shape of the product: in case of apparel products, use a mannequin to help your customer gage the fit of the product. For footwear, you can stuff the shoes or even use dental floss to hold up the straps on sandals and heels.</p>
-<p style="padding-left: 60px; text-align: center;"><img class="aligncenter  wp-image-18012" title="Image2" src="http://www.prestashop.com/blog/en/files/2014/07/Image22.png" alt="" width="474" height="204" /></p>
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-18013" title="Image3" src="http://www.prestashop.com/blog/en/files/2014/07/Image31.png" alt="" width="585" height="270" /></p>
-<h4>5. Post-production</h4>
-<p>In this final step your product images should be edited by a graphic designer or professional image retoucher. At a bare minimum, you need to ensure that the color of the product is accurately presented. We also suggest that you make a style guide per product category so that all of your images are edited consistently. You should also take <a href="http://www.removethebackground.com/blog/marketplace-guidelines/?ref=1036403" target="_blank">marketplace image standards</a> into account if you plan to sell your products on sites like Amazon or eBay. Create your own style guide by defining the following image specifications for your products:</p>
-<p style="padding-left: 60px;"><span style="color: #ff6600;">●</span> Size<br />
-<span style="color: #ff6600;">●</span> Margin (Top, bottom, left, right)<br />
-<span style="color: #ff6600;">●</span> Alignment (top, center, bottom)<br />
-<span style="color: #ff6600;">●</span> Background color<br />
-<span style="color: #ff6600;">●</span> Shadow type</p>
-<p>For more on digital product image photography best practices you can check out our 3-part DIY series:</p>
-<p style="padding-left: 60px;"><a href="http://www.removethebackground.com/blog/diy-1-build-photo-studio-bootstrapped-budget/?ref=1036403" target="_blank">DIY 1: Build your own photo studio</a><br />
-<a href="http://www.removethebackground.com/blog/diy-2_camera_settings/?ref=1036403" target="_blank">DIY 2: Adjust your digital camera settings for product photography</a><br />
-<a href="http://www.removethebackground.com/blog/diy-3-editing-product-images/?ref=1036403" target="_blank">DIY 3: Post-Production tips for beautiful product images</a></p>
-<h2 style="text-align: center;">-</h2>
-<h2><span style="color: #ff6600;">What are the best lighting techniques?</span></h2>
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-18014" title="Image4" src="http://www.prestashop.com/blog/en/files/2014/07/Image41.png" alt="" width="585" height="211" /></p>
-<p>Customers want to know exactly what they will be getting when shopping online and it&#8217;s very important to show realistic images of your product. Apart from improving sales, professional and realistic product images can also help reduce returns and customer complaints.</p>
-<p>The best lighting technique we can recommend is to avoid mixed lighting. Mixed lighting occurs when you have two or more different light sources are cast on a product (such as fluorescent, incandescent, natural or strobe lighting). Having different types of light can distort the true color of a product and give the wrong impression to your customers. Besides this, mixed lighting can be very difficult to color correct in post-production applications like Photoshop, so it always best to look after the lighting in your studio.</p>
-<p>There are two main types of lighting setups that you can utilize:</p>
-<p><span style="color: #ff6600;">●</span> Continuous lighting: daylight from a large window or strong light bulbs</p>
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-18015" title="Image5" src="http://www.prestashop.com/blog/en/files/2014/07/Image52.png" alt="" width="585" height="310" /></p>
-<p><span style="color: #ff6600;">●</span> Flash lighting: either built-in/speedlight or strobes/monolights</p>
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-18016" title="Image6" src="http://www.prestashop.com/blog/en/files/2014/07/Image61.png" alt="" width="585" height="273" /></p>
-<p>If you have a room with natural light, we definitely recommend that you to take advantage of this continuous light source. You can then adjust your camera settings to the lighting in the room to achieve great results. To get the most out of a natural light environment, it’s important to place your setup close to the window and use a white reflector board on the opposite side of the window to ‘bounce’ light back on the product.</p>
-<p>On the other hand, if you don&#8217;t have easy access to natural light, there are several different lighting setups you can utilize in your studio. The most common setups for professional photographers are:</p>
-<p style="padding-left: 60px;"><span style="color: #ff6600;">●</span> Built-in flash or speedlights<br />
-<span style="color: #ff6600;">●</span> Strobes/monolights</p>
-<p>For amateurs we suggest daylight balanced fluorescent light bulbs, which are easy to work with. They don’t give off heat or use a lot of power and they are fairly cheap.</p>
-<p>It can be confusing to decipher which photography and lighting equipment might be best to use for your online business. To simplify things, ask yourself what your main needs are? And what is your purpose for using artificial lighting? These two questions can assist you in determining which lighting kit is best.</p>
-<p>For an overview on eCommerce lighting setups you can check out the post:</p>
-<p><a href="http://www.removethebackground.com/blog/lighting-equipment-101/?ref=1036403 " target="_blank">Lighting Equipment 101</a></p>
-<h2 style="text-align: center;">-</h2>
-<h2><span style="color: #ff6600;">What are the best practices for creating consistent product images and category pages?</span></h2>
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-18017" title="Image7" src="http://www.prestashop.com/blog/en/files/2014/07/Image71.png" alt="" width="585" height="256" /></p>
-<p>We see many websites that have high quality product images but then don’t have consistency on their category pages. This not only distorts your customer’s sense of scale of your products but can also give your site an unpolished look and feel.</p>
-<p>In order to avoid this, we recommend that you create a style guide for your product images that details the size, crop, margin, alignment, background and shadow requirements for each of your product categories.</p>
-<p>This style guide can be used as a reference by your in-house graphic designers or by external teams if you decide to <a href="http://www.removethebackground.com/blog/outsourcing/?ref=1036403 " target="_blank">outsource the product image editing process</a>. Either way, this will assure that you get the same quality results on your site, each and every time.</p>
-<h2 style="text-align: center;">-</h2>
-<h2><span style="color: #ff6600;">How do you recommend taking photos that highlight details?</span></h2>
-<p>As a general rule of thumb, the more information you provide about your products, the better shopping experience and the fewer returns you will receive. The information you provide on your products comes from two main sources: product descriptions and product images. Thus, publishing multiple, high-quality images of each product is critical to the success of your online business.</p>
-<p><img class="aligncenter size-full wp-image-18018" title="Image8" src="http://www.prestashop.com/blog/en/files/2014/07/Image81.png" alt="" width="538" height="308" /></p>
-<p>We recommend shooting from many different angles so your customers can appreciate the color, material and trims details of your products. Showing different angles such as front and back, both sides and a 45-degree angle shot is a great place to start.</p>
-<p>Some websites have a zoom functionality to see the details of your product. It’s really important that potential customers can zoom in on the item to see the areas that they might be interested in. This is definitely a great tool, however we also recommend that you provide additional images that specifically highlight the main details of the product to grab your customers’ attention. Be sure to include shots that reveal the most important details of the product such as logos, special embroidery, gems/stones, ribbons, trims and/or other unique characteristics.</p>
-<p style="text-align: center;"><img class="aligncenter size-full wp-image-18019" title="Image9" src="http://www.prestashop.com/blog/en/files/2014/07/Image91.png" alt="" width="333" height="500" /></p>
-<h2 style="text-align: center;">-</h2>
-<h2><span style="color: #ff6600;">How can we make sure to show the accurate color of product images?</span></h2>
-<p style="text-align: center;"><img class="aligncenter  wp-image-17950" title="Image10" src="http://www.prestashop.com/blog/en/files/2014/07/Image10.jpg" alt="" width="540" height="261" /></p>
-<p>There is perhaps nothing more alienating for online shoppers than inaccurate color representations in product photos. Customers can feel frustrated, dissatisfied, and even deceived when they receive a product that is colored differently than what they saw on the online product page.</p>
-<p>It is imperative for online retailers to represent the colors of their products accurately, and the first step to achieve quality results starts in the studio. As we mentioned earlier, it is critical that you avoid mixed lighting as this can significantly impact product color.</p>
-<p>Besides this, it is good to know how to use a ‘grey card’ to your advantage. A grey card is designed to help photographers to adjust their exposure and white balance settings consistently by providing a reference point. This reference point will set a white balance, or color balance, point for a particular image set and all images captured thereafter. The reference point will prompt your camera to compensate for any illuminant color in the space where you plan to shoot by adjusting the white balance and/or color profile.</p>
-<p>Another important factor to take into account is converting edited photos into a web-ready color space profile. Color space is a specific range of colors that can be presented in a given image. Some options for color spaces are Adobe RGB, CMYK, and SRGB. Without the correct color space, colors of products will look totally different when viewed on different computer screens and web browsers. SRGB is the best color space profile to keep your images consistent and vibrant no matter the channel or device.</p>
-<p>Finally, you should make your final color adjustments in a post-production program like Adobe Photoshop to perfect your product images. Be sure to work with a skilled image editor that can take your studio images and convert them into highly commercial, web-ready product photos. Happy shooting!</p>
-<h4>About RemoveTheBackground.com</h4>
-<p>Remove The Background is the leading product image editing service for internet retailers, bloggers, designers, photographers, and webmasters.</p>
-<p>The company’s roots are in Denmark where the company was founded in 2011. RTB is now an international family and has offices in North America (USA, Canada), Europe (UK, Germany, France, Benelux, Spain, Nordic) and Asia (Vietnam).</p>
-<p>Sign-up today and get 3 free product images!</p>
-<p>Learn more at <a href="http://www.removethebackground.com/?ref=1036403" target="_blank">www.RemoveTheBackground.com</a></p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/diy-ecommerce-guide-to-gorgeous-product-photography/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>SEO Experts &#124; Neil Patel of KISSmetrics and QuickSprout Gives SEO Advice for Ecommerce</title>
-		<link>http://www.prestashop.com/blog/en/neil-patel-seo-advice/</link>
-		<comments>http://www.prestashop.com/blog/en/neil-patel-seo-advice/#comments</comments>
-		<pubDate>Thu, 24 Jul 2014 16:55:57 +0000</pubDate>
-		<dc:creator>Benjamin Utterback</dc:creator>
-				<category><![CDATA[Ecommerce Tips and Advice]]></category>
-
-		<guid isPermaLink="false">http://www.prestashop.com/blog/en/?p=17913</guid>
-		<description><![CDATA[We welcome Neil Patel, co-founder of Crazy Egg, KISSmetrics and Hello Bar. He has cemented himself as a top marketing authority. Forbes named him one of the Top 10 online marketers. Even President Obama recognized Neil as a top 100 &#8230; <a href="http://www.prestashop.com/blog/en/neil-patel-seo-advice/" rel="nofollow" class="more-link">Read more<span class="meta-nav"></span></a>]]></description>
-			<content:encoded><![CDATA[<p>We welcome <a href="http://www.neilpatel.com" target="_blank">Neil Patel</a>, co-founder of Crazy Egg, KISSmetrics and Hello Bar. He has cemented himself as a top marketing authority. Forbes named him one of the Top 10 online marketers. Even President Obama recognized Neil as a top 100 entrepreneur under the age of thirty. He has teamed up with PrestaShop moderator <a href="http://www.prestashop.com/forums/user/435599-dh42/" target="_blank">Lesley Paone</a> of <a href="http://dh42.com/" target="_blank">dh42</a> to give smart SEO pointers for anyone starting an online Ecommerce store.</p>
-<p><a href="http://www.prestashop.com/blog/en/files/2014/07/120521091806-neil-patel-profile-horizontal-gallery.jpg"><img class="alignleft  wp-image-17915" title="120521091806-neil-patel-profile-horizontal-gallery" src="http://www.prestashop.com/blog/en/files/2014/07/120521091806-neil-patel-profile-horizontal-gallery.jpg" alt="" width="576" height="324" /><br />
-</a> <span id="more-17913"></span></p>
-<ol>
-<li>
-<h4>What would be your first steps in starting SEO for a newly launched e-commerce site?</h4>
-<p>I would focus on fixing on page issues. With ecommerce sites there is a lack of unique content on most product pages, products usually aren’t interlinked and the code can be sloppy. I would fix these issues first as it is low hanging fruit.</li>
-<li>
-<h4>Do you think every e-commerce site needs a blog?</h4>
-<p>No, for some it doesn’t make sense. For example, I were to sell bidets, creating a blog on that topic probably wouldn’t do too well.</li>
-<li>
-<h4>What do you think are the most important factors in getting product pages to rank high in search engines?</h4>
-<p>External links. If you don’t have enough external links, especially for an ecommerce site where the space is crowded, you won’t rank well. You have to build more links that are relevant than competitors.</li>
-<li>
-<h4>Do you have any suggestions for drop shippers that use a product feed with no unique descriptions?</h4>
-<p>I would pay a college student to rewrite the descriptions. It is a tedious task, but it needs to be done.</li>
-<li>
-<h4>How would you go about link building for an e-commerce site?</h4>
-<p>I would<a href="http://www.quicksprout.com/the-advanced-guide-to-link-building/" target="_blank"> follow the tactics in this guide:</a></li>
-<li>
-<h4>What are &#8220;local citations&#8221;? Do you think they are important for e-commerce sites that sell to a whole country, several countries, or even worldwide?</h4>
-<p>It’s when a local business or a local site mentions your brand or website. There isn’t a ton of data on how this impacts rankings yet, but I do think this is important as a lot of sites may mention you but not link. This could potentially help you boost your rankings in the long run as it is “natural” to have a lot of sites mentioning you even if they don’t link. Whether you are targeting a city or the whole world, having more citations can’t hurt…</li>
-<li>
-<h4>When an e-commerce website has product pages for products that will never be in stock again, how would you handle them for SEO? Remove the page? Leave the pages up with an Out of Stock message? Redirect the page to other products or something else?</h4>
-<p>I usually remove them as it creates a poor user experience by having them. Some may say keep them as it helps with traffic, but the last thing you want to do is create a poor user experience.</li>
-<li>
-<h4>Do you have any suggestions on how category pages should be handled in relation to duplicate content and thin content?</h4>
-<p>I typically don’t index category pages as you don’t really need them. It creates more duplicate content and isn’t really necessary unless you have thousands of products.</li>
-<li>
-<h4>What are some tips you can give online merchants looking to hire an SEO firm to handle their e-commerce website?</h4>
-<p>Look for someone who has a good track record. Talk with their past clients and find out the results they received.</li>
-<li>
-<h4>Can you explain how your products (you can focus on one or them all, I will delete this area as well.) would help Prestashop merchants?</h4>
-<p><a href="www.crazyegg.com" target="_blank">Crazy Egg</a> can help you identify where people are clicking and where they aren’t. You can use this data to optimize the placement of web page elements like check out buttons or product images/descriptions. This will help you maximize your conversion rate.</li>
-</ol>
-<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br />
-Thanks for reading this edition of our SEO Experts Series. What are you waiting for? Start applying this SEO advice today. Feel free to comment below with your thoughts and questions. Have a great search day.</p>
-]]></content:encoded>
-			<wfw:commentRss>http://www.prestashop.com/blog/en/neil-patel-seo-advice/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
 	</channel>
 </rss>
 
@@ -465,14 +394,6 @@ Thanks for reading this edition of our SEO Experts Series. What are you waiting 
 
 Minified using disk: basic
 Page Caching using disk: enhanced
-Object Caching 828/975 objects using disk: basic
+Object Caching 833/981 objects using disk: basic
 
-<<<<<<< HEAD
-Served from: www.prestashop.com @ 2014-08-14 17:56:02 -->
-=======
-<<<<<<< HEAD
-Served from: www.prestashop.com @ 2014-08-14 17:56:02 -->
-=======
-Served from: www.prestashop.com @ 2014-08-11 15:56:02 -->
->>>>>>> FETCH_HEAD
->>>>>>> FETCH_HEAD
+Served from: www.prestashop.com @ 2014-08-20 17:56:02 -->

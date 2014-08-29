@@ -8,7 +8,7 @@ function tinySetup(config)
 		//var editor_selector = config['editor_selector'];
 	if (typeof config['editor_selector'] != 'undefined')
 		config['selector'] = '.'+config['editor_selector'];
-
+	
 //    safari,pagebreak,style,table,advimage,advlink,inlinepopups,media,contextmenu,paste,fullscreen,xhtmlxtras,preview
 	default_config = {
 		selector: ".rte" ,
