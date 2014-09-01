@@ -186,8 +186,18 @@
 				{/if}
 			</div><!-- .product-container> -->
 		</li>
+	{if $page_name == 'index'}
+		{if ($smarty.foreach.products.index+1) % 4 == 0 || $smarty.foreach.products.last}
+			</ul>
+		{/if}
+		{if ($smarty.foreach.products.index+1) % 4 == 0}
+			<ul{if isset($id) && $id} id="{$id}"{/if} class="product_list grid row{if isset($class) && $class} {$class}{/if}{if isset($active) && $active == 1} active{/if}">
+		{/if}
+	{/if}
 	{/foreach}
-	</ul>
+	{if $page_name != 'index'}
+		</ul>
+	{/if}
 {addJsDefL name=min_item}{l s='Please select at least one product' js=1}{/addJsDefL}
 {addJsDefL name=max_item}{l s='You cannot add more than %d product(s) to the product comparison' sprintf=$comparator_max_item js=1}{/addJsDefL}
 {addJsDef comparator_max_item=$comparator_max_item}

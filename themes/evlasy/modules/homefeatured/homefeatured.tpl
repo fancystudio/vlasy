@@ -22,7 +22,6 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-
 <script type="text/javascript">
 // Carousel Auto-Cycle
   $(document).ready(function() {
@@ -34,10 +33,14 @@
 {counter name=active_ul assign=active_ul}
 {if isset($products50) && $products50}
 	{assign var="products" value=$products50}
-	<div class="jcarousel50 corouse slide" id="myCarousel">
+	<div class="jcarousel50 corousel slide" id="myCarousel">
 		<div class="carousel-inner">
 	{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
 		</div><!-- carousel inner-->
+		<div class="control-box">                            
+            <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
+            <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
+        </div><!-- /.control-box -->
 	</div>
 	<a href="#" class="jcarousel50-control-prev">&lsaquo;</a>
     <a href="#" class="jcarousel50-control-next">&rsaquo;</a>           
