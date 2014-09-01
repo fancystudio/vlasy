@@ -399,6 +399,17 @@ margin-top: -178px;
   position: absolute;
 }
 
+.vahaProd {
+background: red;
+color: white;
+font-weight: bold;
+padding: 3px 6px;
+border-radius: 17px;
+margin-top: 10px;
+position: absolute;
+left: 10px;
+}
+
 .wrapper-slider{
 	position: relative;
 	height: 422px;
