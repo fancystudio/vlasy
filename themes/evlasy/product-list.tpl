@@ -190,7 +190,7 @@
 			</div><!-- .product-container> -->
 		</li>
 	{if $page_name == 'index'}
-		{if ($smarty.foreach.products.index+1) % 4 == 0 || $smarty.foreach.products.last}
+		{if ($smarty.foreach.products.index+1) % 5 == 0 || $smarty.foreach.products.last}
 			</ul>
 			</div>
 		{/if}
