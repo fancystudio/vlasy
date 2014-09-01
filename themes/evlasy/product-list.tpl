@@ -38,6 +38,9 @@
 	{math equation="nbLi/nbItemsPerLine" nbLi=$nbLi nbItemsPerLine=$nbItemsPerLine assign=nbLines}
 	{math equation="nbLi/nbItemsPerLineTablet" nbLi=$nbLi nbItemsPerLineTablet=$nbItemsPerLineTablet assign=nbLinesTablet}
 	<!-- Products list -->
+	{if $page_name == 'index'}
+		<div class="item active">
+	{/if}
 	<ul{if isset($id) && $id} id="{$id}"{/if} class="product_list grid row{if isset($class) && $class} {$class}{/if}{if isset($active) && $active == 1} active{/if}">
 	{foreach from=$products item=product name=products}
 		{math equation="(total%perLine)" total=$smarty.foreach.products.total perLine=$nbItemsPerLine assign=totModulo}
@@ -189,8 +192,10 @@
 	{if $page_name == 'index'}
 		{if ($smarty.foreach.products.index+1) % 4 == 0 || $smarty.foreach.products.last}
 			</ul>
+			</div>
 		{/if}
 		{if ($smarty.foreach.products.index+1) % 4 == 0}
+			<div class="item">
 			<ul{if isset($id) && $id} id="{$id}"{/if} class="product_list grid row{if isset($class) && $class} {$class}{/if}{if isset($active) && $active == 1} active{/if}">
 		{/if}
 	{/if}
