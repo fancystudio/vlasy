@@ -31,8 +31,8 @@
 <div id="login-panel">
 	<div id="login-header">
 		<h1 class="text-center">
-			<img id="logo" width="40px" src="{$img_dir}icon-prestashop.svg"/>
-			PRESTASHOP
+			<img id="logo" height="40px" src="{$img_dir}icon-prestashop.svg"/>
+			<!--PRESTASHOP-->
 		</h1>
 		<hr/>
 		<h4 class="text-center">{$shop_name}</h4>
@@ -149,7 +149,7 @@
 		</div>
 		{/if}
 	</div>
-	<div id="login-footer">
+	<!--<div id="login-footer">
 		<p class="text-center text-muted">
 			<a href="http://www.prestashop.com/" onclick="return !window.open(this.href);">
 				&copy; PrestaShop&#8482; 2007-{$smarty.now|date_format:"%Y"} - All rights reserved
@@ -169,5 +169,5 @@
 				<i class="icon-google-plus"></i>
 			</a>
 		</p>
-	</div>
+	</div>-->
 </div>
