@@ -30,6 +30,9 @@
     })
   });
 </script>
+
+<link href="modules/homefeatured/css/style.css" rel="stylesheet" type="text/css" />
+
 {counter name=active_ul assign=active_ul}
 {if isset($products50) && $products50}
 	{assign var="products" value=$products50}
