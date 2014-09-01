@@ -23,40 +23,23 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 <link href="modules/homefeatured/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-// Carousel Auto-Cycle
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 6000
-    })
-  });
-</script>
-
 {counter name=active_ul assign=active_ul}
 {if isset($products50) && $products50}
 	{assign var="products" value=$products50}
-	<div class="container-fluid">
-<div class="row-fluid">
-<div class="col-md-12">
-	<div class="carousel slide" id="myCarousel">
+	<div class="jcarousel50">
 		<div class="carousel-inner">
-			{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
-		</div>
-		<div class="control-box">                            
-            <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
-            <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
-        </div>
-	</div>
-	</div>
-	</div>
-	</div>  
-
+		<h2>Dĺžka 50cm</h2>
+		<span class="line"></span>
+	{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
+		</div><!-- carousel inner-->
+			</div>  
 	{assign var="products" value=$products60}
 	<div class="jcarousel60">
+	<h2>Dĺžka 60cm</h2>
+	<span class="line"></span>
 	{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
 	</div>
-	<a href="#" class="jcarousel60-control-prev">&lsaquo;</a>
-    <a href="#" class="jcarousel60-control-next">&rsaquo;</a> 
+	
 {else}
 <ul id="homefeatured" class="homefeatured tab-pane{if isset($active_ul) && $active_ul == 1} active{/if}">
 	<li class="alert alert-info">{l s='No featured products at this time.' mod='homefeatured'}</li>
