@@ -22,6 +22,7 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+<link href="modules/homefeatured/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 // Carousel Auto-Cycle
   $(document).ready(function() {
@@ -31,22 +32,25 @@
   });
 </script>
 
-<link href="modules/homefeatured/css/style.css" rel="stylesheet" type="text/css" />
-
 {counter name=active_ul assign=active_ul}
 {if isset($products50) && $products50}
 	{assign var="products" value=$products50}
-	<div class="jcarousel50 corousel slide" id="myCarousel">
+	<div class="container-fluid">
+<div class="row-fluid">
+<div class="col-md-12">
+	<div class="carousel slide" id="myCarousel">
 		<div class="carousel-inner">
-	{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
-		</div><!-- carousel inner-->
+			{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
+		</div>
 		<div class="control-box">                            
             <a data-slide="prev" href="#myCarousel" class="carousel-control left">‹</a>
             <a data-slide="next" href="#myCarousel" class="carousel-control right">›</a>
-        </div><!-- /.control-box -->
+        </div>
 	</div>
-	<a href="#" class="jcarousel50-control-prev">&lsaquo;</a>
-    <a href="#" class="jcarousel50-control-next">&rsaquo;</a>           
+	</div>
+	</div>
+	</div>  
+
 	{assign var="products" value=$products60}
 	<div class="jcarousel60">
 	{include file="$tpl_dir./product-list.tpl" class='homefeatured tab-pane' id='homefeatured' active=$active_ul}
