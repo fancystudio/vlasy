@@ -12,7 +12,7 @@
             <p class="checkbox" id="p_registerme"
                {if !$PS_GUEST_CHECKOUT_ENABLED && !$opc_config.display_password_msg}style="display: none"{/if}>
                 <input type="checkbox"
-                       {if !$PS_GUEST_CHECKOUT_ENABLED}disabled="disabled"{/if} {if !$PS_GUEST_CHECKOUT_ENABLED || $opc_config.password_checked}checked="checked"{/if}
+                        {if !$PS_GUEST_CHECKOUT_ENABLED}disabled="disabled"{/if} {if !$PS_GUEST_CHECKOUT_ENABLED || $opc_config.password_checked}checked="checked"{/if} 
                        name="registerme" id="registerme" value="1" onclick="toggle_password_box();"/>
                 <label for="registerme">{l s='Create an account and enjoy benefits of registered customers.' mod='onepagecheckout'}</label>
             </p>
