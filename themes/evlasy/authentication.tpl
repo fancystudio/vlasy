@@ -538,7 +538,12 @@
 					{elseif $field_name eq "vat_number"}
 						<div id="vat_number" style="display:none;">
 							<p class="form-group">
-								<label for="vat_number">{l s='VAT number'}</label>
+								<label for="dni">{l s='Identification number'} <sup>*</sup></label>
+								<input type="text" class="form-control" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{/if}" />
+								<span class="form_info">{l s='DNI / NIF / NIE'}</span>
+							</p>
+							<p class="form-group">
+								<label for="vat_number">DIČ</label>
 								<input type="text" class="form-control" name="vat_number" value="{if isset($smarty.post.vat_number)}{$smarty.post.vat_number}{/if}" />
 							</p>
 						</div>
@@ -628,14 +633,6 @@
 				<p class="required form-group" id="address_alias">
 					<label for="alias">{l s='Assign an address alias for future reference.'} <sup>*</sup></label>
 					<input type="text" class="form-control" name="alias" id="alias" value="{if isset($smarty.post.alias)}{$smarty.post.alias}{else}{l s='My address'}{/if}" />
-				</p>
-			</div>
-			<div class="account_creation dni">
-				<h3 class="page-subheading">{l s='Tax identification'}</h3>
-				<p class="required form-group">
-					<label for="dni">{l s='Identification number'} <sup>*</sup></label>
-					<input type="text" class="form-control" name="dni" id="dni" value="{if isset($smarty.post.dni)}{$smarty.post.dni}{/if}" />
-					<span class="form_info">{l s='DNI / NIF / NIE'}</span>
 				</p>
 			</div>
 		{/if}
